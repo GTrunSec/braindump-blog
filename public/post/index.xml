@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jethro&#39;s Braindump</title>
+    <link>https://braindump.jethro.dev/post/</link>
+    <description>Recent content in Posts on Jethro&#39;s Braindump</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Sep 2020 03:53:45 -0700</lastBuildDate>
+    
+	<atom:link href="https://braindump.jethro.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>test-braindump</title>
+      <link>https://braindump.jethro.dev/post/test/</link>
+      <pubDate>Tue, 08 Sep 2020 03:53:45 -0700</pubDate>
+      
+      <guid>https://braindump.jethro.dev/post/test/</guid>
+      <description>  .ox-hugo-toc ul { list-style: none; }  
+Table of Contents  1 test   
+1 test </description>
+    </item>
+    
+    <item>
+      <title>Alexander Rush</title>
+      <link>https://braindump.jethro.dev/post/alexander_rush/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://braindump.jethro.dev/post/alexander_rush/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
