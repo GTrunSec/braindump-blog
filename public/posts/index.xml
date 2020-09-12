@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GuangTao&#39;s Braindump</title>
-    <link>https://braindump.gtrun.org/</link>
-    <description>Recent content on GuangTao&#39;s Braindump</description>
+    <title>Posts on GuangTao&#39;s Braindump</title>
+    <link>https://braindump.gtrun.org/posts/</link>
+    <description>Recent content in Posts on GuangTao&#39;s Braindump</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Sep 2020 15:35:37 -0700</lastBuildDate>
     
-	<atom:link href="https://braindump.gtrun.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://braindump.gtrun.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

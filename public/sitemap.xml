@@ -3,30 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://braindump.jethro.dev/</loc>
-    <lastmod>2020-09-08T03:53:45-07:00</lastmod>
+    <loc>https://braindump.gtrun.org/</loc>
+    <lastmod>2020-09-12T15:35:37-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://braindump.jethro.dev/post/</loc>
-    <lastmod>2020-09-08T03:53:45-07:00</lastmod>
+    <loc>https://braindump.gtrun.org/posts/</loc>
+    <lastmod>2020-09-12T15:35:37-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://braindump.jethro.dev/post/test/</loc>
-    <lastmod>2020-09-08T03:53:45-07:00</lastmod>
+    <loc>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E5%9B%BE%E9%89%B4/</loc>
+    <lastmod>2020-09-12T15:35:37-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://braindump.jethro.dev/post/alexander_rush/</loc>
+    <loc>https://braindump.gtrun.org/posts/%E9%A9%AC%E6%9C%AA%E9%83%BD%E8%81%8A%E5%9B%BD%E5%AE%9D/</loc>
+    <lastmod>2020-09-12T15:35:18-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://braindump.jethro.dev/categories/</loc>
+    <loc>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E5%B7%A5%E8%89%BA/</loc>
+    <lastmod>2020-09-12T15:34:50-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://braindump.jethro.dev/tags/</loc>
+    <loc>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E4%B9%A6%E7%B1%8D/</loc>
+    <lastmod>2020-09-12T15:34:48-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/tags/</loc>
   </url>
   
 </urlset>
