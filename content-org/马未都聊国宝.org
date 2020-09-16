@@ -15,6 +15,8 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+* [[https://www.youtube.com/watch?v=Mk3Q8dGbSqU][“皇后之玺，汉唐两代，仅此一方 - YouTube”🔊]][2020-09-12 Sat]
+
 * [[https://www.youtube.com/watch?v=0yaCgJQQnGY][十三陵的定陵，万历孝靖皇后的凤冠 - YouTube]]
 :PROPERTIES:
 :ID:       5b7ea7d7-31e6-4043-8aa0-f3234ae86103
@@ -27,3 +29,6 @@
 
 
 - [[file:古玩字画-工艺.org::*点翠][点翠]]
+
+
+<2020-09-12 Sat>
