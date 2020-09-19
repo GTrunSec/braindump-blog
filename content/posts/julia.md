@@ -1,6 +1,6 @@
 +++
 title = "Julia"
-lastmod = 2020-09-18T22:15:09-07:00
+lastmod = 2020-09-18T23:40:30-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -62,13 +62,4 @@ begin
 	# call `using` so that we can use it in our code
 	using Compose
 end
-```
-
-```haskell
-{-# LANGUAGE NoMonomorphismRestriction #-}
-{-# LANGUAGE FlexibleContexts          #-}
-{-# LANGUAGE TypeFamilies              #-}
-
-:t putStrLn "hello, world"
-conanO'Brien = "It's a-me, Conan O'Brien!"
 ```

@@ -1,6 +1,6 @@
 +++
 title = "math"
-lastmod = 2020-09-18T21:55:31-07:00
+lastmod = 2020-09-18T23:51:21-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
