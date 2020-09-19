@@ -59,8 +59,56 @@
 
 <h2 id="mitmath-18s191-course-18-dot-s191-at-mit-fall-2020-introduction-to-computational-thinking-with-julia"><span class="section-num">2</span> <a href="https://github.com/mitmath/18S191">mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:</a></h2>
 
-<p><span class="timestamp-wrapper"><span class="timestamp">[2020-09-18 Fri 16:50] </span></span> &lt;- <a href="/posts/math/">course</a></p>
+<p><span class="timestamp-wrapper"><span class="timestamp">[2020-09-18 Fri 21:55] </span></span> &lt;- <a href="math.md">course</a></p>
 
+<ul>
+<li><a href="https://github.com/mitmath/18S191/blob/master/homework/homework0/Installing%20Julia%20%2B%20Pluto.md">18S191/Installing Julia + Pluto.md at master · mitmath/18S191</a></li>
+</ul>
+
+<!--listend-->
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-sh" data-lang="sh">julia_wrapped -e <span class="s1">&#39;using Pkg; Pkg.add([&#34;Pluto&#34;]);&#39;</span>
+julia_wrapped -e <span class="s1">&#39;using Pkg; Pkg.update();&#39;</span>
+julia_wrapped -e <span class="s1">&#39;using Pluto; Pluto.run()&#39;</span></code></pre></td></tr></table>
+</div>
+</div>
+<ul>
+<li><p>open with specific ip and port</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-sh" data-lang="sh">julia_wrapped -e <span class="s1">&#39;using Pluto; Pluto.run(&#34;10.220.170.112&#34;, 8889)&#39;</span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+
+<!--listend-->
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-julia" data-lang="julia"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-julia" data-lang="julia"><span class="c"># add (ie install) a package to our environment</span>
+<span class="k">begin</span>
+	<span class="n">Pkg</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s">&#34;Compose&#34;</span><span class="p">)</span>
+	<span class="c"># call `using` so that we can use it in our code</span>
+	<span class="k">using</span> <span class="n">Compose</span>
+<span class="k">end</span></code></pre></td></tr></table>
+</div>
+</div>
                         </div>
                         <div class="bl-section">
                                 <h4>Links to this note</h4>
@@ -75,16 +123,11 @@
                                         
                                         
                                         
-                                        <a href="/posts/math/">math</a>
                                         
                                         
                                         
                                         
                                         <a href="/posts/jupyter-data-science/">Jupyter-data-science-environment</a>
-                                        
-                                        
-                                        
-                                        
                                         
                                         
                                         

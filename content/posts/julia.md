@@ -1,6 +1,6 @@
 +++
 title = "Julia"
-lastmod = 2020-09-18T18:48:22-07:00
+lastmod = 2020-09-18T22:15:09-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -35,6 +35,40 @@ author = "GTrunSec"
 
 ## <span class="section-num">2</span> [mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:](https://github.com/mitmath/18S191) {#mitmath-18s191-course-18-dot-s191-at-mit-fall-2020-introduction-to-computational-thinking-with-julia}
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-09-18 Fri 16:50] </span></span> <- [course]({{< relref "math" >}})
+<span class="timestamp-wrapper"><span class="timestamp">[2020-09-18 Fri 21:55] </span></span> <- [course](math.md)
 
--
+-   [18S191/Installing Julia + Pluto.md at master · mitmath/18S191](https://github.com/mitmath/18S191/blob/master/homework/homework0/Installing%20Julia%20%2B%20Pluto.md)
+
+<!--listend-->
+
+```sh
+julia_wrapped -e 'using Pkg; Pkg.add(["Pluto"]);'
+julia_wrapped -e 'using Pkg; Pkg.update();'
+julia_wrapped -e 'using Pluto; Pluto.run()'
+```
+
+-   open with specific ip and port
+
+    ```sh
+    julia_wrapped -e 'using Pluto; Pluto.run("10.220.170.112", 8889)'
+    ```
+
+<!--listend-->
+
+```julia
+# add (ie install) a package to our environment
+begin
+	Pkg.add("Compose")
+	# call `using` so that we can use it in our code
+	using Compose
+end
+```
+
+```haskell
+{-# LANGUAGE NoMonomorphismRestriction #-}
+{-# LANGUAGE FlexibleContexts          #-}
+{-# LANGUAGE TypeFamilies              #-}
+
+:t putStrLn "hello, world"
+conanO'Brien = "It's a-me, Conan O'Brien!"
+```

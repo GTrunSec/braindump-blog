@@ -2,6 +2,14 @@ baseURL = "https://braindump.gtrun.org"
 languageCode = "en-us"
 title = "GuangTao's Braindump"
 theme = "cortex"
+pygmentsOptions = "linenos=table"
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
+preserveTaxonomyNames = true
+enableRobotsTXT = true
+enableEmoji = true
+
 
 [params]
 email = "gtrunsec@hardenedlinux.org"
@@ -27,7 +35,8 @@ footer = "Icon by Freepik. Built with ♥ with Org-mode and Hugo."
 
   [markup.highlight]
     codeFences = true
-    guessSyntax = false
+    guessSyntax = true
+    anchorLineNos = true
     hl_Lines = ""
     lineNoStart = 1
     lineNos = false
