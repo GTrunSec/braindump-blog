@@ -1,6 +1,6 @@
 +++
 title = "Julia"
-lastmod = 2020-09-18T17:36:57-07:00
+lastmod = 2020-09-18T18:48:22-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -36,3 +36,5 @@ author = "GTrunSec"
 ## <span class="section-num">2</span> [mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:](https://github.com/mitmath/18S191) {#mitmath-18s191-course-18-dot-s191-at-mit-fall-2020-introduction-to-computational-thinking-with-julia}
 
 <span class="timestamp-wrapper"><span class="timestamp">[2020-09-18 Fri 16:50] </span></span> <- [course]({{< relref "math" >}})
+
+-
