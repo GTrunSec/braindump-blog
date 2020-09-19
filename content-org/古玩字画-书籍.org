@@ -16,7 +16,7 @@
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
 #+TAGS: 工艺(g)
-*  珠宝
+* 珠宝
 ** 珠翠光华
 :PROPERTIES:
 :ID:       2f099857-bead-44c5-954a-2109b1515979
