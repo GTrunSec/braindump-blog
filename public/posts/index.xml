@@ -6,10 +6,28 @@
     <description>Recent content in Posts on GuangTao&#39;s Braindump</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Sep 2020 23:51:21 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2020 00:15:17 -0700</lastBuildDate>
     
 	<atom:link href="https://braindump.gtrun.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Haskell</title>
+      <link>https://braindump.gtrun.org/posts/haskell/</link>
+      <pubDate>Sun, 20 Sep 2020 00:15:17 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/haskell/</guid>
+      <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 ✰ Important test 2 ⚔ INPROCESS sds 3 ❤ Love sdsd    ✰ Important 1 test ⚔ INPROCESS 2 sds ❤ Love 3 sdsd </description>
+    </item>
+    
+    <item>
+      <title>Nix</title>
+      <link>https://braindump.gtrun.org/posts/nix/</link>
+      <pubDate>Sat, 19 Sep 2020 20:10:18 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/nix/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Learn materials  1.1 Everything You Always Wanted To Know About Nix (But Were Afraid To Ask) - YouTube 1.2 Functional programming and Nix for reproducible, immutable infrastructure - YouTube   2 nixos  2.1 Doc  2.1.1 Module - NixOS Wiki 2.1.2 NixOS/hydra: Hydra, the Nix-based continuous build system 2.1.3 NixOS Planet   2.</description>
+    </item>
     
     <item>
       <title>math</title>

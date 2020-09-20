@@ -4,16 +4,26 @@
   
   <url>
     <loc>https://braindump.gtrun.org/</loc>
-    <lastmod>2020-09-18T23:51:21-07:00</lastmod>
+    <lastmod>2020-09-20T00:15:17-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://braindump.gtrun.org/posts/math/</loc>
-    <lastmod>2020-09-18T23:51:21-07:00</lastmod>
+    <loc>https://braindump.gtrun.org/posts/haskell/</loc>
+    <lastmod>2020-09-20T00:15:17-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://braindump.gtrun.org/posts/</loc>
+    <lastmod>2020-09-20T00:15:17-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/nix/</loc>
+    <lastmod>2020-09-19T20:10:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/math/</loc>
     <lastmod>2020-09-18T23:51:21-07:00</lastmod>
   </url>
   
