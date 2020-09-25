@@ -6,29 +6,18 @@
     <description>Recent content in Posts on GuangTao&#39;s Braindump</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2020 03:53:45 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2020 03:29:28 -0700</lastBuildDate>
     
 	<atom:link href="https://braindump.gtrun.org/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>test-braindump</title>
-      <link>https://braindump.gtrun.org/post/test/</link>
-      <pubDate>Tue, 08 Sep 2020 03:53:45 -0700</pubDate>
+      <title>GuangTao&#39;s Xah Fly Keys config</title>
+      <link>https://braindump.gtrun.org/post/xah-fly-keys/</link>
+      <pubDate>Wed, 23 Sep 2020 03:29:28 -0700</pubDate>
       
-      <guid>https://braindump.gtrun.org/post/test/</guid>
-      <description>  .ox-hugo-toc ul { list-style: none; }  
-Table of Contents  1 test   
-1 test </description>
-    </item>
-    
-    <item>
-      <title>Alexander Rush</title>
-      <link>https://braindump.gtrun.org/post/alexander_rush/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://braindump.gtrun.org/post/alexander_rush/</guid>
-      <description></description>
+      <guid>https://braindump.gtrun.org/post/xah-fly-keys/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 use package with xah-fly-keys 2 define-key xah-fly-keys-map(Insert mode) 3 define-key xah-fly-keys-map(Command mode) 4 specific keys in different mode map  4.1 load all of specific keys 4.2 Only Linux keys 4.3 .-dot 4.4 ,-comma 4.5 /-slash 4.6 ;-semicolon 4.7 &#39;-apostrophe 4.8 =-e 4.9 p-keymap 4.10 P-key 4.11 –minus 4.12 Color   5 define-key xah-fly-leader-key-map 6 search-keys (leader-key to &amp;ldquo;s&amp;rdquo;) 7 org-keys (leader-key to &amp;ldquo;o&amp;rdquo;) 8 magit-keys (leader-key to &amp;ldquo;m&amp;rdquo;)     Emacs: Xah Fly Keys Customization Emacs: Xah Fly Keys Tutorial  1 use package with xah-fly-keys (use-package!</description>
     </item>
     
   </channel>

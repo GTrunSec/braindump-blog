@@ -4,32 +4,102 @@
   
   <url>
     <loc>https://braindump.gtrun.org/</loc>
-    <lastmod>2020-09-20T00:15:17-07:00</lastmod>
+    <lastmod>2020-09-24T22:41:02-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://braindump.gtrun.org/posts/haskell/</loc>
-    <lastmod>2020-09-20T00:15:17-07:00</lastmod>
+    <loc>https://braindump.gtrun.org/posts/my-books/</loc>
+    <lastmod>2020-09-24T22:41:02-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://braindump.gtrun.org/posts/</loc>
-    <lastmod>2020-09-20T00:15:17-07:00</lastmod>
+    <lastmod>2020-09-24T22:41:02-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://braindump.gtrun.org/posts/nix/</loc>
-    <lastmod>2020-09-19T20:10:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://braindump.gtrun.org/posts/math/</loc>
-    <lastmod>2020-09-18T23:51:21-07:00</lastmod>
+    <loc>https://braindump.gtrun.org/posts/my_haskell/</loc>
+    <lastmod>2020-09-24T22:40:28-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://braindump.gtrun.org/posts/julia/</loc>
-    <lastmod>2020-09-18T23:40:30-07:00</lastmod>
+    <lastmod>2020-09-24T17:04:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/xah-fly-keys/</loc>
+    <lastmod>2020-09-23T03:30:31-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/nix/</loc>
+    <lastmod>2020-09-22T18:59:04-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/rust/</loc>
+    <lastmod>2020-09-22T18:58:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E5%9B%BE%E9%89%B4/</loc>
+    <lastmod>2020-09-22T18:09:39-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/elisp/</loc>
+    <lastmod>2020-09-21T21:40:03-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/golang/</loc>
+    <lastmod>2020-09-21T18:50:04-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/python/</loc>
+    <lastmod>2020-09-21T17:14:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/programming-languages/</loc>
+    <lastmod>2020-09-21T17:14:11-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/math/</loc>
+    <lastmod>2020-09-21T17:09:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/latex/</loc>
+    <lastmod>2020-09-21T17:01:32-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/robot/</loc>
+    <lastmod>2020-09-21T01:10:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/my-public-gtd/</loc>
+    <lastmod>2020-09-21T01:08:53-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/go/</loc>
+    <lastmod>2020-09-20T23:29:26-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/my-regular-life/</loc>
+    <lastmod>2020-09-20T22:18:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/jupyter-data-science/</loc>
+    <lastmod>2020-09-20T21:39:21-07:00</lastmod>
   </url>
   
   <url>
@@ -38,18 +108,8 @@
   </url>
   
   <url>
-    <loc>https://braindump.gtrun.org/posts/jupyter-data-science/</loc>
-    <lastmod>2020-09-18T16:49:30-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://braindump.gtrun.org/posts/%E9%A9%AC%E6%9C%AA%E9%83%BD%E8%81%8A%E5%9B%BD%E5%AE%9D/</loc>
     <lastmod>2020-09-15T22:26:41-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E5%9B%BE%E9%89%B4/</loc>
-    <lastmod>2020-09-15T22:26:22-07:00</lastmod>
   </url>
   
   <url>

@@ -1,6 +1,6 @@
 +++
 title = "Nix"
-lastmod = 2020-09-19T20:10:18-07:00
+lastmod = 2020-09-22T18:59:04-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -34,11 +34,15 @@ author = "GTrunSec"
     - <span class="section-num">3.2</span> [maxhbr/myconfig: my Linux Configuration](#maxhbr-myconfig-my-linux-configuration)
     - <span class="section-num">3.3</span> [nixos\_cfg/work.nix at master · evanjs/nixos\_cfg](#nixos-cfg-work-dot-nix-at-master-evanjs-nixos-cfg)
     - <span class="section-num">3.4</span> [coreyoconnor/nix\_configs: The NixOS configuration for my desktop.](#coreyoconnor-nix-configs-the-nixos-configuration-for-my-desktop-dot)
-    - <span class="section-num">3.5</span> [<span class="org-todo todo __TODO">☞ TODO</span> jlesquembre/dotfiles: My dotfiles](#jlesquembre-dotfiles-my-dotfiles)
+    - <span class="section-num">3.5</span> [<span class="org-todo todo TODO">TODO</span> jlesquembre/dotfiles: My dotfiles](#jlesquembre-dotfiles-my-dotfiles)
     - <span class="section-num">3.6</span> [nixos-config/programs at master · charvp/nixos-config](#nixos-config-programs-at-master-charvp-nixos-config)
-        - <span class="section-num">3.6.1</span> [<span class="org-todo done __DONE">✔ DONE</span> f..](#f-dot-dot)
     - <span class="section-num">3.7</span> [User](#user)
         - <span class="section-num">3.7.1</span> [zimbatm (zimbatm)](#zimbatm--zimbatm)
+- <span class="section-num">4</span> [Nix Overlays](#nix-overlays)
+    - <span class="section-num">4.1</span> [ROS on Nix](#ros-on-nix)
+- <span class="section-num">5</span> [Programming languages Environment](#programming-languages-environment)
+    - <span class="section-num">5.1</span> [rust](#rust)
+        - <span class="section-num">5.1.1</span> [nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.](#nmattia-naersk-build-rust-crates-in-nix-dot-no-configuration-no-code-generation-no-ifd-dot-sandbox-friendly-dot)
 
 </div>
 <!--endtoc-->
@@ -101,16 +105,32 @@ author = "GTrunSec"
 ### <span class="section-num">3.4</span> [coreyoconnor/nix\_configs: The NixOS configuration for my desktop.](https://github.com/coreyoconnor/nix%5Fconfigs/tree/master) {#coreyoconnor-nix-configs-the-nixos-configuration-for-my-desktop-dot}
 
 
-### <span class="org-todo todo __TODO">☞ TODO</span> <span class="section-num">3.5</span> [jlesquembre/dotfiles: My dotfiles](https://github.com/jlesquembre/dotfiles/tree/master) {#jlesquembre-dotfiles-my-dotfiles}
+### <span class="org-todo todo TODO">TODO</span> <span class="section-num">3.5</span> [jlesquembre/dotfiles: My dotfiles](https://github.com/jlesquembre/dotfiles/tree/master) {#jlesquembre-dotfiles-my-dotfiles}
 
 
 ### <span class="section-num">3.6</span> [nixos-config/programs at master · charvp/nixos-config](https://github.com/charvp/nixos-config/tree/master/programs) {#nixos-config-programs-at-master-charvp-nixos-config}
-
-
-#### <span class="org-todo done __DONE">✔ DONE</span> <span class="section-num">3.6.1</span> f.. {#f-dot-dot}
 
 
 ### <span class="section-num">3.7</span> User {#user}
 
 
 #### <span class="section-num">3.7.1</span> [zimbatm (zimbatm)](https://github.com/zimbatm) {#zimbatm--zimbatm}
+
+
+## <span class="section-num">4</span> Nix Overlays {#nix-overlays}
+
+
+### <span class="section-num">4.1</span> ROS on Nix {#ros-on-nix}
+
+-   [lopsided98/nix-ros-overlay: ROS overlay for the Nix package manager](robot.md)
+
+
+## <span class="section-num">5</span> Programming languages Environment {#programming-languages-environment}
+
+
+### <span class="section-num">5.1</span> rust {#rust}
+
+
+#### <span class="section-num">5.1.1</span> [nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.](https://github.com/nmattia/naersk) {#nmattia-naersk-build-rust-crates-in-nix-dot-no-configuration-no-code-generation-no-ifd-dot-sandbox-friendly-dot}
+
+<span class="timestamp-wrapper"><span class="timestamp">[2020-09-22 Tue 18:58] </span></span> <- [nix](rust.md)
