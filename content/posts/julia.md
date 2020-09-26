@@ -1,6 +1,6 @@
 +++
-title = "Julia"
-lastmod = 2020-09-24T17:04:12-07:00
+title = "My Julia"
+lastmod = 2020-09-25T19:40:43-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -21,16 +21,17 @@ author = "GTrunSec"
 - <span class="section-num">2</span> [Improving the code speed](#improving-the-code-speed)
     - <span class="section-num">2.1</span> [Improving the code speed by employing parallelism for asynchronous task - Usage / Performance - JuliaLang](#improving-the-code-speed-by-employing-parallelism-for-asynchronous-task-usage-performance-julialang)
 - <span class="section-num">3</span> [Julia tutorial or courses](#julia-tutorial-or-courses)
-    - <span class="section-num">3.1</span> [mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:](#mitmath-18s191-course-18-dot-s191-at-mit-fall-2020-introduction-to-computational-thinking-with-julia)
-        - <span class="section-num">3.1.1</span> [Install Pluto](#install-pluto)
-        - <span class="section-num">3.1.2</span> [Run hw0](#run-hw0)
+    - <span class="section-num">3.1</span> [My math](#my-math--my-math-dot-md)
     - <span class="section-num">3.2</span> [PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students](#paulsoderlind-juliatutorial-julia-tutorial-for-finance-and-econometrics-students)
+    - <span class="section-num">3.3</span> [My Finance](#my-finance--my-finance-dot-md)
 - <span class="section-num">4</span> [Julia Packages](#julia-packages)
     - <span class="section-num">4.1</span> [Julia lsp](#julia-lsp)
 
 </div>
 <!--endtoc-->
 
+tags
+: [My learning Programming languages]({{< relref "programming-languages" >}})
 
 
 ## <span class="section-num">1</span> Environment {#environment}
@@ -50,64 +51,81 @@ author = "GTrunSec"
 ## <span class="section-num">3</span> Julia tutorial or courses {#julia-tutorial-or-courses}
 
 
-### <span class="section-num">3.1</span> [mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:](https://github.com/mitmath/18S191) {#mitmath-18s191-course-18-dot-s191-at-mit-fall-2020-introduction-to-computational-thinking-with-julia}
+### <span class="section-num">3.1</span> [My math]({{< relref "my-math" >}}) {#my-math--my-math-dot-md}
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-09-21 Mon 02:49] </span></span> <- [with Julia](math.md)
+<!--list-separator-->
 
+1.  [mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:](https://github.com/mitmath/18S191)
 
-#### <span class="section-num">3.1.1</span> Install Pluto {#install-pluto}
+    <span class="timestamp-wrapper"><span class="timestamp">[2020-09-21 Mon 02:49] </span></span> <- [with Julia](my-math.md)
 
--   [18S191/Installing Julia + Pluto.md at master · mitmath/18S191](https://github.com/mitmath/18S191/blob/master/homework/homework0/Installing%20Julia%20%2B%20Pluto.md)
+    <!--list-separator-->
 
-<!--listend-->
+    1.  Install Pluto
 
--   run wrapped Julia on Jupyter-data-science
+        -   [18S191/Installing Julia + Pluto.md at master · mitmath/18S191](https://github.com/mitmath/18S191/blob/master/homework/homework0/Installing%20Julia%20%2B%20Pluto.md)
 
-    ```sh
-      nix-shell my-default.nix --option sandbox false
-    ```
+        <!--listend-->
 
--   Install Pluto
-    Notice: the `Julia_pkgs` will be installed under `/data/Jupyter-data-science-environment` dot file which name is `.julia_pkgs`
+        -   run wrapped Julia on Jupyter-data-science
 
-<!--listend-->
+            ```sh
+              nix-shell my-default.nix --option sandbox false
+            ```
 
-```sh
-julia_wrapped -e 'using Pkg; Pkg.add(["Pluto"]);'
-julia_wrapped -e 'using Pkg; Pkg.update();'
-julia_wrapped -e 'using Pluto; Pluto.run()'
-```
+        -   Install Pluto
+            Notice: the `Julia_pkgs` will be installed under `/data/Jupyter-data-science-environment` dot file which name is `.julia_pkgs`
 
--   open with specific ip and port
+        <!--listend-->
 
-    ```sh
-    julia_wrapped -e 'using Pluto; Pluto.run("10.220.170.112", 8889)'
-    ```
+        ```sh
+        julia_wrapped -e 'using Pkg; Pkg.add(["Pluto"]);'
+        julia_wrapped -e 'using Pkg; Pkg.update();'
+        julia_wrapped -e 'using Pluto; Pluto.run()'
+        ```
 
-<!--listend-->
+        -   open with specific ip and port
 
-```julia
-# add (ie install) a package to our environment
-begin
-	Pkg.add("Compose")
-	# call `using` so that we can use it in our code
-	using Compose
-end
-```
+            ```sh
+            julia_wrapped -e 'using Pluto; Pluto.run("10.220.170.112", 8889)'
+            ```
 
+        <!--listend-->
 
-#### <span class="section-num">3.1.2</span> Run hw0 {#run-hw0}
+        ```julia
+        # add (ie install) a package to our environment
+        begin
+        	Pkg.add("Compose")
+        	# call `using` so that we can use it in our code
+        	using Compose
+        end
+        ```
 
--   <https://github.com/mitmath/18S191/blob/master/homework/homework0/hw0.jl>
+    <!--list-separator-->
 
-<!--listend-->
+    2.  Run hw0
 
-```sh
-git clone https://github.com/mitmath/18S191
-```
+        -   <https://github.com/mitmath/18S191/blob/master/homework/homework0/hw0.jl>
+
+        <!--listend-->
+
+        ```sh
+        git clone https://github.com/mitmath/18S191
+        ```
 
 
 ### <span class="section-num">3.2</span> [PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students](https://github.com/PaulSoderlind/JuliaTutorial) {#paulsoderlind-juliatutorial-julia-tutorial-for-finance-and-econometrics-students}
+
+<span class="timestamp-wrapper"><span class="timestamp">[2020-09-25 Fri 19:12] </span></span> <- [financial course with Julia]({{< relref "my_finance" >}})
+
+
+### <span class="section-num">3.3</span> [My Finance]({{< relref "my_finance" >}}) {#my-finance--my-finance-dot-md}
+
+<!--list-separator-->
+
+1.  [GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)](https://github.com/PaulSoderlind/EmpiricalFinancePhD)
+
+    <span class="timestamp-wrapper"><span class="timestamp">[2020-09-25 Fri 19:02] </span></span> <- [financial course with Julia]({{< relref "my_finance" >}})
 
 
 ## <span class="section-num">4</span> Julia Packages {#julia-packages}

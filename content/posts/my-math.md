@@ -1,6 +1,6 @@
 +++
-title = "math"
-lastmod = 2020-09-21T17:09:57-07:00
+title = "My math"
+lastmod = 2020-09-25T19:27:42-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -25,6 +25,8 @@ author = "GTrunSec"
 </div>
 <!--endtoc-->
 
+tags
+: [My latex]({{< relref "my-latex" >}})
 
 
 ## <span class="section-num">1</span> course {#course}
@@ -40,7 +42,7 @@ author = "GTrunSec"
 
 ### <span class="section-num">2.1</span> Markdown {#markdown}
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-09-21 Mon 02:54] </span></span> -> [Writing Mathematic Fomulars in Markdown | csrgxtu](latex.md)
+<span class="timestamp-wrapper"><span class="timestamp">[2020-09-21 Mon 02:54] </span></span> -> [Writing Mathematic Fomulars in Markdown | csrgxtu](my-latex.md)
 
 
 ### <span class="section-num">2.2</span> emacs {#emacs}

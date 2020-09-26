@@ -6,10 +6,66 @@
     <description>Recent content in Posts on GuangTao&#39;s Braindump</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2020 22:41:02 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2020 23:03:09 -0700</lastBuildDate>
     
 	<atom:link href="https://braindump.gtrun.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My designing brain tranning list</title>
+      <link>https://braindump.gtrun.org/posts/my-design/</link>
+      <pubDate>Fri, 25 Sep 2020 23:03:09 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/my-design/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 房屋  1.1 视频素材  1.1.1 他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube        1 房屋 1.1 视频素材 1.1.1 他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube [2020-09-25 Fri 22:53]  &amp;lt;- 水台 [2020-09-25 Fri 22:52]  &amp;lt;- 小型庭院</description>
+    </item>
+    
+    <item>
+      <title>Collection of designing list</title>
+      <link>https://braindump.gtrun.org/posts/design-photo/</link>
+      <pubDate>Fri, 25 Sep 2020 23:02:34 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/design-photo/</guid>
+      <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 石雕  1.1 小型庭院:ATTACH:   2 后庭院  2.1 水台:ATTACH:       tags My designing brain tranning list  1 石雕 1.1 小型庭院  他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube        2 后庭院 2.1 水台  他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube        </description>
+    </item>
+    
+    <item>
+      <title>My Julia</title>
+      <link>https://braindump.gtrun.org/posts/julia/</link>
+      <pubDate>Fri, 25 Sep 2020 19:40:43 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/julia/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Environment  1.1 Jupyter   2 Improving the code speed  2.1 Improving the code speed by employing parallelism for asynchronous task - Usage / Performance - JuliaLang   3 Julia tutorial or courses  3.1 My math 3.2 PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students 3.3 My Finance   4 Julia Packages  4.</description>
+    </item>
+    
+    <item>
+      <title>My math</title>
+      <link>https://braindump.gtrun.org/posts/my-math/</link>
+      <pubDate>Fri, 25 Sep 2020 19:27:42 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/my-math/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 course  1.1 with Julia   2 Writing Mathematic  2.1 Markdown 2.2 emacs       tags My latex  1 course 1.1 with Julia [2020-09-21 Mon 02:49]  -&amp;gt; mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:
+2 Writing Mathematic 2.1 Markdown [2020-09-21 Mon 02:54]  -&amp;gt; Writing Mathematic Fomulars in Markdown | csrgxtu</description>
+    </item>
+    
+    <item>
+      <title>My latex</title>
+      <link>https://braindump.gtrun.org/posts/my-latex/</link>
+      <pubDate>Fri, 25 Sep 2020 19:27:20 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/my-latex/</guid>
+      <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 math symbol  1.1 Writing Mathematic Fomulars in Markdown | csrgxtu 1.2 Mathematical expressions - Overleaf, Online LaTeX Editor      1 math symbol 1.1 Writing Mathematic Fomulars in Markdown | csrgxtu [2020-09-21 Mon 02:54]  &amp;lt;- Markdown
+1.2 Mathematical expressions - Overleaf, Online LaTeX Editor </description>
+    </item>
+    
+    <item>
+      <title>My Finance</title>
+      <link>https://braindump.gtrun.org/posts/my_finance/</link>
+      <pubDate>Fri, 25 Sep 2020 19:14:44 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/my_finance/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Course  1.1 financial course with Julia      1 Course 1.1 financial course with Julia [2020-09-25 Fri 19:14]  -&amp;gt; GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code) [2020-09-25 Fri 19:12]  -&amp;gt; PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students</description>
+    </item>
     
     <item>
       <title>My Library</title>
@@ -27,15 +83,6 @@
       
       <guid>https://braindump.gtrun.org/posts/my_haskell/</guid>
       <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 test 2 Haskell books     tags My learning Programming languages  1 test ;;; init.el -*- lexical-binding: t; -*- ;; Copy this file to ~/.doom.d/init.el or ~/.config/doom/init.el (&amp;#39;doom install&amp;#39; ;; will do this for you). The `doom!&amp;#39; block below controls what modules are ;; enabled and in what order they will be loaded. Remember to run &amp;#39;doom refresh&amp;#39; ;; after modifying it.</description>
-    </item>
-    
-    <item>
-      <title>Julia</title>
-      <link>https://braindump.gtrun.org/posts/julia/</link>
-      <pubDate>Thu, 24 Sep 2020 17:04:12 -0700</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/julia/</guid>
-      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Environment  1.1 Jupyter   2 Improving the code speed  2.1 Improving the code speed by employing parallelism for asynchronous task - Usage / Performance - JuliaLang   3 Julia tutorial or courses  3.1 mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:  3.1.1 Install Pluto 3.</description>
     </item>
     
     <item>
@@ -110,26 +157,6 @@
       
       <guid>https://braindump.gtrun.org/posts/programming-languages/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>https://braindump.gtrun.org/posts/math/</link>
-      <pubDate>Mon, 21 Sep 2020 17:09:57 -0700</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/math/</guid>
-      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 course  1.1 with Julia   2 Writing Mathematic  2.1 Markdown 2.2 emacs      1 course 1.1 with Julia [2020-09-21 Mon 02:49]  -&amp;gt; mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:
-2 Writing Mathematic 2.1 Markdown [2020-09-21 Mon 02:54]  -&amp;gt; Writing Mathematic Fomulars in Markdown | csrgxtu</description>
-    </item>
-    
-    <item>
-      <title>latex</title>
-      <link>https://braindump.gtrun.org/posts/latex/</link>
-      <pubDate>Mon, 21 Sep 2020 17:01:32 -0700</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/latex/</guid>
-      <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 math symbol  1.1 Writing Mathematic Fomulars in Markdown | csrgxtu 1.2 Mathematical expressions - Overleaf, Online LaTeX Editor      1 math symbol 1.1 Writing Mathematic Fomulars in Markdown | csrgxtu [2020-09-21 Mon 02:54]  &amp;lt;- Markdown
-1.2 Mathematical expressions - Overleaf, Online LaTeX Editor </description>
     </item>
     
     <item>
