@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html><title>我的购买清单</title>
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<link href="https://unpkg.com/tippy.js@6.2.3/themes/light.css" rel="stylesheet">
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+
+
+<link rel="stylesheet" href="https://braindump.gtrun.org/css/main.min.ac49b10871460c263f71e33ca4038cd49a1626a9a2b175f6d6139750a0a482cc.css"/>
+<body><header>
+    <a href="/" id="logo">    
+    <svg id="Capa_1" enable-background="new 0 0 511.992 511.992" height="512" viewBox="0 0 511.992 511.992" width="512" xmlns="http://www.w3.org/2000/svg"><g><g><g><path d="m256 420.826c0 38.345-11.844 68.545-49.991 68.014-27.744-.385-51.481-15.31-61.853-39.46-1.239-2.887-4.024-4.734-7.154-4.725-.07 0-.135 0-.201 0-47.474 0-75.537-26.171-75.537-73.882 0-5.633.542-11.138 1.568-16.468.62-3.229-.825-6.489-3.671-8.125-35.493-20.432-49.161-46.127-49.161-90.183 0-44.057 13.668-69.757 49.161-90.185 2.846-1.636 4.291-4.896 3.671-8.13-1.026-5.33-1.568-10.83-1.568-16.463 0-47.711 28.064-73.882 75.537-73.882h.201c3.13.009 5.915-1.837 7.154-4.729 10.372-24.145 34.109-39.069 61.853-39.455 38.15-.532 49.991 29.668 49.991 68.013" fill="#ff9eb1"/></g><g><g><g><path d="m256 91.166c0-38.344 11.844-68.545 49.991-68.014 27.744.385 51.481 15.31 61.853 39.46 1.239 2.887 4.024 4.734 7.154 4.724h.201c47.474 0 75.537 26.171 75.537 73.882 0 5.633-.542 11.138-1.568 16.468-.62 3.229.825 6.489 3.671 8.125 35.493 20.434 49.161 46.128 49.161 90.185s-13.668 69.756-49.161 90.185c-2.846 1.636-4.291 4.896-3.671 8.13 1.026 5.33 1.568 10.83 1.568 16.463 0 47.711-28.064 73.882-75.537 73.882h-.201c-3.13-.009-5.915 1.837-7.154 4.729-10.372 24.145-34.109 39.069-61.853 39.455-38.15.531-49.991-29.669-49.991-68.014" fill="#ff7d97"/></g></g><g><g><path d="m502 265.996c-4.193 0-7.984-2.713-9.407-6.636-1.419-3.912-.16-8.459 3.063-11.092 3.291-2.689 8.009-2.99 11.621-.758 3.568 2.205 5.404 6.578 4.478 10.669-1.02 4.501-5.126 7.817-9.755 7.817z"/></g></g></g><g><path d="m340.83 229.18h-58.013v-58.014h-53.634v58.014h-58.013v53.633h58.013v58.013h53.634v-58.013h58.013z" fill="#faf7f5"/></g></g><g><g><path d="m498.468 291.859c-5.141-2.02-10.945.508-12.965 5.648-6.442 16.389-18.055 28.727-37.649 40.005-6.513 3.746-9.932 11.253-8.505 18.689.921 4.783 1.388 9.686 1.388 14.572 0 41.792-22.662 63.882-65.537 63.882h-.225c-.938 0-1.864.074-2.771.217-15.031-4.92-23.796-20.93-19.661-36.479 1.42-5.337-1.757-10.815-7.094-12.234-5.333-1.418-10.814 1.756-12.234 7.094-5.958 22.405 4.241 45.396 23.384 56.443-9.583 17.791-28.602 28.836-50.748 29.145-11.303.146-19.802-2.743-26.011-8.867-9.184-9.057-13.84-25.592-13.84-49.148v-70h16.816c5.522 0 10-4.477 10-10v-48.014h48.014c5.522 0 10-4.477 10-10v-53.632c0-5.523-4.478-10-10-10h-48.014v-48.014c0-5.523-4.478-10-10-10h-16.816v-70c0-23.555 4.657-40.09 13.841-49.148 6.21-6.123 14.696-9.022 26.011-8.867 23.862.332 44.096 13.132 52.803 33.405.218.509.458 1.003.719 1.483-3.225 8.243-9.084 15.093-16.833 19.574-8.993 5.2-19.465 6.581-29.485 3.89-5.337-1.434-10.819 1.73-12.251 7.064-1.433 5.334 1.729 10.819 7.063 12.252 5.074 1.363 10.221 2.037 15.338 2.037 10.2 0 20.272-2.681 29.346-7.928 11.083-6.408 19.607-16.017 24.616-27.575 41.6.67 63.569 22.718 63.569 63.866 0 4.89-.467 9.794-1.389 14.582-1.427 7.426 1.991 14.933 8.502 18.678 19.572 11.267 31.176 23.584 37.625 39.936 1.552 3.934 5.318 6.334 9.306 6.333 1.221 0 2.462-.225 3.666-.7 5.138-2.026 7.66-7.834 5.634-12.972-7.943-20.141-22.201-35.773-44.801-49.086.967-5.521 1.457-11.155 1.457-16.772 0-52.114-31.48-83.391-84.288-83.876-12.157-26.863-38.963-43.753-70.318-44.189-16.67-.232-30.255 4.688-40.332 14.625-3.813 3.76-7.08 8.226-9.797 13.382-2.717-5.156-5.984-9.622-9.797-13.382-10.075-9.937-23.668-14.852-40.333-14.625-31.353.437-58.158 17.325-70.32 44.189-52.807.485-84.286 31.762-84.286 83.876 0 5.617.49 11.253 1.458 16.771-37.422 22.031-52.724 50.552-52.724 98.008 0 47.451 15.299 75.969 52.721 98.006-.967 5.521-1.457 11.154-1.457 16.772 0 52.114 31.48 83.391 84.288 83.876 12.157 26.863 38.963 43.753 70.318 44.189.377.005.751.008 1.125.008 16.172 0 29.358-4.92 39.207-14.632 3.813-3.76 7.08-8.226 9.797-13.382 2.717 5.156 5.984 9.622 9.797 13.382 9.849 9.713 23.034 14.633 39.208 14.632.373 0 .749-.003 1.125-.008 31.352-.436 58.158-17.325 70.32-44.189 52.807-.485 84.286-31.762 84.286-83.876 0-5.617-.49-11.253-1.458-16.772 22.634-13.329 36.901-28.989 44.838-49.178 2.022-5.14-.507-10.945-5.647-12.966zm-215.652-52.679h48.014v33.633h-48.014c-5.522 0-10 4.477-10 10v48.014h-33.633v-48.014c0-5.523-4.477-10-10-10h-48.013v-33.633h48.014c5.523 0 10-4.477 10-10v-48.014h33.633v48.014c-.001 5.523 4.477 10 9.999 10zm-50.657 230.794c-6.21 6.124-14.717 9.018-26.011 8.867-23.862-.331-44.096-13.132-52.803-33.405-.218-.509-.458-1.003-.719-1.483 3.225-8.243 9.085-15.093 16.833-19.574 8.992-5.2 19.463-6.581 29.485-3.89 5.337 1.434 10.819-1.73 12.251-7.064 1.433-5.333-1.73-10.819-7.064-12.251-15.188-4.08-31.059-1.988-44.684 5.891-11.083 6.408-19.607 16.017-24.616 27.575-41.6-.67-63.569-22.718-63.569-63.866 0-4.89.467-9.794 1.389-14.582 1.427-7.427-1.991-14.934-8.502-18.678-32.183-18.528-44.149-40.621-44.149-81.517 0-40.9 11.966-62.994 44.146-81.517 6.513-3.746 9.932-11.253 8.505-18.689-.921-4.783-1.388-9.686-1.388-14.572 0-41.792 22.662-63.882 65.537-63.882h.225c.938 0 1.864-.074 2.771-.217 15.031 4.92 23.796 20.93 19.661 36.479-1.42 5.337 1.757 10.815 7.094 12.234.861.229 1.726.338 2.577.338 4.422 0 8.467-2.956 9.657-7.432 5.958-22.405-4.241-45.396-23.384-56.443 9.583-17.791 28.602-28.836 50.748-29.145 11.267-.15 19.801 2.743 26.011 8.867 9.184 9.057 13.84 25.592 13.84 49.148v70h-16.816c-5.522 0-10 4.477-10 10v48.014h-48.014c-5.522 0-10 4.477-10 10v53.633c0 5.523 4.478 10 10 10h48.014v48.014c0 5.523 4.478 10 10 10h16.816v70c0 23.554-4.657 40.09-13.841 49.147z"/><path d="m139.699 228.227c-6.766 0-13.186 1.514-18.907 4.31-3.049-8.65-8.286-16.485-15.336-22.673-4.151-3.643-10.469-3.233-14.113.918-3.643 4.15-3.232 10.469.918 14.112 6.711 5.891 10.816 14.143 11.498 22.953-1.213 1.914-2.293 3.946-3.225 6.088-1.145 2.633-2.015 5.316-2.615 8.019-13.414 11.422-33.601 10.834-46.225-1.792-3.906-3.904-10.236-3.904-14.143 0-3.905 3.905-3.905 10.237 0 14.143 10.524 10.524 24.354 15.784 38.193 15.784 8.04 0 16.083-1.775 23.484-5.325 1.904 5.443 4.967 10.557 9.136 15.03.596.639 1.204 1.269 1.826 1.891 1.953 1.953 4.512 2.929 7.071 2.929 2.56 0 5.118-.976 7.071-2.929 3.905-3.905 3.905-10.237 0-14.143-.458-.458-.906-.922-1.342-1.389-6.26-6.716-7.799-15.778-4.118-24.241 2.878-6.616 9.86-13.686 20.826-13.686 5.522 0 10-4.477 10-10 .001-5.522-4.476-9.999-9.999-9.999z"/><path d="m387.667 287.543c-3.905 3.905-3.905 10.237 0 14.143 1.953 1.953 4.512 2.929 7.071 2.929s5.118-.976 7.071-2.929c.622-.622 1.23-1.253 1.83-1.896 4.167-4.471 7.229-9.583 9.133-15.025 7.401 3.549 15.444 5.324 23.484 5.324 13.839 0 27.67-5.261 38.193-15.784 3.905-3.905 3.905-10.237 0-14.143-3.906-3.904-10.236-3.904-14.143 0-12.624 12.625-32.811 13.214-46.225 1.792-.6-2.702-1.47-5.386-2.615-8.019-.932-2.142-2.012-4.175-3.225-6.088.682-8.81 4.787-17.062 11.498-22.953 4.15-3.644 4.561-9.962.918-14.112-3.646-4.151-9.964-4.563-14.113-.918-7.05 6.189-12.287 14.023-15.336 22.673-5.721-2.796-12.141-4.31-18.907-4.31-5.523 0-10 4.477-10 10s4.477 10 10 10c10.966 0 17.948 7.07 20.826 13.686 3.681 8.463 2.142 17.525-4.114 24.237-.44.47-.888.935-1.346 1.393z"/></g></g></g></svg>
+  </a>
+  <h3 class="site-title">GuangTao&#39;s Braindump</h3>    
+</header>
+
+<div class="grid-container">
+        <div class="grid">
+                <div class="page" data-uuid="d4e5995a8392a89696244c34163e57a0" data-level="1">
+                        <div class="content">
+                                <h1>我的购买清单</h1>
+                                <style>
+  .ox-hugo-toc ul {
+    list-style: none;
+  }
+</style>
+<div class="ox-hugo-toc toc">
+<div></div>
+<div class="heading">Table of Contents</div>
+<ul>
+<li><span class="section-num">1</span> <a href="#%E5%8F%82%E8%80%83">参考</a></li>
+<li><span class="section-num">2</span> <a href="#%E5%AE%B6%E5%BA%AD%E6%9C%BA%E5%99%A8%E5%92%8C%E7%94%A8%E5%93%81">家庭机器和用品</a>
+<ul>
+<li><span class="section-num">2.1</span> <a href="#%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85-airfryer">空气炸锅 Airfryer</a></li>
+<li><span class="section-num">2.2</span> <a href="#%E9%94%85">锅</a></li>
+<li><span class="section-num">2.3</span> <a href="#%E9%A3%9F%E7%89%A9%E8%92%B8%E6%B1%BD%E6%9C%BA-steamer">食物蒸汽机 Steamer</a>:ATTACH:</li>
+<li><span class="section-num">2.4</span> <a href="#%E7%94%B5%E9%A5%AD%E9%94%85">电饭锅</a></li>
+<li><span class="section-num">2.5</span> <a href="#%E9%9D%A2%E5%8C%85%E6%9C%BA">面包机</a></li>
+</ul>
+</li>
+<li><span class="section-num">3</span> <a href="#%E4%B8%AA%E4%BA%BA%E6%8A%A4%E7%90%86">个人护理</a>
+<ul>
+<li><span class="section-num">3.1</span> <a href="#%E5%81%A5%E8%BA%AB">健身</a></li>
+<li><span class="section-num">3.2</span> <a href="#%E8%84%B8%E9%83%A8">脸部</a></li>
+<li><span class="section-num">3.3</span> <a href="#%E5%A4%B4%E9%83%A8">头部</a></li>
+<li><span class="section-num">3.4</span> <a href="#%E9%BC%BB%E5%AD%90">鼻子</a></li>
+<li><span class="section-num">3.5</span> <a href="#%E7%89%99%E9%BD%BF">牙齿</a></li>
+<li><span class="section-num">3.6</span> <a href="#%E7%9C%BC%E7%9D%9B">眼睛</a></li>
+<li><span class="section-num">3.7</span> <a href="#dna-test">DNA test</a></li>
+<li><span class="section-num">3.8</span> <a href="#%E9%A3%9F%E5%93%81%E7%9C%9F%E7%A9%BA%E6%9C%BA%E5%99%A8-food-sealer">食品真空机器 Food Sealer</a></li>
+<li><span class="section-num">3.9</span> <a href="#%E5%8E%A8%E6%88%BF%E7%94%A8%E5%93%81">厨房用品</a></li>
+</ul>
+</li>
+<li><span class="section-num">4</span> <a href="#%E9%A3%9F%E6%9D%90">食材</a>
+<ul>
+<li><span class="section-num">4.1</span> <a href="#%E8%B0%83%E5%91%B3">调味</a></li>
+<li><span class="section-num">4.2</span> <a href="#%E5%92%96%E5%95%A1-coffee">咖啡 coffee</a></li>
+<li><span class="section-num">4.3</span> <a href="#%E9%85%B5%E6%AF%8D">酵母</a></li>
+<li><span class="section-num">4.4</span> <a href="#%E9%9D%A2%E7%B2%89">面粉</a></li>
+</ul>
+</li>
+<li><span class="section-num">5</span> <a href="#%E4%B8%AA%E4%BA%BA%E7%89%A9%E5%93%81">个人物品</a>
+<ul>
+<li><span class="section-num">5.1</span> <a href="#%E5%B7%A5%E4%BD%9C%E7%8E%AF%E5%A2%83">工作环境</a></li>
+<li><span class="section-num">5.2</span> <a href="#%E6%B0%B4%E6%9D%AF">水杯</a></li>
+</ul>
+</li>
+<li><span class="section-num">6</span> <a href="#%E9%9E%8B">鞋</a>
+<ul>
+<li><span class="section-num">6.1</span> <a href="#timberland">timberland</a></li>
+<li><span class="section-num">6.2</span> <a href="#newbalance">Newbalance</a></li>
+</ul>
+</li>
+<li><span class="section-num">7</span> <a href="#%E7%AE%B1%E5%8C%85">箱包</a>
+<ul>
+<li><span class="section-num">7.1</span> <a href="#%E8%AE%A2%E5%8D%95">订单</a></li>
+<li><span class="section-num">7.2</span> <a href="#%E8%A1%8C%E6%9D%8E%E7%AE%B1">行李箱</a></li>
+<li><span class="section-num">7.3</span> <a href="#%E6%8C%8E%E5%8C%85">挎包</a></li>
+<li><span class="section-num">7.4</span> <a href="#%E6%8F%90%E5%8C%85">提包</a></li>
+</ul>
+</li>
+<li><span class="section-num">8</span> <a href="#%E8%A1%A3%E6%9C%8D">衣服</a>
+<ul>
+<li><span class="section-num">8.1</span> <a href="#%E7%9A%AE%E5%A4%B9%E5%85%8B">皮夹克</a></li>
+</ul>
+</li>
+<li><span class="section-num">9</span> <a href="#%E5%AE%A4%E5%86%85">室内</a>
+<ul>
+<li><span class="section-num">9.1</span> <a href="#important-%E6%95%B4%E7%90%86">✰ Important 整理</a>:org:</li>
+<li><span class="section-num">9.2</span> <a href="#%E5%BA%8A%E5%8D%95%E8%A2%AB%E5%A5%97">床单被套</a></li>
+</ul>
+</li>
+<li><span class="section-num">10</span> <a href="#%E9%BB%91%E5%90%8D%E5%8D%95">黑名单</a>
+<ul>
+<li><span class="section-num">10.1</span> <a href="#%E9%A3%9F%E7%89%A9">食物</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<!--endtoc-->
+<p>使用<a href="https://github.com/gildas-lormeau/SingleFile">gildas-lormeau/SingleFile: Web Extension for Firefox/Chrome/Edge and CLI
+tool to save a faithful copy of a complete web page as a single HTML file</a> 存储离
+线的订单页面方便日后查找。</p>
+<h2 id="参考"><span class="section-num">1</span> 参考</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=c%5FMRLmcIvYU">“神等級的廚房用具 - YouTube”🔊</a></li>
+</ul>
+<h2 id="家庭机器和用品"><span class="section-num">2</span> 家庭机器和用品</h2>
+<h3 id="空气炸锅-airfryer"><span class="section-num">2.1</span> 空气炸锅 Airfryer</h3>
+<p><span class="timestamp-wrapper"><span class="timestamp">[2019-05-10 Fri]</span></span></p>
+<ul>
+<li><a href="https://www.amazon.com/gp/product/B06Y39KPZ4/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Fimage%5Fo01%5Fs00?ie=UTF8&amp;psc=1">Amazon.com: Philips TurboStar Technology Airfryer, Digital Interface, 1.8lb/2.75qt- HD9641/96: Kitchen &amp; Dining</a></li>
+</ul>
+<p>原先一直就像买这款炸锅，非常方便适合我这种懒人。这款本身只带一个网格的烤架，其他类型的烤架需要自行购买。</p>
+<p>配件</p>
+<ul>
+<li><a href="https://www.amazon.com/Fryer-Accessories-Phillips-Gowise-3-7QT-5-3QT-5-8QT/dp/B074236DYW/ref=pd%5Fbxgy%5F79%5Fimg%5F3/144-7629633-7921939?%5Fencoding=UTF8&amp;pd%5Frd%5Fi=B074236DYW&amp;pd%5Frd%5Fr=f01a5104-59a3-4616-bb96-f45d0862927c&amp;pd%5Frd%5Fw=zPQgn&amp;pd%5Frd%5Fwg=OqGyD&amp;pf%5Frd%5Fp=a2006322-0bc0-4db9-a08e-d168c18ce6f0&amp;pf%5Frd%5Fr=7P11YMYTTD8R30JRG8DM&amp;psc=1&amp;refRID=7P11YMYTTD8R30JRG8DM">Amazon.com: Air Fryer Accessories,Phillips Air Fryer Accessories and Gowise Air Fryer Accessories Fit all 3.7QT-5.3QT-5.8QT,Set of 5-7 inch: Kitchen &amp; Dining</a></li>
+</ul>
+<h3 id="锅"><span class="section-num">2.2</span> 锅</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>炒锅</p>
+<!--list-separator-->
+<ol>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B0773D7QLD?th=1">Amazon.com: AG2T Light weight 13&rdquo; cast iron flat bottom wok: Kitchen &amp; Dining</a></p>
+<p>-<a href="https://asiangarden2table.com/product/ag2t-light-weight-13-cast-iron-flat-bottom-wok-for-gas-cook-top/">AG2T Cast Iron Wok for gas cooktop 13″ Open – Asian Garden 2 Table</a></p>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="食物蒸汽机-steamer"><span class="section-num">2.3</span> 食物蒸汽机 Steamer</h3>
+<p>非常好用和值得购买的一款产品。
+Ordered on August 10, 2018</p>
+<p><a href="https://www.amazon.com/gp/product/B01CU0949U/ref=ppx%5Fod%5Fdt%5Fb%5Fasin%5Ftitle%5Fs00?ie=UTF8&amp;psc=1">Amazon.com: Cuisinart STM-1000 Digital Glass Steamer, Stainless Steel: Kitchen &amp; Dining</a></p>
+<figure>
+    <img src="/ox-hugo/afb8e73e-ed8e-4e9f-bf0c-6978aaf2c8cb._SL300___2019-07-24_23-27-03.jpg"/> 
+</figure>
+
+<h3 id="电饭锅"><span class="section-num">2.4</span> 电饭锅</h3>
+<p>没用过日本牌子的电饭锅，当初想买来着，一价格比较贵再一个不经常吃米所以就放弃了。</p>
+<!--list-separator-->
+<ol>
+<li>
+<p>多功能电饭锅     :ATTACH:</p>
+<ul>
+<li><a href="https://www.amazon.com/gp/product/B01NBKTPTS/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo09%5Fs00?ie=UTF8&amp;psc=1">Amazon.com: Instant Pot DUO Plus 60, 6 Qt 9-in-1 Multi- Use Programmable Pressure Cooker, Slow Cooker, Rice Cooker, Yogurt Maker, Egg Cooker, Sauté, Steamer, Warmer, and Sterilizer: Kitchen &amp; Dining</a></li>
+</ul>
+<p><span class="timestamp-wrapper"><span class="timestamp">[2019-05-13 Mon]</span></span></p>
+<p>这种类型的电饭锅在美国家庭很常见，一键设置很方便。</p>
+<figure>
+    <img src="/ox-hugo/46e86181-9cea-4731-8ac7-b9e8a4efe2c3.__CR0,0,200,225_PT0_SX200_V1____2019-07-24_21-37-34.jpg"/> 
+</figure>
+
+</li>
+</ol>
+<h3 id="面包机"><span class="section-num">2.5</span> 面包机</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B003GXM0EM/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Fimage%5Fo02%5Fs00?ie=UTF8&amp;psc=1">Amazon.com: Oster Bread Maker | Expressbake, 2-Pound Loaf: Bread Machines: Kitchen &amp; Dining</a>     :ATTACH:</p>
+<figure>
+    <img src="/ox-hugo/1642cc33-d172-44f9-b2ff-16e7d1419b29_2019-07-23_19-05-24.jpg" width="300" height="300"/> 
+</figure>
+
+</li>
+</ol>
+<h2 id="个人护理"><span class="section-num">3</span> 个人护理</h2>
+<h3 id="健身"><span class="section-num">3.1</span> 健身</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>Creatine 肌酸     :ATTACH:</p>
+<ul>
+<li><a href="https://www.amazon.com/gp/product/B00QEMY4T6/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo06%5Fs00?ie=UTF8&amp;th=1">Amazon.com: BSN Micronized Creatine Monohydrate Powder, Unflavored, 2 Months Supply-60 Servings: Health &amp; Personal Care</a></li>
+</ul>
+<figure>
+    <img src="/ox-hugo/2a32b30d-a684-4333-892e-295514593524._CR0,0,300,400_PT0_SX300___2019-07-24_21-52-08.jpg"/> 
+</figure>
+
+</li>
+</ol>
+<h3 id="脸部"><span class="section-num">3.2</span> 脸部</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>个人护理</p>
+<ul>
+<li><a href="https://www.amazon.com/gp/product/B073T5H2X5/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo01%5Fs00?ie=UTF8&amp;th=1">Amazon.com : Brickell Men&rsquo;s Daily Advanced Face Care Routine II, Activated Charcoal Facial Cleanser, Face Scrub, Face Moisturizer Lotion, Natural and Organic, Scented : Beauty</a></li>
+</ul>
+</li>
+</ol>
+<h3 id="头部"><span class="section-num">3.3</span> 头部</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>发油</p>
+<!--list-separator-->
+<ol>
+<li>
+<p><a href="https://www.nordstromrack.com/shop/product/2480580/sun-bum-sonnys-original-hair-texturizing-surf-paste-3-oz?color=NO%20COLOR">Sun Bum | Sonny&rsquo;s Original Hair Texturizing Surf Paste - 3 oz. | Nordstrom Rack</a>     :ATTACH:</p>
+<p>Item price: $11.98</p>
+<ul>
+<li></li>
+</ul>
+<figure>
+    <img src="/ox-hugo/20200926_0248338598498.jpg"/> 
+</figure>
+
+</li>
+</ol>
+</li>
+</ol>
+<!--list-separator-->
+<ol start="2">
+<li>
+<p>护发精油</p>
+<!--list-separator-->
+<ol>
+<li>
+<p><a href="https://www.nordstromrack.com/shop/product/2480586/sun-bum-revitalizing-hair-shine-on-coconut-argan-oil-3-oz?color=NO%20COLOR">Sun Bum | Revitalizing Hair &lsquo;Shine On&rsquo; Coconut &amp; Argan Oil - 3 oz. | Nordstrom Rack</a>     :ATTACH:</p>
+<p>Item price: $15.98</p>
+<ul>
+<li></li>
+</ul>
+<figure>
+    <img src="/ox-hugo/20200926_0247148598493.jpg"/> 
+</figure>
+
+</li>
+</ol>
+</li>
+</ol>
+<!--list-separator-->
+<ol start="3">
+<li>
+<p>药品 drug</p>
+<!--list-separator-->
+<ol>
+<li>
+<p>头癣     :ATTACH:</p>
+<p><span class="timestamp-wrapper"><span class="timestamp">[2019-06-12 Wed]</span></span>
+有一段时间头皮左侧被感染了，所以就要选择一款药性温柔，效果明显的药</p>
+<ul>
+<li><a href="https://www.amazon.com/gp/product/B00HNWNXAW/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo09%5Fs00?ie=UTF8&amp;psc=1">Amazon.com : Antifungal Tea Tree Oil Body Wash, Helps Athletes Foot, Ringworm, Toenail Fungus, Jock Itch, Acne, Eczema &amp; Body Odor- Soothes Itching &amp; Promotes Healthy Feet, Skin and Nails 9oz : Athletes Foot Treatments : Beauty</a></li>
+</ul>
+<p>这款我一般是加在洗发精里使用，感觉效果比较好。大概一个月的时候就感觉快好了。</p>
+<figure>
+    <img src="/ox-hugo/61G-u6q2GEL._SX522__2019-07-24_21-01-23.jpg"/> 
+</figure>
+
+<ul>
+<li><a href="https://www.amazon.com/gp/product/B00YI2S0P8/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Fimage%5Fo00%5Fs00?ie=UTF8&amp;psc=1">Amazon.com: Puriya Tea Tree Oil Balm. Apply on feet, Nails, Groin, Chest. - Award Winning - Trusted by 200K Users - Forms a Skin Defense Layer in Humid Conditions. Use It Before and After Gym, Yoga, Pool, Sauna: Health &amp; Personal Care</a></li>
+</ul>
+<p>其次就膏，来加速回复疗程。这款药的效果真的非常好，特点就是香味实在的好闻。</p>
+<p><img src="/ox-hugo/71ymXtmO3XL._SX522__2019-07-24_21-09-28.jpg" alt="">
+是还选择了一款药</p>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="鼻子"><span class="section-num">3.4</span> 鼻子</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>鼻炎     :ATTACH:</p>
+<p>因为我在高二的时候，喜欢夜晚开着窗子睡觉。家住大西北，又是高层。所以风比较大，导致吹了一两个月，患上了鼻炎。所以需要一些产品来预防</p>
+<ul>
+<li><a href="https://www.amazon.com/gp/product/B01LQBIWQ0/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo03%5Fs00?ie=UTF8&amp;psc=1">Amazon.com: Xyzal Allergy 24 Hour, Allergy Tablet, 80 Count, All Day and Night Relief from Allergy Symptoms Including Sneezing, Runny Nose, Itchy Nose or Throat, Itchy, Watery Eyes: Health &amp; Personal Care</a> <span class="timestamp-wrapper"><span class="timestamp">[2019-06-04 Tue]</span></span></li>
+</ul>
+<p>这款产品的效果我感觉那么迅速，再一个我比较控制和自己的鼻子。几乎很少发作了，对此款药评价不大。</p>
+<p><img src="/ox-hugo/91epvSRehDL._SX522__2019-07-24_21-21-56.jpg" alt="">
+2019-07</p>
+</li>
+</ol>
+<h3 id="牙齿"><span class="section-num">3.5</span> 牙齿</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>自动牙刷</p>
+<!--list-separator-->
+<ol>
+<li>
+<p>牙刷头</p>
+<p>原先一直在用 Oral-B 的牙刷头，因为我电动牙刷就是这个牌子。
+原装的牙刷头有这么几个优缺点：</p>
+<ol>
+<li>价格上比较贵</li>
+</ol>
+<!--listend-->
+<ol>
+<li>但质量和耐用性比较高</li>
+</ol>
+<!--listend-->
+<ol>
+<li>可以根据自己的牙齿类型，选择不同的牙刷头</li>
+</ol>
+<p>总结：我的牙齿并不是那么费牙刷，而且我也不要需要类似深度清理的牙刷头。所以选择一款价格和数量以及质量上相对比较合适的产品。</p>
+<ul>
+<li><a href="https://www.amazon.com/gp/product/B07CMRC45M/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo02%5Fs00?ie=UTF8&amp;th=1">Amazon.com : Amazon Brand - Solimo Total Power Replacement Brush Heads, 6 Count (Fits Most Oral-B Electric Toothbrushes) : Health &amp; Personal Care</a></li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<!--list-separator-->
+<ol start="2">
+<li>
+<p>水牙线     :ATTACH:</p>
+<p>个人来说买过两款，一个价格比较一个只有二十多。贵的坏了，后被我卸开。发现其实没什么技术含量，就买了一款二十多的，证明确实贵的和便宜的没什么差别。而且我觉得便宜的比较好，而且定配件多，虽然我很少用。</p>
+<p><a href="https://www.amazon.com/gp/product/B07FF5CZL6/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo08%5Fs00?ie=UTF8&amp;th=1">- Amazon.com: Habor Water Flosser, 600mL 8 Jet Tips FDA Oral Irrigator, 70db Quiet 10 Pressure Electric Dental Flosser, Gum Flosser for Teeth and Braces (1700 Pulses,Home Use): Beauty</a></p>
+<p><span class="timestamp-wrapper"><span class="timestamp">[2019-02-17 Sun]</span></span></p>
+<p><img src="/ox-hugo/41o-tTPug-L._SL500_AC_SS350__2019-07-24_21-56-09.jpg" alt="">
+07-24 21</p>
+</li>
+</ol>
+<h3 id="眼睛"><span class="section-num">3.6</span> 眼睛</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>眼药（缓解疲劳，和眼红）     :ATTACH:</p>
+<p>以前的时候用 “明亮” “真视明” 成分好像是冰硼，还有就是日本的牌子 “狮王”。这几个都感觉很错不错。</p>
+<p>这次在美国买的眼药，效果感觉不是很好。</p>
+<ul>
+<li><a href="https://www.amazon.com/gp/product/B0036B8QL0/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo04%5Fs00?ie=UTF8&amp;th=1">Amazon.com: Systane Ultra Lubricant Eye Drops, Twin Pack, 10-mL Each,packaging may vary: Health &amp; Personal Care</a></li>
+</ul>
+<p><span class="timestamp-wrapper"><span class="timestamp">[2019-06-01 Sat]</span></span></p>
+<p><img src="/ox-hugo/81MA4oCQaPL._SX522__2019-07-24_21-35-02.jpg" alt="">
+2019-07</p>
+</li>
+</ol>
+<h3 id="dna-test"><span class="section-num">3.7</span> DNA test</h3>
+<!--list-separator-->
+<ol>
+<li><a href="https://www.amazon.com/gp/product/B01G7PYQTM/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Fimage%5Fo02%5Fs02?ie=UTF8&amp;psc=1">Amazon.com: 23andMe DNA Test - Health + Ancestry Personal Genetic Service - includes 125+ reports on Health, Wellness, Ancestry &amp; More: 23andMe: Health &amp; Personal Care</a></li>
+</ol>
+<h3 id="食品真空机器-food-sealer"><span class="section-num">3.8</span> 食品真空机器 Food Sealer</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B07FM6VL7V/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo06%5Fs00?ie=UTF8&amp;psc=1">Amazon.com: KOIOS Vacuum Sealer Machine, 80Kpa Automatic Food Sealer with Cutter for Food Savers, 10 Sealing Bags (FDA-Certified), With Up To 40 Consecutive Seals, Dry &amp; Moist Modes, Compact Design (Silver): Kitchen &amp; Dining</a> <span class="timestamp-wrapper"><span class="timestamp">[2019-07-06 Sat]</span></span>     :ATTACH:</p>
+<ul>
+<li>个人来说，除了没有放塑料容器的功能。其他都非常完美价格合适。</li>
+</ul>
+<figure>
+    <img src="/ox-hugo/d0379c6e-ff33-439a-91d9-0c05583c2ccc._CR0,0,300,400_PT0_SX300___2019-07-24_20-54-39.jpg"/> 
+</figure>
+
+</li>
+</ol>
+<!--list-separator-->
+<ol start="2">
+<li>
+<p>真空食品袋 Vacuum Sealer Rolls <span class="timestamp-wrapper"><span class="timestamp">[2019-07-06 Sat]</span></span></p>
+<!--list-separator-->
+<ol>
+<li><a href="https://www.amazon.com/gp/product/B00QI02LGW/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo06%5Fs00?ie=UTF8&amp;psc=1">Amazon.com: Vacuum Sealer Rolls, Sous Vide Food Bags, Two (2), Large 11&rdquo; x 50&rsquo; &amp; 8&rdquo; x 50&rsquo; Combo, Commercial Vacume Plastic, Food Vac Storage &amp; Heat Seal, Vacuumsealer Saver, Microwave &amp; Freezer Safe, Store A Meal: Kitchen &amp; Dining</a></li>
+</ol>
+</li>
+</ol>
+<h3 id="厨房用品"><span class="section-num">3.9</span> 厨房用品</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>垃圾袋</p>
+<p>这是一款我非常喜欢的垃圾袋，容量大质量好，可封口。</p>
+<ul>
+<li><a href="https://www.amazon.com/gp/product/B07BJ4L4QL/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo05%5Fs00?ie=UTF8&amp;th=1">Amazon.com: Amazon Brand - Solimo Tall Kitchen Drawstring Trash Bags, 13 Gallon, 120 Count: Health &amp; Personal Care</a></li>
+</ul>
+</li>
+</ol>
+<h2 id="食材"><span class="section-num">4</span> 食材</h2>
+<h3 id="调味"><span class="section-num">4.1</span> 调味</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>风味盐     :ATTACH:</p>
+<p><a href="https://www.amazon.com/gp/product/B000144GWS/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo09%5Fs00?ie=UTF8&amp;psc=1">Amazon.com : Borsari Original Gluten Free Seasoned Salt for Chicken, Steak and Salad - Whole30 and Keto Friendly All Natural Salt Seasoning, Gourmet Spice, No Carbs, No MSG, 4 Oz. Shaker Bottle : Grocery &amp; Gourmet Food</a></p>
+<p>味道和使用途径我都强烈推荐。</p>
+<p><img src="/Users/gtrun/Documents/org-notes/.attach/2a/6d49e0-5f5f-4b4b-9fe2-d9e4009e33d2/9e838-4590-a15e-6acc8212a563._CR0,0,500,500_PT0_SX300___2019-07-24_22-02-08.jpg" alt="">
+2dc-bfcb</p>
+</li>
+</ol>
+<h3 id="咖啡-coffee"><span class="section-num">4.2</span> 咖啡 coffee</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B07BF2YJ1F/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo04%5Fs00?ie=UTF8&amp;th=1">AmazonFresh 80 Ct. K-Cups, Colombia Medium Roast, Keurig K-Cup Brewer Compatible: Amazon.com: Grocery &amp; Gourmet Food</a>     :ATTACH:</p>
+<figure>
+    <img src="/ox-hugo/51KelYi3rZL_2019-07-24_20-51-15.jpg"/> 
+</figure>
+
+<p>AmazonFresh 品牌，感觉到味道上稍微有点回酸。不常喝咖啡品味不出来。
+24 20:51</p>
+</li>
+</ol>
+<h3 id="酵母"><span class="section-num">4.3</span> 酵母</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B07V2BGHBY/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Ftitle%5Fo01%5Fs00?ie=UTF8&amp;psc=1">Red Star Active Dry Yeast, 2 lb Pouch (2Count)…: Amazon.com: Grocery &amp; Gourmet Food</a>     :image:figure:ATTACH:</p>
+<ul>
+<li><figure>
+    <img src="/ox-hugo/20200926_02514771tpU7fsk9L._SL1424_.jpg"/> 
+</figure>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="面粉"><span class="section-num">4.4</span> 面粉</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>椰粉面粉     :ATTACH:</p>
+<ul>
+<li></li>
+</ul>
+<figure>
+    <img src="/ox-hugo/20200926_02542104a17d8b-b5f5-4c52-aba7-359bb985e8c7._CR0,150,2232,2232_PT0_SX300__.jpg"/> 
+</figure>
+
+</li>
+</ol>
+<h2 id="个人物品"><span class="section-num">5</span> 个人物品</h2>
+<h3 id="工作环境"><span class="section-num">5.1</span> 工作环境</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>台灯     :ATTACH:</p>
+<p>一款我非常喜欢的台灯。
+[Ordered on August 22, 2018]</p>
+<ul>
+<li><a href="https://www.amazon.com/gp/product/B073CF4KRT/ref=ppx%5Fyo%5Fdt%5Fb%5Fasin%5Fimage%5Fo02%5Fs00?ie=UTF8&amp;psc=1">Ambertronix LED Desk Table Lamp, Soft Touch Dimmer Control Panel, 5 Level Brightness, 4 Color Modes, 14W, 1-Hour Auto Time Off, 5V/1A, USB Charging Port, US Support (Black) - - Amazon.com</a></li>
+</ul>
+<figure>
+    <img src="/ox-hugo/31WBQD2dpFL._SL500__2019-07-24_23-22-06.jpg"/> 
+</figure>
+
+</li>
+</ol>
+<!--list-separator-->
+<ol start="2">
+<li>
+<p>椅子</p>
+<p>比较瘦的人，腰部需要再垫一个东西。</p>
+<!--list-separator-->
+<ol>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B07BDJ4P5L/ref=ppx%5Fod%5Fdt%5Fb%5Fasin%5Ftitle%5Fs00?ie=UTF8&amp;psc=1">Amazon.com: Sihoo Ergonomics Office Chair Recliner Chair,Computer Chair Desk Chair, Adjustable Headrests Chair Backrest and Armrest&rsquo;s Mesh Chair (Black): Office Products</a>     :ATTACH:</p>
+<p>[Ordered on August 21, 2018 ]</p>
+<figure>
+    <img src="/ox-hugo/41MFgzykM5L._SL500_AC_SS350__2019-07-24_23-24-50.jpg"/> 
+</figure>
+
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="水杯"><span class="section-num">5.2</span> 水杯</h3>
+<p>原先用过象印的水杯，amazon 买过 2 次被我也丢在校车里了 2 次，保温品质非常优秀。</p>
+<!--list-separator-->
+<ol>
+<li><a href="https://lifease.com/products/buy-one-tea-infuser-stainless-steel-insulated-tea-bottle-get-one-free?variant=31287133962313">Buy 1 Get 1 Free - Buy One Tea Infuser Stainless Steel Insulated Tea B – Lifease</a>     :ATTACH:</li>
+</ol>
+<h2 id="鞋"><span class="section-num">6</span> 鞋</h2>
+<h3 id="timberland"><span class="section-num">6.1</span> timberland</h3>
+<!--list-separator-->
+<ol>
+<li><a href="https://www.timberland.com/shop/mens-brooklyn-6-inch-waterproof-sneaker-boots-wheat-a27gx231">Men&rsquo;s Brooklyn 6-Inch Waterproof Sneaker Boots | Timberland US Store</a>     :ATTACH:</li>
+</ol>
+<h3 id="newbalance"><span class="section-num">6.2</span> Newbalance</h3>
+<!--list-separator-->
+<ol>
+<li>Men&rsquo;s 997 Men&rsquo;s Frensh Foam Hierror V5</li>
+</ol>
+<h2 id="箱包"><span class="section-num">7</span> 箱包</h2>
+<h3 id="订单"><span class="section-num">7.1</span> 订单</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>March 22, 2020</p>
+<p>&lt;/Users/gtrun/Dropbox/org-notes/braindump/orders/Nordstrom Rack Online &amp; In Store_ Shop Dresses, Shoes, Handbags, Jewelry &amp; More (2020-04-05 下午6_20_37).html&gt;</p>
+</li>
+</ol>
+<h3 id="行李箱"><span class="section-num">7.2</span> 行李箱</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p><a href="https://www.nordstromrack.com/shop/product/1234600/tumi-international-21-carry-on?color=BLACK">Tumi | International 21&rdquo; Carry-On | Nordstrom Rack</a>     :tumi:21:ATTACH:</p>
+<p>Item price:
+只能说这个是，仅有的颜色里，让我最不大讨厌的一个了。</p>
+</li>
+</ol>
+<h3 id="挎包"><span class="section-num">7.3</span> 挎包</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p><a href="https://www.nordstromrack.com/shop/product/2912919/boconi-commuter-convertible-2-in-1-backpack?color=BLACK">BOCONI | Commuter Convertible 2-in-1 Backpack | Nordstrom Rack</a>     :ATTACH:</p>
+<p>Item pri.98
+对我来讲，最大的特定就是可以当双肩包吧。</p>
+</li>
+</ol>
+<h3 id="提包"><span class="section-num">7.4</span> 提包</h3>
+<!--list-separator-->
+<ol>
+<li><a href="https://www.nordstromrack.com/shop/product/2872300/kenneth-cole-colombian-leather-top-zip-duffel-bag?color=BLACK">KENNETH COLE | Colombian Leather Top Zip Duffel Bag | Nordstrom Rack</a>     :ATTACH:</li>
+</ol>
+<h2 id="衣服"><span class="section-num">8</span> 衣服</h2>
+<h3 id="皮夹克"><span class="section-num">8.1</span> 皮夹克</h3>
+<h2 id="室内"><span class="section-num">9</span> 室内</h2>
+<h3 id="important-整理"><span class="section-num">9.1</span> ✰ Important 整理</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>门挂</p>
+<!--list-separator-->
+<ol>
+<li><a href="https://lifease.com/collections/home-organizers-and-storage/products/1685015">Foldable Storage Bag 10/20 Grids – Lifease</a>     :ATTACH:</li>
+</ol>
+</li>
+</ol>
+<h3 id="床单被套"><span class="section-num">9.2</span> 床单被套</h3>
+<!--list-separator-->
+<ol>
+<li><a href="https://lifease.com/collections/best-seller/products/buy-1-get-1-free-buy-1-luxurious-mulberry-silk-pillowcase-standard-queen-size-multiple-colors-get-1-free">Mulberry Silk Pillowcase - Full/Queen Size - Multiple Colors – Lifease</a></li>
+</ol>
+<h2 id="黑名单"><span class="section-num">10</span> 黑名单</h2>
+<h3 id="食物"><span class="section-num">10.1</span> 食物</h3>
+<!--list-separator-->
+<ol>
+<li>
+<p>辣白菜</p>
+<ul>
+<li>😙</li>
+</ul>
+</li>
+</ol>
+
+                        </div>
+                        <div class="bl-section">
+                                <h4>Links to this note</h4>
+                                <div class="backlinks">
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+
+<script src="https://braindump.gtrun.org/js/URI.js" type="text/javascript"></script>
+
+<script src="https://braindump.gtrun.org/js/page.js" type="text/javascript"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<footer>  
+  <p>Icon by Freepik. Built with ♥ with Org-mode and Hugo.</p>
+</footer>
+
+</body>
+</html>

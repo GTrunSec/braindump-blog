@@ -1,6 +1,6 @@
 +++
 title = "My Julia"
-lastmod = 2020-09-25T19:40:43-07:00
+lastmod = 2020-09-29T02:06:35-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -24,8 +24,11 @@ author = "GTrunSec"
     - <span class="section-num">3.1</span> [My math](#my-math--my-math-dot-md)
     - <span class="section-num">3.2</span> [PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students](#paulsoderlind-juliatutorial-julia-tutorial-for-finance-and-econometrics-students)
     - <span class="section-num">3.3</span> [My Finance](#my-finance--my-finance-dot-md)
+    - <span class="section-num">3.4</span> [Machine Learning](#machine-learning--machine-learning-dot-md)
 - <span class="section-num">4</span> [Julia Packages](#julia-packages)
     - <span class="section-num">4.1</span> [Julia lsp](#julia-lsp)
+- <span class="section-num">5</span> [Python Support](#python-support)
+    - <span class="section-num">5.1</span> [JuliaPy · GitHub](#juliapy-github)
 
 </div>
 <!--endtoc-->
@@ -116,16 +119,21 @@ tags
 
 ### <span class="section-num">3.2</span> [PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students](https://github.com/PaulSoderlind/JuliaTutorial) {#paulsoderlind-juliatutorial-julia-tutorial-for-finance-and-econometrics-students}
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-09-25 Fri 19:12] </span></span> <- [financial course with Julia]({{< relref "my_finance" >}})
+<span class="timestamp-wrapper"><span class="timestamp">[2020-09-25 Fri 19:12] </span></span> <- [financial course with Julia]({{< relref "my-finance" >}})
 
 
-### <span class="section-num">3.3</span> [My Finance]({{< relref "my_finance" >}}) {#my-finance--my-finance-dot-md}
+### <span class="section-num">3.3</span> [My Finance]({{< relref "my-finance" >}}) {#my-finance--my-finance-dot-md}
 
 <!--list-separator-->
 
 1.  [GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)](https://github.com/PaulSoderlind/EmpiricalFinancePhD)
 
-    <span class="timestamp-wrapper"><span class="timestamp">[2020-09-25 Fri 19:02] </span></span> <- [financial course with Julia]({{< relref "my_finance" >}})
+    <span class="timestamp-wrapper"><span class="timestamp">[2020-09-25 Fri 19:02] </span></span> <- [financial course with Julia]({{< relref "my-finance" >}})
+
+
+### <span class="section-num">3.4</span> [Machine Learning]({{< relref "machine-learning" >}}) {#machine-learning--machine-learning-dot-md}
+
+<span class="timestamp-wrapper"><span class="timestamp">[2020-09-26 Sat 20:46] </span></span> -> [mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning](machine-learning.md)
 
 
 ## <span class="section-num">4</span> Julia Packages {#julia-packages}
@@ -140,3 +148,17 @@ Pkg.add("PackageCompiler")
 Pkg.add("SymbolServer")
 Pkg.add("StaticLint")
 ```
+
+
+## <span class="section-num">5</span> Python Support {#python-support}
+
+
+### <span class="section-num">5.1</span> [JuliaPy · GitHub](https://github.com/JuliaPy) {#juliapy-github}
+
+<!--list-separator-->
+
+1.  [GitHub - JuliaPy/PyCall.jl: Package to call Python functions from the Julia language](https://github.com/JuliaPy/PyCall.jl)
+
+<!--list-separator-->
+
+2.  [GitHub - JuliaPy/pyjulia: python interface to julia](https://github.com/JuliaPy/pyjulia)

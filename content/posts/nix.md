@@ -1,6 +1,6 @@
 +++
 title = "Nix"
-lastmod = 2020-09-22T18:59:04-07:00
+lastmod = 2020-09-30T20:54:20-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -43,6 +43,20 @@ author = "GTrunSec"
 - <span class="section-num">5</span> [Programming languages Environment](#programming-languages-environment)
     - <span class="section-num">5.1</span> [rust](#rust)
         - <span class="section-num">5.1.1</span> [nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.](#nmattia-naersk-build-rust-crates-in-nix-dot-no-configuration-no-code-generation-no-ifd-dot-sandbox-friendly-dot)
+- <span class="section-num">6</span> [configuration flakes](#configuration-flakes)
+    - <span class="section-num">6.1</span> [nrdxp/nixflk: highly structured NixOS configuration database](#nrdxp-nixflk-highly-structured-nixos-configuration-database)
+    - <span class="section-num">6.2</span> [nixrc/flake.nix at live · bqv/nixrc](#nixrc-flake-dot-nix-at-live-bqv-nixrc)
+    - <span class="section-num">6.3</span> [abcdw/rde: My reproducible development environment](#abcdw-rde-my-reproducible-development-environment)
+    - <span class="section-num">6.4</span> [LEXUGE/nixos: A fully automated replicable nixos configuration set](#lexuge-nixos-a-fully-automated-replicable-nixos-configuration-set)
+    - <span class="section-num">6.5</span> [Ninlives/nixos-config: Bunch of Nix expressions for my working environment](#ninlives-nixos-config-bunch-of-nix-expressions-for-my-working-environment)
+- <span class="section-num">7</span> [flakes lib](#flakes-lib)
+    - <span class="section-num">7.1</span> [numtide/flake-utils: Pure Nix flake utility functions](#numtide-flake-utils-pure-nix-flake-utility-functions)
+- <span class="section-num">8</span> [Networking](#networking)
+    - <span class="section-num">8.1</span> [icebox-nix/netkit.nix: Verstile tools for advanced networking scenarios in NixOS](#icebox-nix-netkit-dot-nix-verstile-tools-for-advanced-networking-scenarios-in-nixos)
+- <span class="section-num">9</span> [Security](#security)
+    - <span class="section-num">9.1</span> [localhost/security.nix at master · jollheef/localhost](#localhost-security-dot-nix-at-master-jollheef-localhost)
+- <span class="section-num">10</span> [home-manager](#home-manager)
+    - <span class="section-num">10.1</span> [home-manager overlay](#home-manager-overlay)
 
 </div>
 <!--endtoc-->
@@ -119,6 +133,8 @@ author = "GTrunSec"
 
 ## <span class="section-num">4</span> Nix Overlays {#nix-overlays}
 
+-   [home-manager overlay](#home-manager-overlay)
+
 
 ### <span class="section-num">4.1</span> ROS on Nix {#ros-on-nix}
 
@@ -134,3 +150,70 @@ author = "GTrunSec"
 #### <span class="section-num">5.1.1</span> [nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.](https://github.com/nmattia/naersk) {#nmattia-naersk-build-rust-crates-in-nix-dot-no-configuration-no-code-generation-no-ifd-dot-sandbox-friendly-dot}
 
 <span class="timestamp-wrapper"><span class="timestamp">[2020-09-22 Tue 18:58] </span></span> <- [nix](rust.md)
+
+
+## <span class="section-num">6</span> configuration flakes {#configuration-flakes}
+
+
+### <span class="section-num">6.1</span> [nrdxp/nixflk: highly structured NixOS configuration database](https://github.com/nrdxp/nixflk/) {#nrdxp-nixflk-highly-structured-nixos-configuration-database}
+
+
+### <span class="section-num">6.2</span> [nixrc/flake.nix at live · bqv/nixrc](https://github.com/bqv/nixrc/blob/live/flake.nix) {#nixrc-flake-dot-nix-at-live-bqv-nixrc}
+
+
+### <span class="section-num">6.3</span> [abcdw/rde: My reproducible development environment](https://github.com/abcdw/rde/) {#abcdw-rde-my-reproducible-development-environment}
+
+
+### <span class="section-num">6.4</span> [LEXUGE/nixos: A fully automated replicable nixos configuration set](https://github.com/LEXUGE/nixos) {#lexuge-nixos-a-fully-automated-replicable-nixos-configuration-set}
+
+
+### <span class="section-num">6.5</span> [Ninlives/nixos-config: Bunch of Nix expressions for my working environment](https://github.com/Ninlives/nixos-config) {#ninlives-nixos-config-bunch-of-nix-expressions-for-my-working-environment}
+
+
+## <span class="section-num">7</span> flakes lib {#flakes-lib}
+
+-   [ ] [wiki] [Flakes - NixOS Wiki](https://nixos.wiki/wiki/Flakes)
+
+
+### <span class="section-num">7.1</span> [numtide/flake-utils: Pure Nix flake utility functions](https://github.com/numtide/flake-utils) {#numtide-flake-utils-pure-nix-flake-utility-functions}
+
+
+## <span class="section-num">8</span> Networking {#networking}
+
+
+### <span class="section-num">8.1</span> [icebox-nix/netkit.nix: Verstile tools for advanced networking scenarios in NixOS](https://github.com/icebox-nix/netkit.nix) {#icebox-nix-netkit-dot-nix-verstile-tools-for-advanced-networking-scenarios-in-nixos}
+
+
+## <span class="section-num">9</span> Security {#security}
+
+
+### <span class="section-num">9.1</span> [localhost/security.nix at master · jollheef/localhost](https://github.com/jollheef/localhost/blob/master/security.nix) {#localhost-security-dot-nix-at-master-jollheef-localhost}
+
+
+## <span class="section-num">10</span> home-manager {#home-manager}
+
+
+### <span class="section-num">10.1</span> home-manager overlay {#home-manager-overlay}
+
+<span class="timestamp-wrapper"><span class="timestamp">[2020-09-30 Wed 20:54] </span></span> <- [Nix Overlays](#nix-overlays)
+
+-   [Using an overlay in home-manager - Learn - NixOS Discourse](https://discourse.nixos.org/t/using-an-overlay-in-home-manager/6302)
+
+    ```nix
+    { config, pkgs, ... }:
+
+    let
+      pkgsUnstable = import <unstable> {};
+    in
+
+    {
+      nixpkgs.overlays = [
+        (final: previous: {
+          skim = pkgsUnstable.skim;
+        })
+      ];
+
+      programs.home-manager.enable = true;
+      programs.skim.enable = true;
+    }
+    ```

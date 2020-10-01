@@ -1,6 +1,6 @@
 +++
 title = "My Library"
-lastmod = 2020-09-24T22:41:02-07:00
+lastmod = 2020-09-28T01:00:11-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -55,7 +55,7 @@ author = "GTrunSec"
 
 ### <span class="org-todo todo INPROCESS">INPROCESS</span> <span class="section-num">2.1</span> Programming in Haskell {#programming-in-haskell}
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-09-24 Thu 22:22] </span></span> <- [Haskell books]({{< relref "my_haskell.md#haskell-books" >}})
+<span class="timestamp-wrapper"><span class="timestamp">[2020-09-24 Thu 22:22] </span></span> <- [Haskell books]({{< relref "my-haskell" >}})
 
 -   [Anton-Latukha/Haskell-Programming-From-First-Principles-exercises: Consists of QUALITY BELABORING of EVERY EXERCISE in the chapters {1-18,26} (~1400 pages) of the "Haskell book" ("Haskell Programming from First Principles"). With literate comments. Additionally notable for use of Nix for exercise projects.](https://github.com/Anton-Latukha/Haskell-Programming-From-First-Principles-exercises)
 

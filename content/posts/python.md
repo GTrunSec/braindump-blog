@@ -1,6 +1,6 @@
 +++
 title = "Python"
-lastmod = 2020-09-21T17:14:29-07:00
+lastmod = 2020-09-28T01:08:06-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -16,7 +16,7 @@ author = "GTrunSec"
 
 <div class="heading">Table of Contents</div>
 
-- <span class="section-num">1</span> [](#)
+- <span class="section-num">1</span> [Python list](#python-list)
 
 </div>
 <!--endtoc-->
@@ -25,4 +25,4 @@ tags
 :
 
 
-## <span class="section-num">1</span>  {#}
+## <span class="section-num">1</span> Python list {#python-list}

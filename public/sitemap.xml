@@ -4,27 +4,102 @@
   
   <url>
     <loc>https://braindump.gtrun.org/</loc>
-    <lastmod>2020-09-25T23:03:09-07:00</lastmod>
+    <lastmod>2020-10-01T13:38:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://braindump.gtrun.org/posts/my-design/</loc>
-    <lastmod>2020-09-25T23:03:09-07:00</lastmod>
+    <loc>https://braindump.gtrun.org/posts/my-finance/</loc>
+    <lastmod>2020-10-01T13:38:13-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://braindump.gtrun.org/posts/</loc>
-    <lastmod>2020-09-25T23:03:09-07:00</lastmod>
+    <lastmod>2020-10-01T13:38:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://braindump.gtrun.org/posts/design-photo/</loc>
-    <lastmod>2020-09-25T23:02:34-07:00</lastmod>
+    <loc>https://braindump.gtrun.org/posts/nix/</loc>
+    <lastmod>2020-09-30T20:54:20-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/git/</loc>
+    <lastmod>2020-09-30T20:48:25-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://braindump.gtrun.org/posts/julia/</loc>
-    <lastmod>2020-09-25T19:40:43-07:00</lastmod>
+    <lastmod>2020-09-29T02:06:35-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/nsm/</loc>
+    <lastmod>2020-09-29T01:20:49-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/python/</loc>
+    <lastmod>2020-09-28T01:08:06-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/my-haskell/</loc>
+    <lastmod>2020-09-28T01:01:36-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/my-books/</loc>
+    <lastmod>2020-09-28T01:00:11-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/design-photo/</loc>
+    <lastmod>2020-09-27T03:39:44-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/my-design/</loc>
+    <lastmod>2020-09-27T03:38:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/machine-learning/</loc>
+    <lastmod>2020-09-27T03:19:22-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/awesome_zeek/</loc>
+    <lastmod>2020-09-26T22:50:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/zeek/</loc>
+    <lastmod>2020-09-26T22:50:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/categories/</loc>
+    <lastmod>2020-09-26T02:56:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/categories/gtd/</loc>
+    <lastmod>2020-09-26T02:56:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/tags/life/</loc>
+    <lastmod>2020-09-26T02:56:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/tags/</loc>
+    <lastmod>2020-09-26T02:56:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/life-goods/</loc>
+    <lastmod>2020-09-26T02:56:18-07:00</lastmod>
   </url>
   
   <url>
@@ -38,16 +113,6 @@
   </url>
   
   <url>
-    <loc>https://braindump.gtrun.org/posts/my_finance/</loc>
-    <lastmod>2020-09-25T19:14:44-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://braindump.gtrun.org/posts/my-books/</loc>
-    <lastmod>2020-09-24T22:41:02-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://braindump.gtrun.org/posts/my_haskell/</loc>
     <lastmod>2020-09-24T22:40:28-07:00</lastmod>
   </url>
@@ -55,11 +120,6 @@
   <url>
     <loc>https://braindump.gtrun.org/posts/xah-fly-keys/</loc>
     <lastmod>2020-09-23T03:30:31-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://braindump.gtrun.org/posts/nix/</loc>
-    <lastmod>2020-09-22T18:59:04-07:00</lastmod>
   </url>
   
   <url>
@@ -80,11 +140,6 @@
   <url>
     <loc>https://braindump.gtrun.org/posts/golang/</loc>
     <lastmod>2020-09-21T18:50:04-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://braindump.gtrun.org/posts/python/</loc>
-    <lastmod>2020-09-21T17:14:29-07:00</lastmod>
   </url>
   
   <url>
@@ -140,14 +195,6 @@
   <url>
     <loc>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E5%B7%A5%E8%89%BA/</loc>
     <lastmod>2020-09-12T16:33:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://braindump.gtrun.org/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://braindump.gtrun.org/tags/</loc>
   </url>
   
 </urlset>

@@ -1,6 +1,6 @@
 +++
 title = "Collection of designing list"
-lastmod = 2020-09-25T23:02:34-07:00
+lastmod = 2020-09-27T03:39:44-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -33,7 +33,7 @@ tags
 
 ### <span class="section-num">1.1</span> 小型庭院 {#小型庭院}
 
--   [他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]({{< relref "my-design" >}})
+-   [他花 20 年在西湖邊造庭院，8000 萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]({{< relref "my-design" >}})
     -   {{< figure src="/ox-hugo/20200925_225732screenshot.png" >}}
 
 
@@ -42,5 +42,5 @@ tags
 
 ### <span class="section-num">2.1</span> 水台 {#水台}
 
--   [他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]({{< relref "my-design" >}})
+-   [他花 20 年在西湖邊造庭院，8000 萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]({{< relref "my-design" >}})
     -   {{< figure src="/ox-hugo/20200925_230006screenshot.png" >}}

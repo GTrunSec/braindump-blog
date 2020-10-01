@@ -1,6 +1,6 @@
 +++
 title = "My designing brain tranning list"
-lastmod = 2020-09-25T23:03:09-07:00
+lastmod = 2020-09-27T03:38:40-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -33,5 +33,5 @@ author = "GTrunSec"
 
 #### <span class="section-num">1.1.1</span> [他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube](https://www.youtube.com/watch?v=HwaWWcYsYyg) {#他花20年在西湖邊造庭院-8000萬也不賣-he-spent-20-years-building-an-elegant-courtyard-wouldn-t-sell-for-80-million-youtube}
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-09-25 Fri 22:53] </span></span> <- [水台](design-photo.md)
-<span class="timestamp-wrapper"><span class="timestamp">[2020-09-25 Fri 22:52] </span></span> <- [小型庭院](design-photo.md)
+<span class="timestamp-wrapper"><span class="timestamp">[2020-09-27 Sun 03:38] </span></span> <- [水台]({{< relref "design-photo" >}})
+<span class="timestamp-wrapper"><span class="timestamp">[2020-09-27 Sun 03:36] </span></span> <- [小型庭院]({{< relref "design-photo" >}})

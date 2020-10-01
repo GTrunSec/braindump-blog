@@ -1,6 +1,6 @@
 +++
 title = "My Finance"
-lastmod = 2020-09-25T19:14:44-07:00
+lastmod = 2020-10-01T13:38:13-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
