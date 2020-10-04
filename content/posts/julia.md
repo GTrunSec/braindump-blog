@@ -1,6 +1,6 @@
 +++
 title = "My Julia"
-lastmod = 2020-09-29T02:06:35-07:00
+lastmod = 2020-10-01T14:53:14-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -27,6 +27,7 @@ author = "GTrunSec"
     - <span class="section-num">3.4</span> [Machine Learning](#machine-learning--machine-learning-dot-md)
 - <span class="section-num">4</span> [Julia Packages](#julia-packages)
     - <span class="section-num">4.1</span> [Julia lsp](#julia-lsp)
+    - <span class="section-num">4.2</span> [Julia RCall](#julia-rcall)
 - <span class="section-num">5</span> [Python Support](#python-support)
     - <span class="section-num">5.1</span> [JuliaPy · GitHub](#juliapy-github)
 
@@ -147,6 +148,17 @@ Pkg.add("LanguageServer")
 Pkg.add("PackageCompiler")
 Pkg.add("SymbolServer")
 Pkg.add("StaticLint")
+```
+
+
+### <span class="section-num">4.2</span> Julia RCall {#julia-rcall}
+
+```sh
+julia_wrapped -e 'using Pkg; Pkg.rm("RCall"); Pkg.add("RCall"); Pkg.build("RCall"); using RCall'
+```
+
+```sh
+julia_wrapped -e 'using Pkg;  Pkg.pin(PackageSpec(name="RCall", version="0.13.9"))'
 ```
 
 

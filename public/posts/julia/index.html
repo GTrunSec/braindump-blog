@@ -55,6 +55,7 @@
 <li><span class="section-num">4</span> <a href="#julia-packages">Julia Packages</a>
 <ul>
 <li><span class="section-num">4.1</span> <a href="#julia-lsp">Julia lsp</a></li>
+<li><span class="section-num">4.2</span> <a href="#julia-rcall">Julia RCall</a></li>
 </ul>
 </li>
 <li><span class="section-num">5</span> <a href="#python-support">Python Support</a>
@@ -152,6 +153,9 @@ Pkg<span style="color:#000;font-weight:bold">.</span>add(<span style="color:#d14
 Pkg<span style="color:#000;font-weight:bold">.</span>add(<span style="color:#d14">&#34;PackageCompiler&#34;</span>)
 Pkg<span style="color:#000;font-weight:bold">.</span>add(<span style="color:#d14">&#34;SymbolServer&#34;</span>)
 Pkg<span style="color:#000;font-weight:bold">.</span>add(<span style="color:#d14">&#34;StaticLint&#34;</span>)
+</code></pre></div><h3 id="julia-rcall"><span class="section-num">4.2</span> Julia RCall</h3>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">julia_wrapped -e <span style="color:#d14">&#39;using Pkg; Pkg.rm(&#34;RCall&#34;); Pkg.add(&#34;RCall&#34;); Pkg.build(&#34;RCall&#34;); using RCall&#39;</span>
+</code></pre></div><div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">julia_wrapped -e <span style="color:#d14">&#39;using Pkg;  Pkg.pin(PackageSpec(name=&#34;RCall&#34;, version=&#34;0.13.9&#34;))&#39;</span>
 </code></pre></div><h2 id="python-support"><span class="section-num">5</span> Python Support</h2>
 <h3 id="juliapy-github"><span class="section-num">5.1</span> <a href="https://github.com/JuliaPy">JuliaPy · GitHub</a></h3>
 <!--list-separator-->
@@ -167,6 +171,14 @@ Pkg<span style="color:#000;font-weight:bold">.</span>add(<span style="color:#d14
                         <div class="bl-section">
                                 <h4>Links to this note</h4>
                                 <div class="backlinks">
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
                                         
                                         
                                         
@@ -192,15 +204,7 @@ Pkg<span style="color:#000;font-weight:bold">.</span>add(<span style="color:#d14
                                         
                                         
                                         
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
                                         <a href="/posts/machine-learning/">Machine Learning</a>
-                                        
-                                        
                                         
                                         
                                         

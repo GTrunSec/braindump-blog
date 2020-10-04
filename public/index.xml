@@ -6,10 +6,37 @@
     <description>Recent content on GuangTao&#39;s Braindump</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2020 13:38:13 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2020 23:56:27 -0700</lastBuildDate>
     
 	<atom:link href="https://braindump.gtrun.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nix</title>
+      <link>https://braindump.gtrun.org/posts/nix/</link>
+      <pubDate>Sat, 03 Oct 2020 23:56:27 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/nix/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Learn materials  1.1 Everything You Always Wanted To Know About Nix (But Were Afraid To Ask) - YouTube 1.2 Functional programming and Nix for reproducible, immutable infrastructure - YouTube   2 nixos  2.1 Doc  2.1.1 Module - NixOS Wiki 2.1.2 NixOS/hydra: Hydra, the Nix-based continuous build system 2.1.3 NixOS Planet   2.</description>
+    </item>
+    
+    <item>
+      <title>Awesome Zeek</title>
+      <link>https://braindump.gtrun.org/posts/awesome_zeek/</link>
+      <pubDate>Fri, 02 Oct 2020 21:45:10 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/awesome_zeek/</guid>
+      <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Zeek installation  1.1 Zeekurity Zen - Part I: How to Install Zeek on CentOS 8 - ericooi.com       Slack | general | Zeek | 1 new item  1 Zeek installation 1.1 Zeekurity Zen - Part I: How to Install Zeek on CentOS 8 - ericooi.com </description>
+    </item>
+    
+    <item>
+      <title>My Julia</title>
+      <link>https://braindump.gtrun.org/posts/julia/</link>
+      <pubDate>Thu, 01 Oct 2020 14:53:14 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/julia/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Environment  1.1 Jupyter   2 Improving the code speed  2.1 Improving the code speed by employing parallelism for asynchronous task - Usage / Performance - JuliaLang   3 Julia tutorial or courses  3.1 My math 3.2 PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students 3.3 My Finance 3.4 Machine Learning   4 Julia Packages  4.</description>
+    </item>
     
     <item>
       <title>My Finance</title>
@@ -21,15 +48,6 @@
     </item>
     
     <item>
-      <title>Nix</title>
-      <link>https://braindump.gtrun.org/posts/nix/</link>
-      <pubDate>Wed, 30 Sep 2020 20:54:20 -0700</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/nix/</guid>
-      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Learn materials  1.1 Everything You Always Wanted To Know About Nix (But Were Afraid To Ask) - YouTube 1.2 Functional programming and Nix for reproducible, immutable infrastructure - YouTube   2 nixos  2.1 Doc  2.1.1 Module - NixOS Wiki 2.1.2 NixOS/hydra: Hydra, the Nix-based continuous build system 2.1.3 NixOS Planet   2.</description>
-    </item>
-    
-    <item>
       <title>Git</title>
       <link>https://braindump.gtrun.org/posts/git/</link>
       <pubDate>Wed, 30 Sep 2020 20:48:25 -0700</pubDate>
@@ -37,15 +55,6 @@
       <guid>https://braindump.gtrun.org/posts/git/</guid>
       <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 git CONTRIBUTING    1 git CONTRIBUTING   python38Packages.coloredlogs: disable tests on darwin by tobim · Pull Request #96037 · NixOS/nixpkgs
 git reset HEAD~1 # move fix-up commits into unstaged git add -- pkgs/ # move changes into staged git commit --amend --no-edit # add changes to previous commit git push ... ... --force # modify current PR branch   </description>
-    </item>
-    
-    <item>
-      <title>My Julia</title>
-      <link>https://braindump.gtrun.org/posts/julia/</link>
-      <pubDate>Tue, 29 Sep 2020 02:06:35 -0700</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/julia/</guid>
-      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Environment  1.1 Jupyter   2 Improving the code speed  2.1 Improving the code speed by employing parallelism for asynchronous task - Usage / Performance - JuliaLang   3 Julia tutorial or courses  3.1 My math 3.2 PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students 3.3 My Finance 3.4 Machine Learning   4 Julia Packages  4.</description>
     </item>
     
     <item>
@@ -111,15 +120,6 @@ git reset HEAD~1 # move fix-up commits into unstaged git add -- pkgs/ # move cha
       <guid>https://braindump.gtrun.org/posts/machine-learning/</guid>
       <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Machine Learning with Julia  1.1 mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning      1 Machine Learning with Julia 1.1 mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning [2020-09-26 Sat 20:46]  &amp;lt;- Machine Learning
 git clone https://github.com/mitmath/18337.git </description>
-    </item>
-    
-    <item>
-      <title>Awesome Zeek</title>
-      <link>https://braindump.gtrun.org/posts/awesome_zeek/</link>
-      <pubDate>Sat, 26 Sep 2020 22:50:15 -0700</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/awesome_zeek/</guid>
-      <description></description>
     </item>
     
     <item>

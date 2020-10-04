@@ -1,6 +1,6 @@
 +++
 title = "Nix"
-lastmod = 2020-09-30T20:54:20-07:00
+lastmod = 2020-10-03T23:56:27-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -49,14 +49,29 @@ author = "GTrunSec"
     - <span class="section-num">6.3</span> [abcdw/rde: My reproducible development environment](#abcdw-rde-my-reproducible-development-environment)
     - <span class="section-num">6.4</span> [LEXUGE/nixos: A fully automated replicable nixos configuration set](#lexuge-nixos-a-fully-automated-replicable-nixos-configuration-set)
     - <span class="section-num">6.5</span> [Ninlives/nixos-config: Bunch of Nix expressions for my working environment](#ninlives-nixos-config-bunch-of-nix-expressions-for-my-working-environment)
-- <span class="section-num">7</span> [flakes lib](#flakes-lib)
-    - <span class="section-num">7.1</span> [numtide/flake-utils: Pure Nix flake utility functions](#numtide-flake-utils-pure-nix-flake-utility-functions)
+    - <span class="section-num">6.6</span> [dotfiles/flake.nix at master · berbiche/dotfiles](#dotfiles-flake-dot-nix-at-master-berbiche-dotfiles)
+    - <span class="section-num">6.7</span> [nixos-conf/flake.nix at master · ImExtends/nixos-conf](#nixos-conf-flake-dot-nix-at-master-imextends-nixos-conf)
+    - <span class="section-num">6.8</span> [nixcfg/flake.nix at template · l5r/nixcfg](#nixcfg-flake-dot-nix-at-template-l5r-nixcfg)
+    - <span class="section-num">6.9</span> [nixos-config/flake.nix at nixus · cole-h/nixos-config](#nixos-config-flake-dot-nix-at-nixus-cole-h-nixos-config)
+- <span class="section-num">7</span> [flakes](#flakes)
+    - <span class="section-num">7.1</span> [Nix Flakes edition | $ zimbatm](#nix-flakes-edition-zimbatm)
+    - <span class="section-num">7.2</span> [numtide/flake-utils: Pure Nix flake utility functions](#numtide-flake-utils-pure-nix-flake-utility-functions)
+    - <span class="section-num">7.3</span> [hydra CI build packages](#hydra-ci-build-packages)
 - <span class="section-num">8</span> [Networking](#networking)
     - <span class="section-num">8.1</span> [icebox-nix/netkit.nix: Verstile tools for advanced networking scenarios in NixOS](#icebox-nix-netkit-dot-nix-verstile-tools-for-advanced-networking-scenarios-in-nixos)
 - <span class="section-num">9</span> [Security](#security)
     - <span class="section-num">9.1</span> [localhost/security.nix at master · jollheef/localhost](#localhost-security-dot-nix-at-master-jollheef-localhost)
 - <span class="section-num">10</span> [home-manager](#home-manager)
     - <span class="section-num">10.1</span> [home-manager overlay](#home-manager-overlay)
+- <span class="section-num">11</span> [Cachix](#cachix)
+    - <span class="section-num">11.1</span> [push binary cache with nix-shell](#push-binary-cache-with-nix-shell)
+    - <span class="section-num">11.2</span> [Pushing Flake inputs to Cachix](#pushing-flake-inputs-to-cachix)
+- <span class="section-num">12</span> [nix expressions](#nix-expressions)
+    - <span class="section-num">12.1</span> [zimbatm/nix-experiments](#zimbatm-nix-experiments)
+    - <span class="section-num">12.2</span> [parser](#parser)
+        - <span class="section-num">12.2.1</span> [orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go](#orivej-go-nix-nix-language-parser-and-nix-compatible-file-hasher-in-go)
+- <span class="section-num">13</span> [nix-hash](#nix-hash)
+    - <span class="section-num">13.1</span> [jwiegley/nix-update-el: An Emacs command for updating fetch declarations in place](#jwiegley-nix-update-el-an-emacs-command-for-updating-fetch-declarations-in-place)
 
 </div>
 <!--endtoc-->
@@ -170,12 +185,158 @@ author = "GTrunSec"
 ### <span class="section-num">6.5</span> [Ninlives/nixos-config: Bunch of Nix expressions for my working environment](https://github.com/Ninlives/nixos-config) {#ninlives-nixos-config-bunch-of-nix-expressions-for-my-working-environment}
 
 
-## <span class="section-num">7</span> flakes lib {#flakes-lib}
+### <span class="section-num">6.6</span> [dotfiles/flake.nix at master · berbiche/dotfiles](https://github.com/berbiche/dotfiles/blob/master/flake.nix) {#dotfiles-flake-dot-nix-at-master-berbiche-dotfiles}
+
+
+### <span class="section-num">6.7</span> [nixos-conf/flake.nix at master · ImExtends/nixos-conf](https://github.com/ImExtends/nixos-conf/blob/master/flake.nix) {#nixos-conf-flake-dot-nix-at-master-imextends-nixos-conf}
+
+
+### <span class="section-num">6.8</span> [nixcfg/flake.nix at template · l5r/nixcfg](https://github.com/l5r/nixcfg/blob/template/flake.nix) {#nixcfg-flake-dot-nix-at-template-l5r-nixcfg}
+
+
+### <span class="section-num">6.9</span> [nixos-config/flake.nix at nixus · cole-h/nixos-config](https://github.com/cole-h/nixos-config/blob/nixus/flake.nix) {#nixos-config-flake-dot-nix-at-nixus-cole-h-nixos-config}
+
+
+## <span class="section-num">7</span> flakes {#flakes}
 
 -   [ ] [wiki] [Flakes - NixOS Wiki](https://nixos.wiki/wiki/Flakes)
+-   [ ] [wiki] [nix-flakes.md](https://gist.github.com/edolstra/40da6e3a4d4ee8fd019395365e0772e7)
+-   Output scheme
+
+    ```nix
+    { self, ... }@inputs:
+    {
+      # This will be shown in `nix flake info`
+      description = "A description what his flake provides";
+      # Executed by `nix flake check`
+      checks."<system>"."<attr>" = derivation;
+      # Executed by `nix build .#<name>`
+      packages."<system>"."<attr>" = derivation;
+      # Executed by `nix build .`
+      defaultPackage."<system>" = derivation;
+      # Executed by `nix run .#<name>`
+      apps."<system>"."<attr>" = {
+        type = "app";
+        program = "<store-path>";
+      };
+      # Executed by `nix run . -- <args?>`
+      defaultApp."<system>" = { type = "app"; program = "..."; };
+
+      # Used for nixpkgs packages, also accessible via `nix build .#<name>`
+      legacyPackages."<system>"."<attr>" = derivation;
+      # Default overlay, for use in dependent flakes
+      overlay = final: prev: { };
+      # Same idea as overlay but a list or attrset of them.
+      overlays = {};
+      # Default module, for use in dependent flakes
+      nixosModule = { config }: { options = {}; config = {}; };
+      # Same idea as nixosModule but a list or attrset of them.
+      nixosModules = {};
+      # Attrset of nixos configurations by hostname.
+      nixosConfigurations."<hostname>" = {};
+      hydraJobs."<attr>"."<system>" = derivation;
+      # Used by `nix flake init -t <flake>`
+      defaultTemplate = {
+        path = "<store-path>";
+        description = "template description goes here?";
+      };
+      # Used by `nix flake init -t <flake>#<attr>`
+      templates."<attr>" = { path = "<store-path>"; description = ""; );
+    }
+    ```
 
 
-### <span class="section-num">7.1</span> [numtide/flake-utils: Pure Nix flake utility functions](https://github.com/numtide/flake-utils) {#numtide-flake-utils-pure-nix-flake-utility-functions}
+### <span class="section-num">7.1</span> [Nix Flakes edition | $ zimbatm](https://zimbatm.com/NixFlakes/#direnv-integration) {#nix-flakes-edition-zimbatm}
+
+<span class="timestamp-wrapper"><span class="timestamp">[2020-10-01 Thu 23:35] </span></span> <- [Pushing Flake inputs to Cachix](#pushing-flake-inputs-to-cachix)
+
+
+### <span class="section-num">7.2</span> [numtide/flake-utils: Pure Nix flake utility functions](https://github.com/numtide/flake-utils) {#numtide-flake-utils-pure-nix-flake-utility-functions}
+
+-   [flake-utils/flake.nix at master · numtide/flake-utils](https://github.com/numtide/flake-utils/blob/master/examples/each-system/flake.nix)
+    -   eachDefaultSystem
+
+        ```nix
+
+          {
+            description = "Flake utils demo";
+
+            inputs.flake-utils.url = "github:numtide/flake-utils";
+
+            outputs = { self, nixpkgs, flake-utils }:
+              flake-utils.lib.eachDefaultSystem (system:
+                let pkgs = nixpkgs.legacyPackages.${system}; in
+                rec {
+                  packages = flake-utils.lib.flattenTree {
+                    hello = pkgs.hello;
+                    gitAndTools = pkgs.gitAndTools;
+                  };
+                  defaultPackage = packages.hello;
+                  apps.hello = flake-utils.lib.mkApp { drv = packages.hello; };
+                  defaultApp = apps.hello;
+                }
+              );
+          }
+        ```
+
+    -   simple-flake
+
+        ```nix
+
+        ```
+-   [zimbatm/flake-static at 0cf37e62aae157409342a85f5f499f216bdcd2fe](https://github.com/zimbatm/flake-static/tree/0cf37e62aae157409342a85f5f499f216bdcd2fe)
+    -   nixpkgs lib
+
+        ```sh
+
+        let
+          importJSON = file: builtins.fromJSON (builtins.readFile file);
+          flakeLock = importJSON ./flake.lock;
+          loadInput = { locked, ... }:
+            assert locked.type == "github";
+            builtins.fetchTarball {
+              url = "https://github.com/${locked.owner}/${locked.repo}/archive/${locked.rev}.tar.gz";
+              sha256 = locked.narHash;
+            };
+          nixpkgs = loadInput flakeLock.nodes.nixpkgs;
+        in
+        import nixpkgs {
+          config = { };
+          overlays = [ ];
+        }
+
+        ```
+
+
+### <span class="section-num">7.3</span> hydra CI build packages {#hydra-ci-build-packages}
+
+-   [dhdm/flake.nix at master · edolstra/dhdm](https://github.com/edolstra/dhdm/blob/master/flake.nix)
+
+<!--listend-->
+
+```nix
+{
+  inputs.nixpkgs.url = "nixpkgs/nixos-20.03";
+
+  outputs = { self, nixpkgs }: {
+
+    defaultPackage.x86_64-linux =
+      with import nixpkgs { system = "x86_64-linux"; };
+      stdenv.mkDerivation {
+        name = "dhdm";
+        buildInputs = [ mesa_glu glew glfw libpng glm fmt nlohmann_json opensubdiv boost ];
+        src = self;
+        preBuild = "cd src";
+        installPhase = "mkdir -p $out/bin; cp dhdm $out/bin/";
+        enableParallelBuilding = true;
+      };
+
+    checks.x86_64-linux.build = self.defaultPackage.x86_64-linux;
+
+  };
+
+}
+```
 
 
 ## <span class="section-num">8</span> Networking {#networking}
@@ -217,3 +378,44 @@ author = "GTrunSec"
       programs.skim.enable = true;
     }
     ```
+
+
+## <span class="section-num">11</span> Cachix {#cachix}
+
+
+### <span class="section-num">11.1</span> push binary cache with nix-shell {#push-binary-cache-with-nix-shell}
+
+```sh
+nix-store --query --references $(nix-instantiate my-default.nix) | xargs nix-store --realise | xargs nix-store --query --requisites | cachix push nsm-data-analysis
+```
+
+
+### <span class="section-num">11.2</span> Pushing Flake inputs to Cachix {#pushing-flake-inputs-to-cachix}
+
+-   [Nix Flakes edition | $ zimbatm](#nix-flakes-edition-zimbatm)
+
+<!--listend-->
+
+```sh
+nix flake archive --json \
+  | jq -r '.path,(.inputs|to_entries[].value.path)' \
+  | cachix push $cache_name
+```
+
+
+## <span class="section-num">12</span> nix expressions {#nix-expressions}
+
+
+### <span class="section-num">12.1</span> [zimbatm/nix-experiments](https://github.com/zimbatm/nix-experiments) {#zimbatm-nix-experiments}
+
+
+### <span class="section-num">12.2</span> parser {#parser}
+
+
+#### <span class="section-num">12.2.1</span> [orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go](https://github.com/orivej/go-nix) {#orivej-go-nix-nix-language-parser-and-nix-compatible-file-hasher-in-go}
+
+
+## <span class="section-num">13</span> nix-hash {#nix-hash}
+
+
+### <span class="section-num">13.1</span> [jwiegley/nix-update-el: An Emacs command for updating fetch declarations in place](https://github.com/jwiegley/nix-update-el) {#jwiegley-nix-update-el-an-emacs-command-for-updating-fetch-declarations-in-place}
