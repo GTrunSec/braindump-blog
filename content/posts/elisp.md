@@ -1,6 +1,6 @@
 +++
 title = "elisp"
-lastmod = 2020-09-21T21:40:03-07:00
+lastmod = 2020-10-06T17:55:56-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -23,6 +23,8 @@ author = "GTrunSec"
 - <span class="section-num">3</span> [org-mode](#org-mode)
     - <span class="section-num">3.1</span> [parsing](#parsing)
         - <span class="section-num">3.1.1</span> [Elisp: Parse Org Mode](#elisp-parse-org-mode)
+    - <span class="section-num">3.2</span> [search](#search)
+        - <span class="section-num">3.2.1</span> [Kungsgeten/ivy-todo: Manage org-mode TODOs with ivy](#kungsgeten-ivy-todo-manage-org-mode-todos-with-ivy)
 
 </div>
 <!--endtoc-->
@@ -63,3 +65,9 @@ author = "GTrunSec"
 
 
 #### <span class="section-num">3.1.1</span> [Elisp: Parse Org Mode](http://ergoemacs.org/emacs/elisp%5Fparse%5Forg%5Fmode.html) {#elisp-parse-org-mode}
+
+
+### <span class="section-num">3.2</span> search {#search}
+
+
+#### <span class="section-num">3.2.1</span> [Kungsgeten/ivy-todo: Manage org-mode TODOs with ivy](https://github.com/Kungsgeten/ivy-todo) {#kungsgeten-ivy-todo-manage-org-mode-todos-with-ivy}

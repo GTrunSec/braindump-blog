@@ -1,6 +1,6 @@
 +++
 title = "My Julia"
-lastmod = 2020-10-01T14:53:14-07:00
+lastmod = 2020-10-04T03:19:00-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"

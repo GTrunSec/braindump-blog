@@ -2,7 +2,7 @@
 title = "我的购买清单"
 description = "Collect somethings which are needed in my life"
 keywords = ["life"]
-lastmod = 2020-09-26T02:56:18-07:00
+lastmod = 2020-10-04T02:09:25-07:00
 tags = ["life"]
 categories = ["GTD"]
 draft = false
@@ -110,7 +110,7 @@ Ordered on August 10, 2018
 
 [Amazon.com: Cuisinart STM-1000 Digital Glass Steamer, Stainless Steel: Kitchen & Dining](https://www.amazon.com/gp/product/B01CU0949U/ref=ppx%5Fod%5Fdt%5Fb%5Fasin%5Ftitle%5Fs00?ie=UTF8&psc=1)
 
-{{< figure src="/ox-hugo/afb8e73e-ed8e-4e9f-bf0c-6978aaf2c8cb._SL300___2019-07-24_23-27-03.jpg" >}}
+{{< figure src="/Users/gtrun/Dropbox/org-notes/braindump/afb8e73e-ed8e-4e9f-bf0c-6978aaf2c8cb._SL300___2019-07-24_23-27-03.jpg" >}}
 
 
 ### <span class="section-num">2.4</span> 电饭锅 {#电饭锅}

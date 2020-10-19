@@ -1,6 +1,6 @@
 +++
 title = "My math"
-lastmod = 2020-09-25T19:27:42-07:00
+lastmod = 2020-10-08T14:23:24-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -21,6 +21,8 @@ author = "GTrunSec"
 - <span class="section-num">2</span> [Writing Mathematic](#writing-mathematic)
     - <span class="section-num">2.1</span> [Markdown](#markdown)
     - <span class="section-num">2.2</span> [emacs](#emacs)
+- <span class="section-num">3</span> [math notes](#math-notes)
+    - <span class="section-num">3.1</span> [RL Math: MDP and other algorithms - Hung Pham](#rl-math-mdp-and-other-algorithms-hung-pham)
 
 </div>
 <!--endtoc-->
@@ -48,3 +50,9 @@ tags
 ### <span class="section-num">2.2</span> emacs {#emacs}
 
 -   [xahlee/xah-math-input: emacs minor mode for inputting math and unicode chars](https://github.com/xahlee/xah-math-input)
+
+
+## <span class="section-num">3</span> math notes {#math-notes}
+
+
+### <span class="section-num">3.1</span> [RL Math: MDP and other algorithms - Hung Pham](https://hungpham2511.github.io/rl/math/markov-decision-process/) {#rl-math-mdp-and-other-algorithms-hung-pham}

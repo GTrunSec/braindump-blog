@@ -1,6 +1,6 @@
 +++
 title = "My Regular life"
-lastmod = 2020-09-20T22:18:19-07:00
+lastmod = 2020-10-13T01:11:57-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -21,6 +21,8 @@ author = "GTrunSec"
 </div>
 <!--endtoc-->
 
+tags
+: [life hacker]({{< relref "life-hack" >}})
 
 
 ## <span class="section-num">1</span> wasting my clothes <code>[0/3]</code> {#wasting-my-clothes}
@@ -52,3 +54,11 @@ author = "GTrunSec"
         TRIGGER: next-sibling scheduled!("++1M")
 
         WILD_NOTIFIER_NOTIFY_BEFORE: 2
+
+    ```emacs-lisp
+    (require 'alert)
+
+    ;; This is the most basic form usage
+    (alert "This is an alert")
+
+    ```
