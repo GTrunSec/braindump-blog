@@ -1,6 +1,6 @@
 +++
 title = "My Haskell"
-lastmod = 2020-10-15T02:45:43-07:00
+lastmod = 2020-10-23T14:25:27-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -26,6 +26,9 @@ author = "GTrunSec"
     - <span class="section-num">4.1</span> [idontgetoutmuch / Repositories](#idontgetoutmuch-repositories):nix:
 - <span class="section-num">5</span> [Haskell llvm](#haskell-llvm)
     - <span class="section-num">5.1</span> [llvm-hs Kaleidoscope Tutorial](#llvm-hs-kaleidoscope-tutorial)
+- <span class="section-num">6</span> [Haskell lib](#haskell-lib)
+    - <span class="section-num">6.1</span> [IO lib](#io-lib)
+        - <span class="section-num">6.1.1</span> [haskell-Z/z-io: IO lib for haskell](#haskell-z-z-io-io-lib-for-haskell)
 
 </div>
 <!--endtoc-->
@@ -67,3 +70,12 @@ tags
 
 
 ### <span class="section-num">5.1</span> [llvm-hs Kaleidoscope Tutorial](https://lukelau.me/kaleidoscope/) {#llvm-hs-kaleidoscope-tutorial}
+
+
+## <span class="section-num">6</span> Haskell lib {#haskell-lib}
+
+
+### <span class="section-num">6.1</span> IO lib {#io-lib}
+
+
+#### <span class="section-num">6.1.1</span> [haskell-Z/z-io: IO lib for haskell](https://github.com/haskell-Z/z-io) {#haskell-z-z-io-io-lib-for-haskell}

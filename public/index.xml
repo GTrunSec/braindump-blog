@@ -6,7 +6,70 @@
     <description>Recent content on GuangTao&#39;s Braindump</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Oct 2020 16:01:18 -0700</lastBuildDate><atom:link href="https://braindump.gtrun.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Oct 2020 00:03:16 -0700</lastBuildDate><atom:link href="https://braindump.gtrun.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang</title>
+      <link>https://braindump.gtrun.org/posts/golang/</link>
+      <pubDate>Mon, 26 Oct 2020 00:03:16 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/golang/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Document  1.1 For beginning  1.1.1 go101/go101: An online book focusing on Go syntax/semantics. 1.1.2 Golang: Package, Import     2 Networking  2.1 Golang DNS  2.1.1 redirect2me/which-dns: Detects which DNS server is being used     3 Golang charts  3.1 go-echarts/go-echarts: 🎨 The adorable charts library for Golang       tags My learning Programming languages  1 Document 1.</description>
+    </item>
+    
+    <item>
+      <title>Nix</title>
+      <link>https://braindump.gtrun.org/posts/nix/</link>
+      <pubDate>Sun, 25 Oct 2020 03:51:32 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/nix/</guid>
+      <description>tags My learning Programming languages  NixOS written-in: Nix expression language os-family: Unix-like working-state: In development source-model: Open source initial-release: 2003; 17 years ago (2003) latest-release: 20.03/April 20, 2020; 6 months ago (2020-04-20) repository: github.com/NixOS/nixpkgs marketing-target: General purpose package-manager: Nix platforms: i686, x86-64, ARMv7, AArch64 kernel-type: Monolithic (Linux kernel) license: MIT official-website: nixos.org wikinfo-id: 27125334 URL: https://en.wikipedia.org?curid=27125334  NixOS is a Linux distribution built on top of the Nix package manager.</description>
+    </item>
+    
+    <item>
+      <title>My Media</title>
+      <link>https://braindump.gtrun.org/posts/my-media/</link>
+      <pubDate>Sun, 25 Oct 2020 01:03:38 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/my-media/</guid>
+      <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 视频剧  1.1 “一口气看完《迷失LOST》第二季：独家解析烧脑神剧，荒岛求生经典鼻祖（合集版）|抓马·美剧 - YouTube”🔊      1 视频剧 1.1 “一口气看完《迷失LOST》第二季：独家解析烧脑神剧，荒岛求生经典鼻祖（合集版）|抓马·美剧 - YouTube”🔊 </description>
+    </item>
+    
+    <item>
+      <title>My Julia</title>
+      <link>https://braindump.gtrun.org/posts/julia/</link>
+      <pubDate>Sat, 24 Oct 2020 00:47:45 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/julia/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Julia (programming language) 2 Environment  2.1 Jupyter   3 Improving the code speed  3.1 Improving the code speed by employing parallelism for asynchronous task - Usage / Performance - JuliaLang   4 Julia tutorial or courses  4.1 My math Julia math 4.2 My Finance 4.3 Machine Learning 4.4 JuliaTutorial   5 Julia Packages  5.</description>
+    </item>
+    
+    <item>
+      <title>rust</title>
+      <link>https://braindump.gtrun.org/posts/rust/</link>
+      <pubDate>Sat, 24 Oct 2020 00:47:29 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/rust/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Environment  1.1 rust nix   2 Rust learning  2.1 Hello, World! - The Rust Programming Language 2.2 ctjhoa/rust-learning: A bunch of links to blog posts, articles, videos, etc for learning Rust 2.3 rust-embedded/rust-raspberrypi-OS-tutorials: Learn to write an embedded OS in Rust 2.4 Walking A Map - Roguelike Tutorial - In Rust   3 rust embedded    1 Environment 1.</description>
+    </item>
+    
+    <item>
+      <title>My Haskell</title>
+      <link>https://braindump.gtrun.org/posts/my-haskell/</link>
+      <pubDate>Fri, 23 Oct 2020 14:25:27 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/my-haskell/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Haskell books 2 Haskell tutorial  2.1 kowainik/learn4haskell: 👩‍🏫 👨‍🏫 Learn Haskell basics in 4 pull requests   3 Haskell Repositories  3.1 obsidiansystems/solana-bridges 3.2 GitHub - AJChapman/co-log-polysemy-formatting: A Haskell library: A fancy logging effect for Polysemy using the formatting library to format log messages.:logging:   4 Haskell user  4.1 idontgetoutmuch / Repositories:nix:   5 Haskell llvm  5.</description>
+    </item>
+    
+    <item>
+      <title>Awesome Zeek</title>
+      <link>https://braindump.gtrun.org/posts/awesome-zeek/</link>
+      <pubDate>Thu, 22 Oct 2020 17:31:39 -0700</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/awesome-zeek/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Zeek installation  1.1 Zeekurity Zen - Part I: How to Install Zeek on CentOS 8 - ericooi.com  1.1.1 Zeekurity Zen Zeries - ericooi.com     2 Zeek Documents  2.1 Zeek logging  2.1.1 Logging — Zeek User Manual v3.2.2 2.1.2 2019-04-cern-zeek-logging.pdf     3 Zeek-cut  3.1 Using zeek-cut with logs   4 Zeek Performance  4.</description>
+    </item>
+    
     <item>
       <title>Network</title>
       <link>https://braindump.gtrun.org/posts/network/</link>
@@ -27,30 +90,12 @@
     </item>
     
     <item>
-      <title>Awesome Zeek</title>
-      <link>https://braindump.gtrun.org/posts/awesome-zeek/</link>
-      <pubDate>Fri, 16 Oct 2020 13:59:25 -0700</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/awesome-zeek/</guid>
-      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Zeek installation  1.1 Zeekurity Zen - Part I: How to Install Zeek on CentOS 8 - ericooi.com  1.1.1 Zeekurity Zen Zeries - ericooi.com     2 Zeek Documents  2.1 Zeek logging  2.1.1 Logging — Zeek User Manual v3.2.2 2.1.2 2019-04-cern-zeek-logging.pdf     3 Zeek-cut  3.1 Using zeek-cut with logs   4 Zeek Performance  4.</description>
-    </item>
-    
-    <item>
       <title>logging parser</title>
       <link>https://braindump.gtrun.org/posts/logging_parser/</link>
       <pubDate>Thu, 15 Oct 2020 02:46:31 -0700</pubDate>
       
       <guid>https://braindump.gtrun.org/posts/logging_parser/</guid>
       <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 logging format  1.1 logging library      1 logging format 1.1 logging library  GitHub - AJChapman/co-log-polysemy-formatting: A Haskell library: A fancy logging effect for Polysemy using the formatting library to format log messages.  My Haskell    </description>
-    </item>
-    
-    <item>
-      <title>My Haskell</title>
-      <link>https://braindump.gtrun.org/posts/my-haskell/</link>
-      <pubDate>Thu, 15 Oct 2020 02:45:43 -0700</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/my-haskell/</guid>
-      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Haskell books 2 Haskell tutorial  2.1 kowainik/learn4haskell: 👩‍🏫 👨‍🏫 Learn Haskell basics in 4 pull requests   3 Haskell Repositories  3.1 obsidiansystems/solana-bridges 3.2 GitHub - AJChapman/co-log-polysemy-formatting: A Haskell library: A fancy logging effect for Polysemy using the formatting library to format log messages.:logging:   4 Haskell user  4.1 idontgetoutmuch / Repositories:nix:   5 Haskell llvm  5.</description>
     </item>
     
     <item>
@@ -81,15 +126,6 @@
     </item>
     
     <item>
-      <title>security</title>
-      <link>https://braindump.gtrun.org/posts/securityssecurityesecuritycsecurityusecurityrsecurityisecuritytsecurityysecurity/</link>
-      <pubDate>Wed, 14 Oct 2020 13:54:45 -0700</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/securityssecurityesecuritycsecurityusecurityrsecurityisecuritytsecurityysecurity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Python</title>
       <link>https://braindump.gtrun.org/posts/my-python/</link>
       <pubDate>Tue, 13 Oct 2020 22:46:58 -0700</pubDate>
@@ -115,15 +151,6 @@
       <guid>https://braindump.gtrun.org/posts/my-finance/</guid>
       <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Course  1.1 financial course with Julia   2 Trading with Python    1 Course 1.1 financial course with Julia [2020-09-25 Fri 19:14]  -&amp;gt; GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code) [2020-09-25 Fri 19:12]  -&amp;gt; PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students
 2 Trading with Python </description>
-    </item>
-    
-    <item>
-      <title>Nix</title>
-      <link>https://braindump.gtrun.org/posts/nix/</link>
-      <pubDate>Tue, 13 Oct 2020 17:45:26 -0700</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/nix/</guid>
-      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Documents  1.1 Welcome to nix.dev — nix.dev documentation   2 Learn materials  2.1 Everything You Always Wanted To Know About Nix (But Were Afraid To Ask) - YouTube 2.2 Functional programming and Nix for reproducible, immutable infrastructure - YouTube   3 nixos  3.1 Doc  3.1.1 Module - NixOS Wiki 3.1.2 NixOS/hydra: Hydra, the Nix-based continuous build system 3.</description>
     </item>
     
     <item>
@@ -230,15 +257,6 @@ SCHEDULED: &amp;lt;2020-09-20 Sun 20:00 +1w&amp;gt;
     </item>
     
     <item>
-      <title>My Julia</title>
-      <link>https://braindump.gtrun.org/posts/julia/</link>
-      <pubDate>Sun, 04 Oct 2020 03:19:00 -0700</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/julia/</guid>
-      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Environment  1.1 Jupyter   2 Improving the code speed  2.1 Improving the code speed by employing parallelism for asynchronous task - Usage / Performance - JuliaLang   3 Julia tutorial or courses  3.1 My math 3.2 PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students 3.3 My Finance 3.4 Machine Learning   4 Julia Packages  4.</description>
-    </item>
-    
-    <item>
       <title>我的购买清单</title>
       <link>https://braindump.gtrun.org/posts/life-goods/</link>
       <pubDate>Sun, 04 Oct 2020 02:09:25 -0700</pubDate>
@@ -342,15 +360,6 @@ git clone https://github.com/mitmath/18337.git </description>
     </item>
     
     <item>
-      <title>rust</title>
-      <link>https://braindump.gtrun.org/posts/rust/</link>
-      <pubDate>Tue, 22 Sep 2020 18:58:43 -0700</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/rust/</guid>
-      <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Environment  1.1 nix      1 Environment 1.1 nix  nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.  </description>
-    </item>
-    
-    <item>
       <title>古玩字画-图鉴</title>
       <link>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E5%9B%BE%E9%89%B4/</link>
       <pubDate>Tue, 22 Sep 2020 18:09:39 -0700</pubDate>
@@ -358,15 +367,6 @@ git clone https://github.com/mitmath/18337.git </description>
       <guid>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E5%9B%BE%E9%89%B4/</guid>
       <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 服饰  1.1 万历孝靖皇后的凤冠:ATTACH:      1 服饰 1.1 万历孝靖皇后的凤冠 [2020-09-15 Tue 22:24]  &amp;lt;- 十三陵的定陵，万历孝靖皇后的凤冠 - YouTube
    点翠  </description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>https://braindump.gtrun.org/posts/golang/</link>
-      <pubDate>Mon, 21 Sep 2020 18:50:04 -0700</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/golang/</guid>
-      <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Document  1.1 For beginning  1.1.1 go101/go101: An online book focusing on Go syntax/semantics. 1.1.2 Golang: Package, Import        1 Document 1.1 For beginning 1.1.1 go101/go101: An online book focusing on Go syntax/semantics. git clone https://github.com/go101/go101.git 1.1.2 Golang: Package, Import </description>
     </item>
     
     <item>
