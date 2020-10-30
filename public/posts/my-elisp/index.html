@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><title>logging</title>
+<html><title>My Elisp</title>
 
 
 <meta charset="utf-8">
@@ -22,10 +22,88 @@
 
 <div class="grid-container">
         <div class="grid">
-                <div class="page" data-uuid="8da17588b15e50cfb42a1fb2077157b0" data-level="1">
+                <div class="page" data-uuid="64f8e903a6fef700e704350fb332671d" data-level="1">
                         <div class="content">
-                                <h1>logging</h1>
-                                
+                                <h1>My Elisp</h1>
+                                <style>
+  .ox-hugo-toc ul {
+    list-style: none;
+  }
+</style>
+<div class="ox-hugo-toc toc">
+<div></div>
+<div class="heading">Table of Contents</div>
+<ul>
+<li><span class="section-num">1</span> <a href="#elisp-documents">Elisp documents</a>
+<ul>
+<li><span class="section-num">1.1</span> <a href="#github-p3r7-awesome-elisp-a-curated-list-of-emacs-lisp-development-resources">GitHub - p3r7/awesome-elisp: A curated list of emacs-lisp development resources</a></li>
+</ul>
+</li>
+<li><span class="section-num">2</span> <a href="#buffer">Buffer</a>
+<ul>
+<li><span class="section-num">2.1</span> <a href="#%E5%A6%82%E4%BD%95%E7%BB%99%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6%E6%B7%BB%E5%8A%A0%E6%A8%A1%E5%BC%8F-emacs-general-emacs-china">如何给指定文件添加模式 - Emacs-general - Emacs China</a></li>
+</ul>
+</li>
+<li><span class="section-num">3</span> <a href="#command-interpretere">Command Interpretere</a>
+<ul>
+<li><span class="section-num">3.1</span> <a href="#comint-writing-your-own-command-interpreter-mastering-emacs">Comint: Writing your own Command Interpreter - Mastering Emacs</a></li>
+</ul>
+</li>
+<li><span class="section-num">4</span> <a href="#org-mode">org-mode</a>
+<ul>
+<li><span class="section-num">4.1</span> <a href="#parsing">parsing</a>
+<ul>
+<li><span class="section-num">4.1.1</span> <a href="#elisp-parse-org-mode">Elisp: Parse Org Mode</a></li>
+</ul>
+</li>
+<li><span class="section-num">4.2</span> <a href="#search">search</a>
+<ul>
+<li><span class="section-num">4.2.1</span> <a href="#kungsgeten-ivy-todo-manage-org-mode-todos-with-ivy">Kungsgeten/ivy-todo: Manage org-mode TODOs with ivy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><span class="section-num">5</span> <a href="#learning-elisp-from-users">learning elisp from users</a>
+<ul>
+<li><span class="section-num">5.1</span> <a href="#ideasman42-gitlab">ideasman42 · GitLab</a></li>
+</ul>
+</li>
+<li><span class="section-num">6</span> <a href="#timing">timing</a>
+<ul>
+<li><span class="section-num">6.1</span> <a href="#aspiers-etrace-emacs-lisp-latency-tracing-for-the-chromium-catapult-trace-event-format">aspiers/etrace: Emacs Lisp Latency Tracing for the Chromium Catapult Trace Event Format</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<!--endtoc-->
+<h2 id="elisp-documents"><span class="section-num">1</span> Elisp documents</h2>
+<h3 id="github-p3r7-awesome-elisp-a-curated-list-of-emacs-lisp-development-resources"><span class="section-num">1.1</span> <a href="https://github.com/p3r7/awesome-elisp">GitHub - p3r7/awesome-elisp: A curated list of emacs-lisp development resources</a></h3>
+<h2 id="buffer"><span class="section-num">2</span> Buffer</h2>
+<h3 id="如何给指定文件添加模式-emacs-general-emacs-china"><span class="section-num">2.1</span> <a href="https://emacs-china.org/t/topic/14553/17">如何给指定文件添加模式 - Emacs-general - Emacs China</a></h3>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(<span style="color:#008080">add-hook</span> <span style="color:#990073">&#39;org-mode-hook</span> (<span style="color:#0086b3">lambda</span> ()
+  <span style="color:#998;font-style:italic">;;……</span>
+  (<span style="color:#0086b3">cond</span>
+   <span style="color:#998;font-style:italic">;;如果文件最后8个字符是data.org</span>
+     ((<span style="color:#900;font-weight:bold">equal</span> (<span style="color:#900;font-weight:bold">substring</span> <span style="color:#900;font-weight:bold">buffer-file-name</span> <span style="color:#099">-8</span>) <span style="color:#d14">&#34;data.org&#34;</span>)
+       (<span style="color:#0086b3">progn</span> <span style="color:#998;font-style:italic">;;这是只对data.org文件生效的快捷键</span>
+          (<span style="color:#008080">local-set-key</span> (<span style="color:#008080">kbd</span> <span style="color:#d14">&#34;C&#34;</span>) <span style="color:#990073">&#39;next-line</span>)
+       ))
+     (<span style="color:#008080">t</span> <span style="color:#998;font-style:italic">;对不是data.org的org文件生效的快捷键</span>
+          (<span style="color:#008080">local-set-key</span> (<span style="color:#008080">kbd</span> <span style="color:#d14">&#34;C&#34;</span>) <span style="color:#990073">&#39;hydra-org-mode/body</span>)
+     ))
+))
+</code></pre></div><h2 id="command-interpretere"><span class="section-num">3</span> Command Interpretere</h2>
+<h3 id="comint-writing-your-own-command-interpreter-mastering-emacs"><span class="section-num">3.1</span> <a href="https://www.masteringemacs.org/article/comint-writing-command-interpreter">Comint: Writing your own Command Interpreter - Mastering Emacs</a></h3>
+<h2 id="org-mode"><span class="section-num">4</span> org-mode</h2>
+<h3 id="parsing"><span class="section-num">4.1</span> parsing</h3>
+<h4 id="elisp-parse-org-mode"><span class="section-num">4.1.1</span> <a href="http://ergoemacs.org/emacs/elisp%5Fparse%5Forg%5Fmode.html">Elisp: Parse Org Mode</a></h4>
+<h3 id="search"><span class="section-num">4.2</span> search</h3>
+<h4 id="kungsgeten-ivy-todo-manage-org-mode-todos-with-ivy"><span class="section-num">4.2.1</span> <a href="https://github.com/Kungsgeten/ivy-todo">Kungsgeten/ivy-todo: Manage org-mode TODOs with ivy</a></h4>
+<h2 id="learning-elisp-from-users"><span class="section-num">5</span> learning elisp from users</h2>
+<h3 id="ideasman42-gitlab"><span class="section-num">5.1</span> <a href="https://gitlab.com/ideasman42">ideasman42 · GitLab</a></h3>
+<h2 id="timing"><span class="section-num">6</span> timing</h2>
+<h3 id="aspiers-etrace-emacs-lisp-latency-tracing-for-the-chromium-catapult-trace-event-format"><span class="section-num">6.1</span> <a href="https://github.com/aspiers/etrace">aspiers/etrace: Emacs Lisp Latency Tracing for the Chromium Catapult Trace Event Format</a></h3>
+
                         </div>
                         <div class="bl-section">
                                 <h4>Links to this note</h4>

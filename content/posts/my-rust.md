@@ -1,6 +1,6 @@
 +++
-title = "rust"
-lastmod = 2020-10-24T00:47:29-07:00
+title = "My Rust"
+lastmod = 2020-10-30T03:05:21-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -35,7 +35,7 @@ author = "GTrunSec"
 
 ### <span class="section-num">1.1</span> rust nix {#rust-nix}
 
--   [nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.](nix.md)
+-   [nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.](my-nix.md)
 
 
 ## <span class="section-num">2</span> Rust learning {#rust-learning}

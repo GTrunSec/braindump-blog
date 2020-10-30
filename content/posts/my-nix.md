@@ -1,6 +1,6 @@
 +++
 title = "Ny Nix"
-lastmod = 2020-10-29T20:45:55-07:00
+lastmod = 2020-10-30T03:09:40-07:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -39,7 +39,7 @@ author = "GTrunSec"
     - <span class="section-num">6.2</span> [Haskell Overlay](#haskell-overlay)
     - <span class="section-num">6.3</span> [Python Overlay](#python-overlay)
 - <span class="section-num">7</span> [Programming languages Environment](#programming-languages-environment)
-    - <span class="section-num">7.1</span> [Nix rust](#nix-rust--dot-dot-dot-dot-dot-dot-documents-org-notes-braindump-rust-dot-md)
+    - <span class="section-num">7.1</span> [Nix My Rust](#nix-my-rust--my-rust-dot-md)
     - <span class="section-num">7.2</span> [Nix My Haskell](#nix-my-haskell--my-haskell-dot-md)
     - <span class="section-num">7.3</span> [Nix Python](#nix-python--my-python-dot-md)
     - <span class="section-num">7.4</span> [Nix Golang](#nix-golang--dot-dot-dot-dot-dot-dot-documents-org-notes-braindump-golang-dot-md)
@@ -96,6 +96,7 @@ author = "GTrunSec"
     - <span class="section-num">22.1</span> [vlaci/nix-doom-emacs: doom-emacs packaged for Nix](#vlaci-nix-doom-emacs-doom-emacs-packaged-for-nix)
 - <span class="section-num">23</span> [Nix Friday](#nix-friday)
     - <span class="section-num">23.1</span> [Nix Friday - Flakes! - YouTube](#nix-friday-flakes-youtube)
+- <span class="section-num">24</span> [ROS Nix](#ros-nix)
 
 </div>
 <!--endtoc-->
@@ -255,7 +256,7 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 ## <span class="section-num">7</span> Programming languages Environment {#programming-languages-environment}
 
 
-### <span class="section-num">7.1</span> Nix [rust]({{< relref "rust" >}}) {#nix-rust--dot-dot-dot-dot-dot-dot-documents-org-notes-braindump-rust-dot-md}
+### <span class="section-num">7.1</span> Nix [My Rust]({{< relref "my-rust" >}}) {#nix-my-rust--my-rust-dot-md}
 
 <!--list-separator-->
 
@@ -643,18 +644,20 @@ nix flake archive --json \
   | cachix push $cache_name
 ```
 
--   soultion
+-   nix build -> soultion
 
     ```sh
     nix path-info --json | jq -r '.[].path' | cachix push $cache_name
     ```
 
-    -   nix develop
+<!--listend-->
 
-        ```sh
-        nix develop --profile dev-profiile && cachix push mycache dev-profile
+-   nix develop
 
-        ```
+    ```sh
+    nix develop --profile dev-profiile && cachix push mycache dev-profile
+
+    ```
 
 
 ## <span class="section-num">14</span> nix expressions {#nix-expressions}
@@ -746,3 +749,10 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
     ID: 2e37c4e9-b74d-490c-9b12-fc5aade3de68
 
 <span class="timestamp-wrapper"><span class="timestamp">[2020-10-26 Mon 21:40] </span></span> <- [flakes](#flakes)
+
+
+## <span class="section-num">24</span> ROS Nix {#ros-nix}
+
+    ID: dc7cc7f9-fb80-46d1-89c7-cb7def5ba1f4
+
+<span class="timestamp-wrapper"><span class="timestamp">[2020-10-30 Fri 02:59] </span></span> -> [lopsided98/nix-ros-overlay: ROS overlay for the Nix package manager](robot.md)
