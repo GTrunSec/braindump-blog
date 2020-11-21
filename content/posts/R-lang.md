@@ -1,6 +1,6 @@
 +++
 title = "R lang"
-lastmod = 2020-10-10T13:45:12-07:00
+lastmod = 2020-11-21T03:17:07-08:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"

@@ -1,6 +1,6 @@
 +++
 title = "org-mode"
-lastmod = 2020-10-30T03:06:12-07:00
+lastmod = 2020-11-21T03:18:53-08:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"

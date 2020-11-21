@@ -1,6 +1,6 @@
 +++
 title = "My Finance"
-lastmod = 2020-10-13T22:07:16-07:00
+lastmod = 2020-11-21T03:10:31-08:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -30,8 +30,10 @@ author = "GTrunSec"
 
 ### <span class="section-num">1.1</span> financial course with Julia {#financial-course-with-julia}
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-09-25 Fri 19:14] </span></span> -> [GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)]({{< relref "julia" >}})
-<span class="timestamp-wrapper"><span class="timestamp">[2020-09-25 Fri 19:12] </span></span> -> [PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students]({{< relref "julia" >}})
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-20 Fri 03:03] </span></span> <- [PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students](julia.md)
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-20 Fri 03:02] </span></span> <- [GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)](julia.md)
 
 
 ## <span class="section-num">2</span> Trading with Python {#trading-with-python}
+
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-20 Fri 03:04] </span></span> -> [GitHub - chrisconlan/algorithmic-trading-with-python: Source code for Algorithmic Trading with Python (2020) by Chris Conlan](my-python.md)

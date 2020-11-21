@@ -1,6 +1,6 @@
 +++
 title = "Ny Nix"
-lastmod = 2020-10-30T03:09:40-07:00
+lastmod = 2020-11-21T03:15:04-08:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -39,10 +39,13 @@ author = "GTrunSec"
     - <span class="section-num">6.2</span> [Haskell Overlay](#haskell-overlay)
     - <span class="section-num">6.3</span> [Python Overlay](#python-overlay)
 - <span class="section-num">7</span> [Programming languages Environment](#programming-languages-environment)
-    - <span class="section-num">7.1</span> [Nix My Rust](#nix-my-rust--my-rust-dot-md)
-    - <span class="section-num">7.2</span> [Nix My Haskell](#nix-my-haskell--my-haskell-dot-md)
-    - <span class="section-num">7.3</span> [Nix Python](#nix-python--my-python-dot-md)
-    - <span class="section-num">7.4</span> [Nix Golang](#nix-golang--dot-dot-dot-dot-dot-dot-documents-org-notes-braindump-golang-dot-md)
+    - <span class="section-num">7.1</span> [wiki](#wiki)
+    - <span class="section-num">7.2</span> [Nix My Rust](#nix-my-rust--my-rust-dot-md)
+    - <span class="section-num">7.3</span> [Nix My Haskell](#nix-my-haskell--my-haskell-dot-md)
+    - <span class="section-num">7.4</span> [Nix Python](#nix-python--my-python-dot-md)
+    - <span class="section-num">7.5</span> [Nix My Golang](#nix-my-golang--dot-dot-dot-dot-dot-dot-documents-org-notes-braindump-my-golang-dot-md)
+    - <span class="section-num">7.6</span> [Nix My Node list](#nix-my-node-list--node-dot-md)
+    - <span class="section-num">7.7</span> [Nix My Clang](#nix-my-clang--my-clang-dot-md)
 - <span class="section-num">8</span> [configuration flakes](#configuration-flakes)
     - <span class="section-num">8.1</span> [nrdxp/nixflk: highly structured NixOS configuration database](#nrdxp-nixflk-highly-structured-nixos-configuration-database)
     - <span class="section-num">8.2</span> [nixrc/flake.nix at live · bqv/nixrc](#nixrc-flake-dot-nix-at-live-bqv-nixrc)
@@ -54,28 +57,35 @@ author = "GTrunSec"
     - <span class="section-num">8.8</span> [nixcfg/flake.nix at template · l5r/nixcfg](#nixcfg-flake-dot-nix-at-template-l5r-nixcfg)
     - <span class="section-num">8.9</span> [nixos-config/flake.nix at nixus · cole-h/nixos-config](#nixos-config-flake-dot-nix-at-nixus-cole-h-nixos-config)
     - <span class="section-num">8.10</span> [https://github.com/Kloenk/nix/blob/master/flake.nix](#https-github-dot-com-kloenk-nix-blob-master-flake-dot-nix)
+    - <span class="section-num">8.11</span> [qjcg/nix: My personal nix configuration](#qjcg-nix-my-personal-nix-configuration)
+    - <span class="section-num">8.12</span> [johnae/tektonix: TektonCD pipelines using the NixOS module system.](#johnae-tektonix-tektoncd-pipelines-using-the-nixos-module-system-dot)
 - <span class="section-num">9</span> [flakes](#flakes)
-    - <span class="section-num">9.1</span> [Flakes wiki](#flakes-wiki)
+    - <span class="section-num">9.1</span> [Flakes wiki <code>[0/3]</code>](#flakes-wiki)
     - <span class="section-num">9.2</span> [Nix Flakes edition | $ zimbatm](#nix-flakes-edition-zimbatm)
     - <span class="section-num">9.3</span> [numtide/flake-utils: Pure Nix flake utility functions](#numtide-flake-utils-pure-nix-flake-utility-functions)
     - <span class="section-num">9.4</span> [hydra CI build packages](#hydra-ci-build-packages)
     - <span class="section-num">9.5</span> [learning flakes](#learning-flakes)
+    - <span class="section-num">9.6</span> [flake check](#flake-check)
 - <span class="section-num">10</span> [Networking](#networking)
     - <span class="section-num">10.1</span> [icebox-nix/netkit.nix: Verstile tools for advanced networking scenarios in NixOS](#icebox-nix-netkit-dot-nix-verstile-tools-for-advanced-networking-scenarios-in-nixos)
 - <span class="section-num">11</span> [Security](#security)
     - <span class="section-num">11.1</span> [localhost/security.nix at master · jollheef/localhost](#localhost-security-dot-nix-at-master-jollheef-localhost)
     - <span class="section-num">11.2</span> [Nix SElinux](#nix-selinux)
+    - <span class="section-num">11.3</span> [Nix vulnerability](#nix-vulnerability)
+    - <span class="section-num">11.4</span> [Nix Security option](#nix-security-option)
 - <span class="section-num">12</span> [home-manager](#home-manager)
     - <span class="section-num">12.1</span> [home-manager overlay](#home-manager-overlay)
     - <span class="section-num">12.2</span> [IsLinux or IsDarwin](#islinux-or-isdarwin)
 - <span class="section-num">13</span> [Cachix](#cachix)
     - <span class="section-num">13.1</span> [push binary cache with nix-shell](#push-binary-cache-with-nix-shell)
     - <span class="section-num">13.2</span> [Pushing Flake inputs to Cachix](#pushing-flake-inputs-to-cachix)
+    - <span class="section-num">13.3</span> [How to push the derivations from a shell.nix to cachix? - Learn - NixOS Discourse](#how-to-push-the-derivations-from-a-shell-dot-nix-to-cachix-learn-nixos-discourse)
 - <span class="section-num">14</span> [nix expressions](#nix-expressions)
-    - <span class="section-num">14.1</span> [zimbatm/nix-experiments](#zimbatm-nix-experiments)
-    - <span class="section-num">14.2</span> [parser](#parser)
-    - <span class="section-num">14.3</span> [<span class="org-todo done __IMPORTANT">✰ IMPORTANT</span> Nix Expression Language - NixOS Wiki](#nix-expression-language-nixos-wiki)
-    - <span class="section-num">14.4</span> [nix-path](#nix-path)
+    - <span class="section-num">14.1</span> [Nix language](#nix-language)
+    - <span class="section-num">14.2</span> [zimbatm/nix-experiments](#zimbatm-nix-experiments)
+    - <span class="section-num">14.3</span> [parser](#parser)
+    - <span class="section-num">14.4</span> [<span class="org-todo done __IMPORTANT">✰ IMPORTANT</span> Nix Expression Language - NixOS Wiki](#nix-expression-language-nixos-wiki)
+    - <span class="section-num">14.5</span> [nix-path](#nix-path)
 - <span class="section-num">15</span> [nix-hash](#nix-hash)
     - <span class="section-num">15.1</span> [jwiegley/nix-update-el: An Emacs command for updating fetch declarations in place](#jwiegley-nix-update-el-an-emacs-command-for-updating-fetch-declarations-in-place)
     - <span class="section-num">15.2</span> [numtide/rnix-hashes: Nix Hash Converter](#numtide-rnix-hashes-nix-hash-converter)
@@ -88,7 +98,7 @@ author = "GTrunSec"
 - <span class="section-num">19</span> [Nix Router](#nix-router)
     - <span class="section-num">19.1</span> [https://github.com/GTrunSec/nixwrt](#https-github-dot-com-gtrunsec-nixwrt)
 - <span class="section-num">20</span> [service deployment](#service-deployment)
-    - <span class="section-num">20.1</span> [https://github.com/svanderburg/disnix](#https-github-dot-com-svanderburg-disnix)
+    - <span class="section-num">20.1</span> [svanderburg/disnix: Disnix: A Nix-based distributed service deployment tool](#svanderburg-disnix-disnix-a-nix-based-distributed-service-deployment-tool)
     - <span class="section-num">20.2</span> [https://github.com/svanderburg/nix-processmgmt](#https-github-dot-com-svanderburg-nix-processmgmt)
 - <span class="section-num">21</span> [enhanced nix configuration](#enhanced-nix-configuration)
     - <span class="section-num">21.1</span> [tweag/nickel: Cheap configuration language](#tweag-nickel-cheap-configuration-language):parser:query:
@@ -96,7 +106,33 @@ author = "GTrunSec"
     - <span class="section-num">22.1</span> [vlaci/nix-doom-emacs: doom-emacs packaged for Nix](#vlaci-nix-doom-emacs-doom-emacs-packaged-for-nix)
 - <span class="section-num">23</span> [Nix Friday](#nix-friday)
     - <span class="section-num">23.1</span> [Nix Friday - Flakes! - YouTube](#nix-friday-flakes-youtube)
+    - <span class="section-num">23.2</span> [Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube](#nix-friday-c-cpp-infrastructure-in-nix-with-mic92-youtube)
 - <span class="section-num">24</span> [ROS Nix](#ros-nix)
+- <span class="section-num">25</span> [NixOS container](#nixos-container)
+    - <span class="section-num">25.1</span> [erikarvstedt/extra-container: Run declarative NixOS containers without full system rebuilds](#erikarvstedt-extra-container-run-declarative-nixos-containers-without-full-system-rebuilds)
+- <span class="section-num">26</span> [Other language implementation Nix](#other-language-implementation-nix)
+    - <span class="section-num">26.1</span> [haskell-nix/hnix: A Haskell re-implementation of the Nix expression language](#haskell-nix-hnix-a-haskell-re-implementation-of-the-nix-expression-language)
+- <span class="section-num">27</span> [NixOps](#nixops)
+    - <span class="section-num">27.1</span> [learning NixOps](#learning-nixops)
+    - <span class="section-num">27.2</span> [NixOps organization](#nixops-organization)
+    - <span class="section-num">27.3</span> [tweag/terraform-nixos: A set of Terraform modules that are designed to deploy NixOS](#tweag-terraform-nixos-a-set-of-terraform-modules-that-are-designed-to-deploy-nixos)
+- <span class="section-num">28</span> [Nix cross-compiling](#nix-cross-compiling)
+    - <span class="section-num">28.1</span> [pololu/nixcrpkgs: Tools for cross-compiling standalone applications using Nix.](#pololu-nixcrpkgs-tools-for-cross-compiling-standalone-applications-using-nix-dot)
+- <span class="section-num">29</span> [Nix ISSUE](#nix-issue)
+    - <span class="section-num">29.1</span> [Nix flake issue](#nix-flake-issue)
+- <span class="section-num">30</span> [Nix develop -> flake](#nix-develop-flake)
+    - <span class="section-num">30.1</span> [nix develop: Add &#x2013;redirect flag to redirect dependencies by edolstra · Pull Request #4161 · NixOS/nix](#nix-develop-add-and-x2013-redirect-flag-to-redirect-dependencies-by-edolstra-pull-request-4161-nixos-nix)
+- <span class="section-num">31</span> [Visual Nix](#visual-nix)
+    - <span class="section-num">31.1</span> [GTrunSec/grafanix: Visualize your Nix dependencies!](#gtrunsec-grafanix-visualize-your-nix-dependencies)
+- <span class="section-num">32</span> [Nix dependency manager](#nix-dependency-manager)
+    - <span class="section-num">32.1</span> [obsidiansystems/nix-thunk](#obsidiansystems-nix-thunk)
+- <span class="section-num">33</span> [Useful Nix Bin Scripts](#useful-nix-bin-scripts)
+    - <span class="section-num">33.1</span> [nix-build-inplace/nix-build-inplace at master · ryantrinkle/nix-build-inplace](#nix-build-inplace-nix-build-inplace-at-master-ryantrinkle-nix-build-inplace)
+    - <span class="section-num">33.2</span> [elitak/nixos-infect: [GPLv3+] install nixos over the existing OS in a DigitalOcean droplet (and others with minor modifications)](#elitak-nixos-infect-gplv3-plus-install-nixos-over-the-existing-os-in-a-digitalocean-droplet--and-others-with-minor-modifications)
+- <span class="section-num">34</span> [Nix Docker deployment](#nix-docker-deployment)
+    - <span class="section-num">34.1</span> [nixfiles/configuration.nix at master · barrucadu/nixfiles](#nixfiles-configuration-dot-nix-at-master-barrucadu-nixfiles)
+- <span class="section-num">35</span> [Nix GUI](#nix-gui)
+- <span class="section-num">36</span> [pmiddend/nixos-manager: Manage your NixOS packages and configuration via a simple, intuitive UI](#pmiddend-nixos-manager-manage-your-nixos-packages-and-configuration-via-a-simple-intuitive-ui)
 
 </div>
 <!--endtoc-->
@@ -187,6 +223,10 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 
 3.  [niveum/modules at master · kmein/niveum](https://github.com/kmein/niveum/tree/master/modules)
 
+<!--list-separator-->
+
+4.  [Xe/nixos-configs: My NixOS configs](https://github.com/Xe/nixos-configs)     :nixops:
+
 
 ### <span class="section-num">4.3</span> other plantform {#other-plantform}
 
@@ -246,28 +286,33 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 
     ID: abf91e96-c75b-4313-8ac7-da713ae86a4f
 
--   [Python]({{< relref "my-python" >}})
-
 <!--list-separator-->
 
 1.  [How to override Python package (Anki)? - Learn - NixOS Discourse](https://discourse.nixos.org/t/how-to-override-python-package-anki/8213)
+
+        ID: 2154d26e-213b-4ef4-9081-4960f8facb73
 
 
 ## <span class="section-num">7</span> Programming languages Environment {#programming-languages-environment}
 
 
-### <span class="section-num">7.1</span> Nix [My Rust]({{< relref "my-rust" >}}) {#nix-my-rust--my-rust-dot-md}
+### <span class="section-num">7.1</span> wiki {#wiki}
+
+-   <https://nixos.wiki/wiki/Language-specific%5Fpackage%5Fhelpers>
+
+
+### <span class="section-num">7.2</span> Nix [My Rust]({{< relref "my-rust" >}}) {#nix-my-rust--my-rust-dot-md}
 
 <!--list-separator-->
 
 1.  [nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.](https://github.com/nmattia/naersk)
 
-        ID: 356ede31-9b8f-40c4-bc5c-abec4b6c98d5
+        ID: 02aa0111-a92e-41d6-abca-ce4cc6c7a931
 
-    <span class="timestamp-wrapper"><span class="timestamp">[2020-09-22 Tue 18:58] </span></span> <- [nix](my-rust.md)
+    <span class="timestamp-wrapper"><span class="timestamp">[2020-11-11 Wed 16:19] </span></span> <- [rust nix](my-rust.md)
 
 
-### <span class="section-num">7.2</span> Nix [My Haskell]({{< relref "my-haskell" >}}) {#nix-my-haskell--my-haskell-dot-md}
+### <span class="section-num">7.3</span> Nix [My Haskell]({{< relref "my-haskell" >}}) {#nix-my-haskell--my-haskell-dot-md}
 
     ID: fdd307fb-61eb-4b95-a622-2738c75c4d46
 
@@ -275,20 +320,44 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 
 <!--list-separator-->
 
-1.  [Nix Haskell Development (2020) - Howto - NixOS Discourse](https://discourse.nixos.org/t/nix-haskell-development-2020/6170)
+1.  Haskell Infrastructure for Nixpkgs
 
-        ID: 1247ef62-a9d8-4779-a793-97802be399f4
+    <!--list-separator-->
 
-    <span class="timestamp-wrapper"><span class="timestamp">[2020-10-26 Mon 21:56] </span></span> <- [Haskell Overlay](#haskell-overlay)
+    1.  [input-output-hk/haskell.nix: Alternative Haskell Infrastructure for Nixpkgs](https://github.com/input-output-hk/haskell.nix)
 
-    -   [nixpkgs/configuration-common.nix at master · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/haskell-modules/configuration-common.nix)
+    <!--list-separator-->
+
+    2.  [reflex-frp/reflex-platform: A curated package set and set of tools that let you build Haskell packages so they can run on a variety of platforms. reflex-platform is built on top of the nix package manager.](https://github.com/reflex-frp/reflex-platform)
+
+<!--list-separator-->
+
+2.  Haskell Development -> NixPkgs
+
+    <!--list-separator-->
+
+    1.  [Nix Haskell Development (2020) - Howto - NixOS Discourse](https://discourse.nixos.org/t/nix-haskell-development-2020/6170)
+
+            ID: 1247ef62-a9d8-4779-a793-97802be399f4
+
+        <span class="timestamp-wrapper"><span class="timestamp">[2020-10-26 Mon 21:56] </span></span> <- [Haskell Overlay](#haskell-overlay)
+
+        -   [nixpkgs/configuration-common.nix at master · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/haskell-modules/configuration-common.nix)
+
+<!--list-separator-->
+
+3.  Nix Haskell Documents for beginning
+
+    <!--list-separator-->
+
+    1.  [Nix recipes for Haskellers - Sridhar Ratnakumar](https://www.srid.ca/1948201.html)
 
 
-### <span class="section-num">7.3</span> Nix [Python]({{< relref "my-python" >}}) {#nix-python--my-python-dot-md}
+### <span class="section-num">7.4</span> Nix [Python]({{< relref "my-python" >}}) {#nix-python--my-python-dot-md}
 
     ID: f08fdb79-58f8-4186-b890-06e1486702e9
 
--   [Python Overlay](#python-overlay)
+[How to override Python package (Anki)? - Learn - NixOS Discourse](#how-to-override-python-package--anki--learn-nixos-discourse)
 
 <!--list-separator-->
 
@@ -299,9 +368,11 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
     ```
 
 
-### <span class="section-num">7.4</span> Nix [Golang]({{< relref "golang" >}}) {#nix-golang--dot-dot-dot-dot-dot-dot-documents-org-notes-braindump-golang-dot-md}
+### <span class="section-num">7.5</span> Nix [My Golang]({{< relref "my-golang" >}}) {#nix-my-golang--dot-dot-dot-dot-dot-dot-documents-org-notes-braindump-my-golang-dot-md}
 
--   [orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go](#orivej-go-nix-nix-language-parser-and-nix-compatible-file-hasher-in-go)
+    id: 33107453-baf3-4e27-871b-833b93f5ad76
+
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-20 Fri 01:18] </span></span> -> [orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go](#orivej-go-nix-nix-language-parser-and-nix-compatible-file-hasher-in-go)
 
 <!--list-separator-->
 
@@ -314,7 +385,29 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
     -   [Build GoLang code provided not as Go module - Learn - NixOS Discourse](https://discourse.nixos.org/t/build-golang-code-provided-not-as-go-module/9543/10)
 
 
+### <span class="section-num">7.6</span> Nix [My Node list]({{< relref "node" >}}) {#nix-my-node-list--node-dot-md}
+
+<!--list-separator-->
+
+1.  <https://andreas.rammhold.de/posts/ranz2nix/>
+
+
+### <span class="section-num">7.7</span> Nix [My Clang]({{< relref "my-clang" >}}) {#nix-my-clang--my-clang-dot-md}
+
+<!--list-separator-->
+
+1.  C/C++ Nix infrastructure
+
+        ID: 0680ffeb-a824-4dec-b15d-0e8ec04e97b9
+
+    <span class="timestamp-wrapper"><span class="timestamp">[2020-11-07 Sat 22:56] </span></span> -> [Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube](#nix-friday-c-cpp-infrastructure-in-nix-with-mic92-youtube)
+
+
 ## <span class="section-num">8</span> configuration flakes {#configuration-flakes}
+
+    ID: 8a9e45f4-fa22-41b9-9862-d653ea91822c
+
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-09 Mon 15:40] </span></span> <- [flakes](#flakes)
 
 
 ### <span class="section-num">8.1</span> [nrdxp/nixflk: highly structured NixOS configuration database](https://github.com/nrdxp/nixflk/) {#nrdxp-nixflk-highly-structured-nixos-configuration-database}
@@ -346,21 +439,30 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 
 ### <span class="section-num">8.10</span> <https://github.com/Kloenk/nix/blob/master/flake.nix> {#https-github-dot-com-kloenk-nix-blob-master-flake-dot-nix}
 
+\*\*
+
+
+### <span class="section-num">8.11</span> [qjcg/nix: My personal nix configuration](https://github.com/qjcg/nix) {#qjcg-nix-my-personal-nix-configuration}
+
+
+### <span class="section-num">8.12</span> [johnae/tektonix: TektonCD pipelines using the NixOS module system.](https://github.com/johnae/tektonix/tree/master) {#johnae-tektonix-tektoncd-pipelines-using-the-nixos-module-system-dot}
+
 
 ## <span class="section-num">9</span> flakes {#flakes}
 
     ID: 0fbe152b-bad6-4054-a201-c51ab509ed73
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-10-26 Mon 21:40] </span></span> -> [Nix Friday - Flakes! - YouTube](#nix-friday-flakes-youtube)
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-20 Fri 02:31] </span></span> <- [Pushing Flake inputs to Cachix](#pushing-flake-inputs-to-cachix)
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-20 Fri 02:28] </span></span> <- [Nix Friday - Flakes! - YouTube](#nix-friday-flakes-youtube)
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-09 Mon 22:30] </span></span> -> [Nix flake issue](#nix-flake-issue)
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-09 Mon 15:40] </span></span> -> [configuration flakes](#configuration-flakes)
 
--   [Pushing Flake inputs to Cachix](#pushing-flake-inputs-to-cachix)
 
+### <span class="section-num">9.1</span> Flakes wiki <code>[0/3]</code> {#flakes-wiki}
 
-### <span class="section-num">9.1</span> Flakes wiki {#flakes-wiki}
-
--   [ ] [wiki] [Flakes - NixOS Wiki](https://nixos.wiki/wiki/Flakes)
--   [ ] [wiki] [nix-flakes.md](https://gist.github.com/edolstra/40da6e3a4d4ee8fd019395365e0772e7)
--   [ ] [] ~/.config/nix/nix.conf
+-   [wiki] [Flakes - NixOS Wiki](https://nixos.wiki/wiki/Flakes)
+-   [nix-flakes.md](https://gist.github.com/edolstra/40da6e3a4d4ee8fd019395365e0772e7)
+-   [conf] ~/.config/nix/nix.conf
 
     ```conf
       experimental-features = nix-command flakes
@@ -371,6 +473,7 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 1.  Output scheme
 
     ```nix
+
     { self, ... }@inputs:
     {
       # This will be shown in `nix flake info`
@@ -417,7 +520,7 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 
     ID: 09df2341-7aa3-4f56-a823-04b4e591988d
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-10-01 Thu 23:35] </span></span> <- [Pushing Flake inputs to Cachix](#pushing-flake-inputs-to-cachix)
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-06 Fri 19:22] </span></span> <- [Pushing Flake inputs to Cachix](#pushing-flake-inputs-to-cachix)
 
 
 ### <span class="section-num">9.3</span> [numtide/flake-utils: Pure Nix flake utility functions](https://github.com/numtide/flake-utils) {#numtide-flake-utils-pure-nix-flake-utility-functions}
@@ -513,6 +616,13 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 -   [Good practice for Nix Flakes - Learn - NixOS Discourse](https://discourse.nixos.org/t/good-practice-for-nix-flakes/9706/2)
 
 
+### <span class="section-num">9.6</span> flake check {#flake-check}
+
+<!--list-separator-->
+
+1.  [My painpoints with flakes - NixOS Discourse](https://discourse.nixos.org/t/my-painpoints-with-flakes/9750/5)
+
+
 ## <span class="section-num">10</span> Networking {#networking}
 
 
@@ -580,6 +690,27 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
     ```
 
 
+### <span class="section-num">11.3</span> Nix vulnerability {#nix-vulnerability}
+
+<!--list-separator-->
+
+1.  [andir/nix-vulnerability-scanner](https://github.com/andir/nix-vulnerability-scanner)
+
+
+### <span class="section-num">11.4</span> Nix Security option {#nix-security-option}
+
+<!--list-separator-->
+
+1.  [Default security settings - Development / Security - NixOS Discourse](https://discourse.nixos.org/t/default-security-settings/9755/2)
+
+    ```nix
+    security.lockKernelModules = false
+    ```
+
+    Disable kernel module loading once the system is fully initialised.
+    Module loading is disabled until the next reboot.  Problems caused by delayed module loading can be fixed by adding the module(s) in question to <option>boot.kernelModule
+
+
 ## <span class="section-num">12</span> home-manager {#home-manager}
 
 -   [Home Manager Manual](https://rycee.gitlab.io/home-manager/index.html#%5Fhow%5Fdo%5Fset%5Fup%5Fa%5Fconfiguration%5Ffor%5Fmultiple%5Fusers%5Fmachines)
@@ -587,7 +718,7 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 
 ### <span class="section-num">12.1</span> home-manager overlay {#home-manager-overlay}
 
-    ID: a7ec1635-5502-4b02-922f-fc4489c4d352
+    id: a7ec1635-5502-4b02-922f-fc4489c4d352
 
 <span class="timestamp-wrapper"><span class="timestamp">[2020-09-30 Wed 20:54] </span></span> <- [Nix Overlays](#nix-overlays)
 
@@ -632,8 +763,8 @@ nix-store --query --references $(nix-instantiate my-default.nix) | xargs nix-sto
 
     ID: 0ba37b42-f3e7-453a-b021-3f817b9264e8
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-10-13 Tue 17:45] </span></span> <- [flakes](#flakes)
-
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-06 Fri 19:22] </span></span> -> [Nix Flakes edition | $ zimbatm](#nix-flakes-edition-zimbatm)
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-20 Fri 02:31] </span></span> -> [flakes](#flakes)
 -   [Nix Flakes edition | $ zimbatm](#nix-flakes-edition-zimbatm)
 
 <!--listend-->
@@ -660,25 +791,49 @@ nix flake archive --json \
     ```
 
 
+### <span class="section-num">13.3</span> [How to push the derivations from a shell.nix to cachix? - Learn - NixOS Discourse](https://discourse.nixos.org/t/how-to-push-the-derivations-from-a-shell-nix-to-cachix/3172) {#how-to-push-the-derivations-from-a-shell-dot-nix-to-cachix-learn-nixos-discourse}
+
+```sh
+nix-store --query --references $(nix-instantiate default.nix) | \xargs nix-store --realise | xargs nix-store --query --requisites | cachix push $NAME
+```
+
+
 ## <span class="section-num">14</span> nix expressions {#nix-expressions}
 
+    ID: 0dcb0b08-5d66-4cf9-8b14-fafaccb739b0
 
-### <span class="section-num">14.1</span> [zimbatm/nix-experiments](https://github.com/zimbatm/nix-experiments) {#zimbatm-nix-experiments}
+<span class="timestamp-wrapper"><span class="timestamp">[2020-11-09 Mon 19:12] </span></span> -> [GTrunSec/nix-expressions-jupyter-repl-test](jupyter-nix.md)
 
 
-### <span class="section-num">14.2</span> parser {#parser}
+### <span class="section-num">14.1</span> Nix language {#nix-language}
+
+<!--list-separator-->
+
+1.  [Nix language — nix.dev documentation](https://nix.dev/anti-patterns/language.html)
+
+
+### <span class="section-num">14.2</span> [zimbatm/nix-experiments](https://github.com/zimbatm/nix-experiments) {#zimbatm-nix-experiments}
+
+
+### <span class="section-num">14.3</span> parser {#parser}
 
 <!--list-separator-->
 
 1.  [orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go](https://github.com/orivej/go-nix)
 
-    <span class="timestamp-wrapper"><span class="timestamp">[2020-10-23 Fri 14:27] </span></span> <-
+        id: d1d661f8-178c-4bd9-b848-0a2b768066f5
+
+    -   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-20 Fri 01:18] </span></span> <- [Nix Golang](#nix-my-golang--relref-my-golang)
+
+<!--list-separator-->
+
+2.  [nprindle/nix-parsec](https://github.com/nprindle/nix-parsec)
 
 
-### <span class="org-todo done __IMPORTANT">✰ IMPORTANT</span> <span class="section-num">14.3</span> [Nix Expression Language - NixOS Wiki](https://nixos.wiki/wiki/Nix%5FExpression%5FLanguage) {#nix-expression-language-nixos-wiki}
+### <span class="org-todo done __IMPORTANT">✰ IMPORTANT</span> <span class="section-num">14.4</span> [Nix Expression Language - NixOS Wiki](https://nixos.wiki/wiki/Nix%5FExpression%5FLanguage) {#nix-expression-language-nixos-wiki}
 
 
-### <span class="section-num">14.4</span> nix-path {#nix-path}
+### <span class="section-num">14.5</span> nix-path {#nix-path}
 
 <!--list-separator-->
 
@@ -721,7 +876,11 @@ nix flake archive --json \
 ## <span class="section-num">20</span> service deployment {#service-deployment}
 
 
-### <span class="section-num">20.1</span> <https://github.com/svanderburg/disnix> {#https-github-dot-com-svanderburg-disnix}
+### <span class="section-num">20.1</span> [svanderburg/disnix: Disnix: A Nix-based distributed service deployment tool](https://github.com/svanderburg/disnix) {#svanderburg-disnix-disnix-a-nix-based-distributed-service-deployment-tool}
+
+<!--list-separator-->
+
+1.  [Sander van der Burg's blog: Transforming Disnix models to graphs and visualizing them](https://sandervanderburg.blogspot.com/2020/10/transforming-disnix-models-to-graphs.html)
 
 
 ### <span class="section-num">20.2</span> <https://github.com/svanderburg/nix-processmgmt> {#https-github-dot-com-svanderburg-nix-processmgmt}
@@ -748,7 +907,14 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 
     ID: 2e37c4e9-b74d-490c-9b12-fc5aade3de68
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-10-26 Mon 21:40] </span></span> <- [flakes](#flakes)
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-20 Fri 02:28] </span></span> -> [flakes](#flakes)
+
+
+### <span class="section-num">23.2</span> [Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube](https://www.youtube.com/watch?v=apIE%5FTgNNmo) {#nix-friday-c-cpp-infrastructure-in-nix-with-mic92-youtube}
+
+    ID: 2cac43cc-1cbd-4092-a275-83856018a0a8
+
+<span class="timestamp-wrapper"><span class="timestamp">[2020-11-07 Sat 22:56] </span></span> <- [C/C++ Nix infrastructure](#c-c-plus-plus-nix-infrastructure)
 
 
 ## <span class="section-num">24</span> ROS Nix {#ros-nix}
@@ -756,3 +922,108 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
     ID: dc7cc7f9-fb80-46d1-89c7-cb7def5ba1f4
 
 <span class="timestamp-wrapper"><span class="timestamp">[2020-10-30 Fri 02:59] </span></span> -> [lopsided98/nix-ros-overlay: ROS overlay for the Nix package manager](robot.md)
+
+
+## <span class="section-num">25</span> NixOS container {#nixos-container}
+
+
+### <span class="section-num">25.1</span> [erikarvstedt/extra-container: Run declarative NixOS containers without full system rebuilds](https://github.com/erikarvstedt/extra-container) {#erikarvstedt-extra-container-run-declarative-nixos-containers-without-full-system-rebuilds}
+
+
+## <span class="section-num">26</span> Other language implementation Nix {#other-language-implementation-nix}
+
+
+### <span class="section-num">26.1</span> [haskell-nix/hnix: A Haskell re-implementation of the Nix expression language](https://github.com/haskell-nix/hnix) {#haskell-nix-hnix-a-haskell-re-implementation-of-the-nix-expression-language}
+
+[My Haskell]({{< relref "my-haskell" >}})
+
+
+## <span class="section-num">27</span> NixOps {#nixops}
+
+
+### <span class="section-num">27.1</span> learning NixOps {#learning-nixops}
+
+<!--list-separator-->
+
+1.  [Nixops Services on Your Home Network - Christine Dodrill](https://christine.website/blog/nixops-services-2020-11-09)
+
+<!--list-separator-->
+
+2.  [mantis-ops/flake.nix at master · input-output-hk/mantis-ops](https://github.com/input-output-hk/mantis-ops/blob/master/flake.nix)
+
+
+### <span class="section-num">27.2</span> NixOps organization {#nixops-organization}
+
+<!--list-separator-->
+
+1.  [Ampersand / AlasConnect](https://github.com/alasconnect)
+
+
+### <span class="section-num">27.3</span> [tweag/terraform-nixos: A set of Terraform modules that are designed to deploy NixOS](https://github.com/tweag/terraform-nixos) {#tweag-terraform-nixos-a-set-of-terraform-modules-that-are-designed-to-deploy-nixos}
+
+
+## <span class="section-num">28</span> Nix cross-compiling {#nix-cross-compiling}
+
+
+### <span class="section-num">28.1</span> [pololu/nixcrpkgs: Tools for cross-compiling standalone applications using Nix.](https://github.com/pololu/nixcrpkgs) {#pololu-nixcrpkgs-tools-for-cross-compiling-standalone-applications-using-nix-dot}
+
+
+## <span class="section-num">29</span> Nix ISSUE {#nix-issue}
+
+
+### <span class="section-num">29.1</span> Nix flake issue {#nix-flake-issue}
+
+    ID: fdf6b3e7-b611-449e-889b-bd8398b252e1
+
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-09 Mon 22:30] </span></span> <- [flakes](#flakes)
+
+<!--list-separator-->
+
+1.  [Adding package to devShell causes \`error: stack overflow (possible infinite recursion)\` · Issue #3821 · NixOS/nix](https://github.com/NixOS/nix/issues/3821)
+
+    ```nix
+    systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
+    ```
+
+
+## <span class="section-num">30</span> Nix develop -> flake {#nix-develop-flake}
+
+
+### <span class="section-num">30.1</span> [nix develop: Add &#x2013;redirect flag to redirect dependencies by edolstra · Pull Request #4161 · NixOS/nix](https://github.com/NixOS/nix/pull/4161/commits/750ce500c221ecd4720a5b02e3f3cbb0bc05ef9d) {#nix-develop-add-and-x2013-redirect-flag-to-redirect-dependencies-by-edolstra-pull-request-4161-nixos-nix}
+
+<!--list-separator-->
+
+1.  [Tweag + Nix Dev Update #4 - Development - NixOS Discourse](https://discourse.nixos.org/t/tweag-nix-dev-update-4/9862)
+
+
+## <span class="section-num">31</span> Visual Nix {#visual-nix}
+
+
+### <span class="section-num">31.1</span> [GTrunSec/grafanix: Visualize your Nix dependencies!](https://github.com/GTrunSec/grafanix) {#gtrunsec-grafanix-visualize-your-nix-dependencies}
+
+
+## <span class="section-num">32</span> Nix dependency manager {#nix-dependency-manager}
+
+
+### <span class="section-num">32.1</span> [obsidiansystems/nix-thunk](https://github.com/obsidiansystems/nix-thunk) {#obsidiansystems-nix-thunk}
+
+
+## <span class="section-num">33</span> Useful Nix Bin Scripts {#useful-nix-bin-scripts}
+
+
+### <span class="section-num">33.1</span> [nix-build-inplace/nix-build-inplace at master · ryantrinkle/nix-build-inplace](https://github.com/ryantrinkle/nix-build-inplace/blob/master/nix-build-inplace) {#nix-build-inplace-nix-build-inplace-at-master-ryantrinkle-nix-build-inplace}
+
+
+### <span class="section-num">33.2</span> [elitak/nixos-infect: [GPLv3+] install nixos over the existing OS in a DigitalOcean droplet (and others with minor modifications)](https://github.com/elitak/nixos-infect) {#elitak-nixos-infect-gplv3-plus-install-nixos-over-the-existing-os-in-a-digitalocean-droplet--and-others-with-minor-modifications}
+
+
+## <span class="section-num">34</span> Nix Docker deployment {#nix-docker-deployment}
+
+
+### <span class="section-num">34.1</span> [nixfiles/configuration.nix at master · barrucadu/nixfiles](https://github.com/barrucadu/nixfiles/blob/master/hosts/dreamlands/configuration.nix) {#nixfiles-configuration-dot-nix-at-master-barrucadu-nixfiles}
+
+
+## <span class="section-num">35</span> Nix GUI {#nix-gui}
+
+
+## <span class="section-num">36</span> [pmiddend/nixos-manager: Manage your NixOS packages and configuration via a simple, intuitive UI](https://github.com/pmiddend/nixos-manager) {#pmiddend-nixos-manager-manage-your-nixos-packages-and-configuration-via-a-simple-intuitive-ui}

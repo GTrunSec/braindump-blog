@@ -1,6 +1,6 @@
 +++
-title = "Golang"
-lastmod = 2020-10-26T00:03:16-07:00
+title = "My Golang"
+lastmod = 2020-11-21T03:12:25-08:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -23,7 +23,10 @@ author = "GTrunSec"
 - <span class="section-num">2</span> [Networking](#networking)
     - <span class="section-num">2.1</span> [Golang DNS](#golang-dns)
         - <span class="section-num">2.1.1</span> [redirect2me/which-dns: Detects which DNS server is being used](#redirect2me-which-dns-detects-which-dns-server-is-being-used)
-- <span class="section-num">3</span> [Golang charts](#golang-charts)
+    - <span class="section-num">2.2</span> [Golang HTTP](#golang-http)
+        - <span class="section-num">2.2.1</span> [kitabisa/teler: Real-time HTTP Intrusion Detection](#kitabisa-teler-real-time-http-intrusion-detection)
+    - <span class="section-num">2.3</span> [Go traffic](#go-traffic)
+- <span class="section-num">3</span> [golang charts](#golang-charts)
     - <span class="section-num">3.1</span> [go-echarts/go-echarts: 🎨 The adorable charts library for Golang](#go-echarts-go-echarts-the-adorable-charts-library-for-golang)
 
 </div>
@@ -58,7 +61,16 @@ git clone https://github.com/go101/go101.git
 #### <span class="section-num">2.1.1</span> [redirect2me/which-dns: Detects which DNS server is being used](https://github.com/redirect2me/which-dns) {#redirect2me-which-dns-detects-which-dns-server-is-being-used}
 
 
-## <span class="section-num">3</span> Golang charts {#golang-charts}
+### <span class="section-num">2.2</span> Golang HTTP {#golang-http}
+
+
+#### <span class="section-num">2.2.1</span> [kitabisa/teler: Real-time HTTP Intrusion Detection](https://github.com/kitabisa/teler) {#kitabisa-teler-real-time-http-intrusion-detection}
+
+
+### <span class="section-num">2.3</span> Go traffic {#go-traffic}
+
+
+## <span class="section-num">3</span> golang charts {#golang-charts}
 
 
 ### <span class="section-num">3.1</span> [go-echarts/go-echarts: 🎨 The adorable charts library for Golang](https://github.com/go-echarts/go-echarts) {#go-echarts-go-echarts-the-adorable-charts-library-for-golang}
