@@ -4,7 +4,57 @@
   
   <url>
     <loc>https://braindump.gtrun.org/</loc>
-    <lastmod>2020-11-21T03:20:39-08:00</lastmod>
+    <lastmod>2020-11-22T03:57:26-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/</loc>
+    <lastmod>2020-11-22T03:57:26-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E5%9B%BE%E9%89%B4/</loc>
+    <lastmod>2020-11-22T03:57:26-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/network/</loc>
+    <lastmod>2020-11-22T03:50:26-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/emacs/</loc>
+    <lastmod>2020-11-22T03:25:57-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/my-golang/</loc>
+    <lastmod>2020-11-22T02:56:06-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/security/</loc>
+    <lastmod>2020-11-22T02:33:50-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/my-rust/</loc>
+    <lastmod>2020-11-22T01:34:15-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/awesome-zeek/</loc>
+    <lastmod>2020-11-22T03:50:38-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/machine-learning/</loc>
+    <lastmod>2020-11-21T04:48:16-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://braindump.gtrun.org/posts/org-mode/</loc>
+    <lastmod>2020-11-21T03:27:33-08:00</lastmod>
   </url>
   
   <url>
@@ -13,18 +63,8 @@
   </url>
   
   <url>
-    <loc>https://braindump.gtrun.org/posts/</loc>
-    <lastmod>2020-11-21T03:20:39-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E4%B9%A6%E7%B1%8D/</loc>
     <lastmod>2020-11-21T03:20:27-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E5%9B%BE%E9%89%B4/</loc>
-    <lastmod>2020-11-21T03:19:57-08:00</lastmod>
   </url>
   
   <url>
@@ -35,11 +75,6 @@
   <url>
     <loc>https://braindump.gtrun.org/posts/%E9%A9%AC%E6%9C%AA%E9%83%BD%E8%81%8A%E5%9B%BD%E5%AE%9D/</loc>
     <lastmod>2020-11-21T03:19:28-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://braindump.gtrun.org/posts/org-mode/</loc>
-    <lastmod>2020-11-21T03:18:53-08:00</lastmod>
   </url>
   
   <url>
@@ -88,16 +123,6 @@
   </url>
   
   <url>
-    <loc>https://braindump.gtrun.org/posts/awesome-zeek/</loc>
-    <lastmod>2020-11-21T03:17:28-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://braindump.gtrun.org/posts/security/</loc>
-    <lastmod>2020-11-21T03:17:19-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://braindump.gtrun.org/posts/nsm/</loc>
     <lastmod>2020-11-21T03:17:15-08:00</lastmod>
   </url>
@@ -133,23 +158,8 @@
   </url>
   
   <url>
-    <loc>https://braindump.gtrun.org/posts/my-rust/</loc>
-    <lastmod>2020-11-21T03:12:49-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://braindump.gtrun.org/posts/my-golang/</loc>
-    <lastmod>2020-11-21T03:12:25-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://braindump.gtrun.org/posts/life-hack/</loc>
     <lastmod>2020-11-21T03:12:18-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://braindump.gtrun.org/posts/machine-learning/</loc>
-    <lastmod>2020-11-21T03:11:25-08:00</lastmod>
   </url>
   
   <url>

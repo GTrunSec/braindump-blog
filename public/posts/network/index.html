@@ -38,30 +38,65 @@
 <ul>
 <li><span class="section-num">1.1</span> <a href="#ogham-dog-command-line-dns-client">ogham/dog: Command-line DNS client</a></li>
 <li><span class="section-num">1.2</span> <a href="#github-pymumu-smartdns-a-local-dns-server-to-obtain-the-fastest-website-ip-for-the-best-internet-experience-%E4%B8%80%E4%B8%AA%E6%9C%AC%E5%9C%B0dns%E6%9C%8D%E5%8A%A1%E5%99%A8-%E8%8E%B7%E5%8F%96%E6%9C%80%E5%BF%AB%E7%9A%84%E7%BD%91%E7%AB%99ip-%E8%8E%B7%E5%BE%97%E6%9C%80%E4%BD%B3%E4%B8%8A%E7%BD%91%E4%BD%93%E9%AA%8C">GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience， 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验。</a></li>
-<li><span class="section-num">1.3</span> <a href="#network-security-project-or-idea--security-dot-md--dns">Network Security Project or Idea DNS</a>
+<li><span class="section-num">1.3</span> <a href="#dns-script">DNS Script</a>
 <ul>
-<li><span class="section-num">1.3.1</span> <a href="#detecting-dns-tunneling">detecting-dns-tunneling</a></li>
+<li><span class="section-num">1.3.1</span> <a href="#quickpost-nslookup-types-didier-stevens">Quickpost: nslookup Types | Didier Stevens</a></li>
+</ul>
+</li>
+<li><span class="section-num">1.4</span> <a href="#network-security-project-or-idea--security-dot-md--dns">Network Security Project or Idea DNS</a>
+<ul>
+<li><span class="section-num">1.4.1</span> <a href="#detecting-dns-tunneling">detecting-dns-tunneling</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li><span class="section-num">2</span> <a href="#network-protocol">Network Protocol</a></li>
+<li><span class="section-num">3</span> <a href="#network-ssl">Network SSL</a>
+<ul>
+<li><span class="section-num">3.1</span> <a href="#network-security-ssl">Network Security SSL</a>
+<ul>
+<li><span class="section-num">3.1.1</span> <a href="#exposing-the-public-ips-of-tor-services-netsparker">Exposing the Public IPs of Tor Services | Netsparker</a></li>
+<li><span class="section-num">3.1.2</span> <a href="#deciphering-malware-s-use-of-tls--without-decryption">Deciphering Malware’s use of TLS (without Decryption)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><span class="section-num">4</span> <a href="#network-tor">Network Tor</a>
+<ul>
+<li><span class="section-num">4.1</span> <a href="#tor-research">Tor research</a>
+<ul>
+<li><span class="section-num">4.1.1</span> <a href="#pylls--pulls">pylls (pulls)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><span class="section-num">5</span> <a href="#network-smtp">Network SMTP</a></li>
+<li><span class="section-num">6</span> <a href="#network-security-smtp">Network Security SMTP</a></li>
+<li><span class="section-num">7</span> <a href="#remote-desktop-services">Remote Desktop Services</a>
+<ul>
+<li><span class="section-num">7.1</span> <a href="#brute-force-attacks-increase-due-to-more-open-rdp-ports-malwarebytes-labs-malwarebytes-labs">Brute force attacks increase due to more open RDP ports - Malwarebytes Labs | Malwarebytes Labs</a></li>
+</ul>
+</li>
 </ul>
 </div>
 <!--endtoc-->
 <h2 id="network-dns"><span class="section-num">1</span> Network DNS</h2>
 <ul>
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 02:56] </span></span> &lt;- <a href="my-golang.md">Golang DNS</a></li>
 <li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-20 Fri 21:15] </span></span> &lt;- <a href="#network-protocol">Network Protocol</a></li>
 <li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-08 Sun 18:05] </span></span> -&gt; <a href="my-rust.md">Rust DNS</a></li>
 </ul>
 <h3 id="ogham-dog-command-line-dns-client"><span class="section-num">1.1</span> <a href="https://github.com/ogham/dog">ogham/dog: Command-line DNS client</a></h3>
 <h3 id="github-pymumu-smartdns-a-local-dns-server-to-obtain-the-fastest-website-ip-for-the-best-internet-experience-一个本地dns服务器-获取最快的网站ip-获得最佳上网体验"><span class="section-num">1.2</span> <a href="https://github.com/pymumu/smartdns">GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience， 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验。</a></h3>
-<h3 id="network-security-project-or-idea--security-dot-md--dns"><span class="section-num">1.3</span> Network <a href="/posts/security/">Security Project or Idea</a> DNS</h3>
+<h3 id="dns-script"><span class="section-num">1.3</span> DNS Script</h3>
+<h4 id="quickpost-nslookup-types-didier-stevens"><span class="section-num">1.3.1</span> <a href="https://blog.didierstevens.com/2019/07/03/quickpost-nslookup-types/">Quickpost: nslookup Types | Didier Stevens</a></h4>
+<h3 id="network-security-project-or-idea--security-dot-md--dns"><span class="section-num">1.4</span> Network <a href="/posts/security/">Security Project or Idea</a> DNS</h3>
 <ul>
 <li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-20 Fri 21:22] </span></span> -&gt; <a href="awesome-zeek.md">ZeeK Script DNS<code>[0/0]</code>​</a></li>
 </ul>
-<h4 id="detecting-dns-tunneling"><span class="section-num">1.3.1</span> detecting-dns-tunneling</h4>
+<h4 id="detecting-dns-tunneling"><span class="section-num">1.4.1</span> detecting-dns-tunneling</h4>
 <ul>
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-20 Fri 21:31] </span></span> &lt;- <a href="awesome-zeek.md">hhzzk/dns-tunnels</a></li>
 <li><a href="http://heyoka.sourceforge.net/heyoka-shakacon2009.pdf">Heyoka - DNS Tunneling 2.0</a>
 <ul>
 <li><a href="https://www.sans.org/reading-room/whitepapers/dns/detecting-dns-tunneling-34152">Detecting DNS Tunneling</a></li>
@@ -72,59 +107,45 @@
 <ul>
 <li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-20 Fri 21:15] </span></span> -&gt; <a href="#network-dns">Network DNS</a></li>
 </ul>
+<h2 id="network-ssl"><span class="section-num">3</span> Network SSL</h2>
+<h3 id="network-security-ssl"><span class="section-num">3.1</span> Network Security SSL</h3>
+<ul>
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 01:58] </span></span> &lt;- <a href="awesome-zeek.md">Zeek Script SSL</a></li>
+<li><a href="/posts/security/">Security Project or Idea</a></li>
+</ul>
+<p>:ID:       2c444f27-0893-449f-96ea-21f8df6d99e5</p>
+<h4 id="exposing-the-public-ips-of-tor-services-netsparker"><span class="section-num">3.1.1</span> <a href="https://www.netsparker.com/blog/web-security/exposing-public-ips-tor-services-through-ssl-certificates/">Exposing the Public IPs of Tor Services | Netsparker</a></h4>
+<h4 id="deciphering-malware-s-use-of-tls--without-decryption"><span class="section-num">3.1.2</span> Deciphering Malware’s use of TLS (without Decryption)</h4>
+<!--list-separator-->
+<ol>
+<li><a href="https://arxiv.org/pdf/1607.01639.pdf">1607.01639.pdf</a></li>
+</ol>
+<h2 id="network-tor"><span class="section-num">4</span> Network Tor</h2>
+<ul>
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 02:04] </span></span> &lt;- <a href="awesome-zeek.md">Detecting Tor traffic with Bro network traffic analyzer - Stephen Reese</a></li>
+</ul>
+<h3 id="tor-research"><span class="section-num">4.1</span> Tor research</h3>
+<h4 id="pylls--pulls"><span class="section-num">4.1.1</span> <a href="https://github.com/pylls?tab=overview&amp;from=2019-12-01&amp;to=2019-12-31">pylls (pulls)</a></h4>
+<h2 id="network-smtp"><span class="section-num">5</span> Network SMTP</h2>
+<ul>
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 02:26] </span></span> &lt;- <a href="awesome-zeek.md">initconf/smtp-url-analysis: Extracting and analyzing URLs from Emails for phishing events</a></li>
+</ul>
+<h2 id="network-security-smtp"><span class="section-num">6</span> Network Security SMTP</h2>
+<ul>
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 02:21] </span></span> &lt;- <a href="awesome-zeek.md">initconf/phish-analysis: Suite of smtp related policies includes extracting and logging URLs from emails and various smtp anomaly detection heuristics to help flag phishing emails</a></li>
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 02:20] </span></span> &lt;- <a href="security.md">Network attack detection</a></li>
+</ul>
+<h2 id="remote-desktop-services"><span class="section-num">7</span> Remote Desktop Services</h2>
+<ul>
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 02:37] </span></span> &lt;- <a href="awesome-zeek.md">Zeek RDP detection</a></li>
+</ul>
+<p>Remote Desktop Services (RDS), known as Terminal Services in Windows Server 2008 and earlier, is one of the components of Microsoft Windows that allow a user to take control of a remote computer or virtual machine over a network connection. RDS is Microsoft&rsquo;s implementation of thin client architecture, where Windows software, and the entire desktop of the computer running RDS, are made accessible to any remote client machine that supports Remote Desktop Protocol (RDP). User interfaces are displayed from the server onto the client system and input from the client system is transmitted to the server - where software execution takes place.</p>
+<h3 id="brute-force-attacks-increase-due-to-more-open-rdp-ports-malwarebytes-labs-malwarebytes-labs"><span class="section-num">7.1</span> <a href="https://blog.malwarebytes.com/exploits-and-vulnerabilities/2020/10/brute-force-attacks-increasing/">Brute force attacks increase due to more open RDP ports - Malwarebytes Labs | Malwarebytes Labs</a></h3>
 
                         </div>
                         <div class="bl-section">
                                 <h4>Links to this note</h4>
                                 <div class="backlinks">
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
                                         
                                         
                                         

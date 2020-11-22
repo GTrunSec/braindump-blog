@@ -1,6 +1,6 @@
 +++
 title = "Machine Learning"
-lastmod = 2020-11-21T03:11:25-08:00
+lastmod = 2020-11-21T04:48:16-08:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
 author = "GTrunSec"
@@ -31,7 +31,9 @@ author = "GTrunSec"
 
 ### <span class="section-num">1.1</span> [mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning](https://github.com/mitmath/18337) {#mitmath-18337-18-dot-337-parallel-computing-and-scientific-machine-learning}
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-09-26 Sat 20:46] </span></span> <- [Machine Learning]({{< relref "julia" >}})
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-09-26 Sat 20:46] </span></span> <- [Machine Learning]({{< relref "julia" >}})
+
+<!--listend-->
 
 ```sh
 git clone https://github.com/mitmath/18337.git

@@ -1,7 +1,7 @@
 +++
 title = "Contents"
 draft = false
-creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
+creator = "Emacs 28.0.50 (Org mode 9.5 + ox-hugo)"
 author = "GTrunSec"
 +++
 

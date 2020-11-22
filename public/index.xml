@@ -6,7 +6,88 @@
     <description>Recent content on GuangTao&#39;s Braindump</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 03:20:39 -0800</lastBuildDate><atom:link href="https://braindump.gtrun.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2020 03:57:26 -0800</lastBuildDate><atom:link href="https://braindump.gtrun.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>古玩字画-图鉴</title>
+      <link>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E5%9B%BE%E9%89%B4/</link>
+      <pubDate>Sun, 22 Nov 2020 03:57:26 -0800</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E5%9B%BE%E9%89%B4/</guid>
+      <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 服饰  1.1 万历孝靖皇后的凤冠:ATTACH:      1 服饰 1.1 万历孝靖皇后的凤冠  [2020-09-15 Tue 22:24]  &amp;lt;- 十三陵的定陵，万历孝靖皇后的凤冠 - YouTube     点翠  </description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://braindump.gtrun.org/posts/network/</link>
+      <pubDate>Sun, 22 Nov 2020 03:50:26 -0800</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/network/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Network DNS  1.1 ogham/dog: Command-line DNS client 1.2 GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience， 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验。 1.3 DNS Script  1.3.1 Quickpost: nslookup Types | Didier Stevens   1.4 Network Security Project or Idea DNS  1.4.1 detecting-dns-tunneling     2 Network Protocol 3 Network SSL  3.</description>
+    </item>
+    
+    <item>
+      <title>Emacs</title>
+      <link>https://braindump.gtrun.org/posts/emacs/</link>
+      <pubDate>Sun, 22 Nov 2020 03:25:57 -0800</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/emacs/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Configuration  1.1 dots/config.el at master · jethrokuan/dots:roam:org_mode:   2 learning Emacs  2.1 Using Emacs - YouTube 2.2 Emacs入门教程_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili   3 Emacs Con  3.1 sachac/emacsconf-2020-emacs-news-highlights: Emacs News Highlights talk for EmacsConf 2020   4 akirakyle/emacs-webkit: An Emacs Dynamic Module for WebKit, aka a fully fledged browser inside emacs    1 Configuration 1.</description>
+    </item>
+    
+    <item>
+      <title>My Golang</title>
+      <link>https://braindump.gtrun.org/posts/my-golang/</link>
+      <pubDate>Sun, 22 Nov 2020 02:56:06 -0800</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/my-golang/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Document  1.1 For beginning  1.1.1 go101/go101: An online book focusing on Go syntax/semantics. 1.1.2 Golang: Package, Import     2 Networking  2.1 Golang DNS  2.1.1 redirect2me/which-dns: Detects which DNS server is being used 2.1.2 erbbysam/DNSGrep: Quickly Search Large DNS Datasets   2.2 Golang HTTP  2.2.1 kitabisa/teler: Real-time HTTP Intrusion Detection   2.</description>
+    </item>
+    
+    <item>
+      <title>Security Project or Idea</title>
+      <link>https://braindump.gtrun.org/posts/security/</link>
+      <pubDate>Sun, 22 Nov 2020 02:33:50 -0800</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/security/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Security Documents 2 Awake Security 3 windows  3.1 Windows-Secure-Host-Baseline/SecGuide.adml at master · nsacyber/Windows-Secure-Host-Baseline   4 Network attack detection  4.1 Detecting C2 Activity  4.1.1 Onion-Zeek-RITA: Improving Network Visibility and Detecting C2 Activity   4.2 Shellshock attack (software bug)  4.2.1 corelight/bro-shellshock: ShellShock attack and exploit detector for Bro.   4.3 Kaspersky Anti-Virus      1 Security Documents 2 Awake Security 3 windows 3.</description>
+    </item>
+    
+    <item>
+      <title>My Rust</title>
+      <link>https://braindump.gtrun.org/posts/my-rust/</link>
+      <pubDate>Sun, 22 Nov 2020 01:34:15 -0800</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/my-rust/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Environment  1.1 rust nix   2 Rust learning  2.1 Hello, World! - The Rust Programming Language 2.2 ctjhoa/rust-learning: A bunch of links to blog posts, articles, videos, etc for learning Rust 2.3 rust-embedded/rust-raspberrypi-OS-tutorials: Learn to write an embedded OS in Rust 2.4 Walking A Map - Roguelike Tutorial - In Rust   3 Rust embedded 4 Rust Network  4.</description>
+    </item>
+    
+    <item>
+      <title>Awesome Zeek</title>
+      <link>https://braindump.gtrun.org/posts/awesome-zeek/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 -0800</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/awesome-zeek/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Zeek installation  1.1 Zeekurity Zen - Part I: How to Install Zeek on CentOS 8 - ericooi.com  1.1.1 Zeekurity Zen Zeries - ericooi.com     2 Zeek Documents  2.1 Zeek logging  2.1.1 Logging — Zeek User Manual v3.2.2 2.1.2 2019-04-cern-zeek-logging.pdf   2.2 bro-in-90-minutes/mini-workshop.md at master · NSMAssociates/bro-in-90-minutes   3 Zeek-cut  3.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://braindump.gtrun.org/posts/machine-learning/</link>
+      <pubDate>Sat, 21 Nov 2020 04:48:16 -0800</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/machine-learning/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Machine Learning with Julia  1.1 mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning   2 MLOps  2.1 visenger/awesome-mlops: A curated list of references for MLOps      1 Machine Learning with Julia 1.1 mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning  [2020-09-26 Sat 20:46]  &amp;lt;- Machine Learning   git clone https://github.</description>
+    </item>
+    
+    <item>
+      <title>org-mode</title>
+      <link>https://braindump.gtrun.org/posts/org-mode/</link>
+      <pubDate>Sat, 21 Nov 2020 03:27:33 -0800</pubDate>
+      
+      <guid>https://braindump.gtrun.org/posts/org-mode/</guid>
+      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 org mode parser  1.1 org-rs/org-rs: org-mode parser rewrite in Rust 1.2 ixmatus/orgmode-parse: Attoparsec parser combinators for parsing org-mode structured text!   2 org mode viewer  2.1 alphapapa/org-now: Conveniently show current Org tasks in a sidebar window      1 org mode parser 1.1 org-rs/org-rs: org-mode parser rewrite in Rust My rust</description>
+    </item>
+    
     <item>
       <title>My Regular life</title>
       <link>https://braindump.gtrun.org/posts/my-regular-life/</link>
@@ -26,15 +107,6 @@ SCHEDULED: &amp;lt;2020-09-20 Sun 20:00 +1w&amp;gt;
       
       <guid>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E4%B9%A6%E7%B1%8D/</guid>
       <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 珠宝  1.1 珠翠光华      1 珠宝 1.1 珠翠光华  [2020-09-12 Sat 14:33]  &amp;lt;- 十三陵的定陵，万历孝靖皇后的凤冠 - YouTube    珠翠光华：中国首饰图史_百度百科    点翠  </description>
-    </item>
-    
-    <item>
-      <title>古玩字画-图鉴</title>
-      <link>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E5%9B%BE%E9%89%B4/</link>
-      <pubDate>Sat, 21 Nov 2020 03:19:57 -0800</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/%E5%8F%A4%E7%8E%A9%E5%AD%97%E7%94%BB-%E5%9B%BE%E9%89%B4/</guid>
-      <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 服饰  1.1 万历孝靖皇后的凤冠:ATTACH:      1 服饰 1.1 万历孝靖皇后的凤冠  [2020-09-15 Tue 22:24]  &amp;lt;- 十三陵的定陵，万历孝靖皇后的凤冠 - YouTube     点翠  </description>
     </item>
     
     <item>
@@ -58,16 +130,6 @@ SCHEDULED: &amp;lt;2020-09-20 Sun 20:00 +1w&amp;gt;
       
       <guid>https://braindump.gtrun.org/posts/%E9%A9%AC%E6%9C%AA%E9%83%BD%E8%81%8A%E5%9B%BD%E5%AE%9D/</guid>
       <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 “皇后之玺，汉唐两代，仅此一方 - YouTube”🔊[2020-09-12 Sat] 2 十三陵的定陵，万历孝靖皇后的凤冠 - YouTube    1 “皇后之玺，汉唐两代，仅此一方 - YouTube”🔊[2020-09-12 Sat] 2 十三陵的定陵，万历孝靖皇后的凤冠 - YouTube  万历孝靖皇后的凤冠    珠翠光华    点翠  </description>
-    </item>
-    
-    <item>
-      <title>org-mode</title>
-      <link>https://braindump.gtrun.org/posts/org-mode/</link>
-      <pubDate>Sat, 21 Nov 2020 03:18:53 -0800</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/org-mode/</guid>
-      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 org-mode parser  1.1 org-rs/org-rs: org-mode parser rewrite in Rust 1.2 ixmatus/orgmode-parse: Attoparsec parser combinators for parsing org-mode structured text!      1 org-mode parser 1.1 org-rs/org-rs: org-mode parser rewrite in Rust My rust
-1.2 ixmatus/orgmode-parse: Attoparsec parser combinators for parsing org-mode structured text! My Haskell</description>
     </item>
     
     <item>
@@ -155,24 +217,6 @@ let pair = (2, &amp;#34;orange&amp;#34;)</description>
     </item>
     
     <item>
-      <title>Awesome Zeek</title>
-      <link>https://braindump.gtrun.org/posts/awesome-zeek/</link>
-      <pubDate>Sat, 21 Nov 2020 03:17:28 -0800</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/awesome-zeek/</guid>
-      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Zeek installation  1.1 Zeekurity Zen - Part I: How to Install Zeek on CentOS 8 - ericooi.com  1.1.1 Zeekurity Zen Zeries - ericooi.com     2 Zeek Documents  2.1 Zeek logging  2.1.1 Logging — Zeek User Manual v3.2.2 2.1.2 2019-04-cern-zeek-logging.pdf     3 Zeek-cut  3.1 Using zeek-cut with logs   4 Zeek Performance  4.</description>
-    </item>
-    
-    <item>
-      <title>Security Project or Idea</title>
-      <link>https://braindump.gtrun.org/posts/security/</link>
-      <pubDate>Sat, 21 Nov 2020 03:17:19 -0800</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/security/</guid>
-      <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Security Documents 2 Awake Security 3 windows  3.1 Windows-Secure-Host-Baseline/SecGuide.adml at master · nsacyber/Windows-Secure-Host-Baseline      1 Security Documents 2 Awake Security 3 windows 3.1 Windows-Secure-Host-Baseline/SecGuide.adml at master · nsacyber/Windows-Secure-Host-Baseline </description>
-    </item>
-    
-    <item>
       <title>Network monitoring</title>
       <link>https://braindump.gtrun.org/posts/nsm/</link>
       <pubDate>Sat, 21 Nov 2020 03:17:15 -0800</pubDate>
@@ -236,39 +280,12 @@ let pair = (2, &amp;#34;orange&amp;#34;)</description>
     </item>
     
     <item>
-      <title>My Rust</title>
-      <link>https://braindump.gtrun.org/posts/my-rust/</link>
-      <pubDate>Sat, 21 Nov 2020 03:12:49 -0800</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/my-rust/</guid>
-      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Environment  1.1 rust nix   2 Rust learning  2.1 Hello, World! - The Rust Programming Language 2.2 ctjhoa/rust-learning: A bunch of links to blog posts, articles, videos, etc for learning Rust 2.3 rust-embedded/rust-raspberrypi-OS-tutorials: Learn to write an embedded OS in Rust 2.4 Walking A Map - Roguelike Tutorial - In Rust   3 Rust embedded 4 Rust Network  4.</description>
-    </item>
-    
-    <item>
-      <title>My Golang</title>
-      <link>https://braindump.gtrun.org/posts/my-golang/</link>
-      <pubDate>Sat, 21 Nov 2020 03:12:25 -0800</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/my-golang/</guid>
-      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Document  1.1 For beginning  1.1.1 go101/go101: An online book focusing on Go syntax/semantics. 1.1.2 Golang: Package, Import     2 Networking  2.1 Golang DNS  2.1.1 redirect2me/which-dns: Detects which DNS server is being used   2.2 Golang HTTP  2.2.1 kitabisa/teler: Real-time HTTP Intrusion Detection   2.3 Go traffic   3 golang charts  3.</description>
-    </item>
-    
-    <item>
       <title>life hacker</title>
       <link>https://braindump.gtrun.org/posts/life-hack/</link>
       <pubDate>Sat, 21 Nov 2020 03:12:18 -0800</pubDate>
       
       <guid>https://braindump.gtrun.org/posts/life-hack/</guid>
       <description> .ox-hugo-toc ul { list-style: none; }   Table of Contents  1 life hack method    1 life hack method </description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://braindump.gtrun.org/posts/machine-learning/</link>
-      <pubDate>Sat, 21 Nov 2020 03:11:25 -0800</pubDate>
-      
-      <guid>https://braindump.gtrun.org/posts/machine-learning/</guid>
-      <description>.ox-hugo-toc ul { list-style: none; }   Table of Contents  1 Machine Learning with Julia  1.1 mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning   2 MLOps  2.1 visenger/awesome-mlops: A curated list of references for MLOps      1 Machine Learning with Julia 1.1 mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning [2020-09-26 Sat 20:46]  &amp;lt;- Machine Learning</description>
     </item>
     
     <item>

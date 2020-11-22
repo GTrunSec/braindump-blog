@@ -1,8 +1,8 @@
 +++
 title = "My Rust"
-lastmod = 2020-11-21T03:12:49-08:00
+lastmod = 2020-11-22T01:34:15-08:00
 draft = false
-creator = "Emacs 28.0.50 (Org mode 9.4 + ox-hugo)"
+creator = "Emacs 28.0.50 (Org mode 9.5 + ox-hugo)"
 author = "GTrunSec"
 +++
 
@@ -27,6 +27,8 @@ author = "GTrunSec"
 - <span class="section-num">4</span> [Rust Network](#rust-network)
     - <span class="section-num">4.1</span> [Rust DNS](#rust-dns)
         - <span class="section-num">4.1.1</span> [bluejekyll/trust-dns: A Rust based DNS client, server, and resolver](#bluejekyll-trust-dns-a-rust-based-dns-client-server-and-resolver)
+- <span class="section-num">5</span> [Rust async](#rust-async)
+    - <span class="section-num">5.1</span> [rust-lang/async-book: Asynchronous Programming in Rust](#rust-lang-async-book-asynchronous-programming-in-rust)
 
 </div>
 <!--endtoc-->
@@ -74,3 +76,9 @@ author = "GTrunSec"
 
 
 #### <span class="section-num">4.1.1</span> [bluejekyll/trust-dns: A Rust based DNS client, server, and resolver](https://github.com/bluejekyll/trust-dns) {#bluejekyll-trust-dns-a-rust-based-dns-client-server-and-resolver}
+
+
+## <span class="section-num">5</span> Rust async {#rust-async}
+
+
+### <span class="section-num">5.1</span> [rust-lang/async-book: Asynchronous Programming in Rust](https://github.com/rust-lang/async-book) {#rust-lang-async-book-asynchronous-programming-in-rust}
