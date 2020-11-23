@@ -1,6 +1,6 @@
 +++
 title = "Network"
-lastmod = 2020-11-22T03:50:26-08:00
+lastmod = 2020-11-22T13:29:29-08:00
 draft = false
 creator = "Emacs 28.0.50 (Org mode 9.5 + ox-hugo)"
 author = "GTrunSec"
@@ -128,3 +128,5 @@ Remote Desktop Services (RDS), known as Terminal Services in Windows Server 2008
 
 
 ### <span class="section-num">7.1</span> [Brute force attacks increase due to more open RDP ports - Malwarebytes Labs | Malwarebytes Labs](https://blog.malwarebytes.com/exploits-and-vulnerabilities/2020/10/brute-force-attacks-increasing/) {#brute-force-attacks-increase-due-to-more-open-rdp-ports-malwarebytes-labs-malwarebytes-labs}
+
+-   <span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 03:50] </span></span> <- [initconf/RDP-bruteforce: RDP bruteforce detection](awesome-zeek.md)
